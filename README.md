@@ -1,4 +1,4 @@
-# elasticsearch_helpers
+# rac_es
 
 Helpers for Elasticsearch, including Analyzers and Documents.
 
@@ -6,14 +6,14 @@ Helpers for Elasticsearch, including Analyzers and Documents.
 
 Make sure this library is installed:
 
-    $ pip install git+git://github.com/RockefellerArchiveCenter/elasticsearch_helpers.git
+    $ pip install git+git://github.com/RockefellerArchiveCenter/rac_es.git
 
 
 ## Usage
 
-You can then use `asterism` in your python scripts by importing it:
+You can then use `rac_es` in your python scripts by importing it:
 
-    import elasticsearch_helpers
+    import rac_es
 
 
 ## License
