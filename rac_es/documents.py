@@ -205,8 +205,7 @@ class DescriptionComponent(BaseDescriptionComponent):
             s = s.filter('match_phrase', external_identifiers__source_identifier=kwargs.get('source_identifier'))
         if kwargs.get('relation'):
             s = s.filter('match_phrase', relation=kwargs.get('relation'))
-        s = s.params(routing=self.meta.id)
-        return s
+        return s.params(routing=self.meta.id)
 
     def get_references(self, **kwargs):
         """Get references from inner_hits already present or by searching."""
@@ -309,7 +308,7 @@ class Collection(DescriptionComponent):
     A group of archival records which contains other groups of records,
     and may itself be part of a larger Collection.  Collections are not
     physical groups of records, such as boxes and folders, but are intellectually
-    significant aggregations which crucial to understanding the context of
+    significant aggregations which are crucial to understanding the context of
     records creation and maintenance, such as record groups or series.
     """
     dates = es.Object(Date, required=True)
