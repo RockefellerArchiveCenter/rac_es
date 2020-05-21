@@ -126,11 +126,7 @@ class BaseDescriptionComponent(es.Document):
         """
         return False
 
-    def save(self, **kwargs):
-        """
-        Create source_identifier field as a concatenation of external
-        identifier source and identifier.
-        """
+    def add_source_identifier_fields(self):
         for e in self.external_identifiers:
             e.source_identifier = "{}_{}".format(e.source, e.identifier)
         try:
@@ -140,6 +136,13 @@ class BaseDescriptionComponent(es.Document):
                         e.source_identifier = "{}_{}".format(e.source, e.identifier)
         except AttributeError:
             pass
+
+    def save(self, **kwargs):
+        """
+        Create source_identifier field as a concatenation of external
+        identifier source and identifier.
+        """
+        self.add_source_identifier_fields()
         return super(BaseDescriptionComponent, self).save(refresh=True, **kwargs)
 
     class Index:
@@ -250,6 +253,18 @@ class DescriptionComponent(BaseDescriptionComponent):
                         self.add_references(i, o, relation)
         except AttributeError:
             pass
+
+    def prepare_streaming_dict(self, identifier):
+        """
+        Executes custom save methods which would not otherwise be called when
+        data is passed to a bulk method. Returns a dict which can be indexed.
+        """
+        self.meta.id = identifier
+        self.component_reference = "component"
+        self.resolve_relations_in_self()
+        self.resolve_relations_to_self()
+        self.add_source_identifier_fields()
+        yield self.to_dict(True)
 
     def save(self, **kwargs):
         """
