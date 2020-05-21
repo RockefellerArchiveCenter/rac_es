@@ -286,10 +286,10 @@ class DescriptionComponent(BaseDescriptionComponent):
         """
         self.meta.id = identifier
         self.component_reference = "component"
+        self.add_source_identifier_fields()
         self.resolve_relations_in_self()
         self.resolve_relations_to_self()
-        self.add_source_identifier_fields()
-        yield self.to_dict(True)
+        return self.to_dict(True)
 
     def save(self, **kwargs):
         """
