@@ -1,4 +1,0 @@
-action: py37, msg: envreport
-cwd: /Users/harnold/Repos/rac_es
-cmd: /Users/harnold/Repos/rac_es/.tox/py37/bin/python -m pip freeze
-rac-es==0.1
