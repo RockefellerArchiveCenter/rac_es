@@ -1,17 +1,20 @@
 from datetime import datetime
+
 import elasticsearch_dsl as es
 import shortuuid
 
 from .analyzers import base_analyzer
 
 
-class ResolveException(Exception): pass
+class ResolveException(Exception):
+    pass
 
 
 class DateField(es.Date):
     """
     Custom Date field to support indexing dates without timezones.
     """
+
     def deserialize(self, data):
         data = super(DateField, self).deserialize(data)
         if isinstance(data, datetime):
@@ -74,7 +77,11 @@ class Note(es.InnerDoc):
     """
     source = es.Text(required=True)
     subnotes = es.Object(Subnote, required=True)
-    title = es.Text(required=True, analyzer=base_analyzer, fields={'keyword': es.Keyword()})
+    title = es.Text(
+        required=True,
+        analyzer=base_analyzer,
+        fields={
+            'keyword': es.Keyword()})
     type = es.Text(required=True)
 
 
@@ -116,7 +123,11 @@ class BaseDescriptionComponent(es.Document):
     component_reference = es.Join(relations={'component': 'reference'})
     external_identifiers = es.Object(ExternalIdentifier, required=True)
     id = es.Text(required=True)
-    title = es.Text(required=True, analyzer=base_analyzer, fields={'keyword': es.Keyword()})
+    title = es.Text(
+        required=True,
+        analyzer=base_analyzer,
+        fields={
+            'keyword': es.Keyword()})
     type = es.Text(required=True, fields={'keyword': es.Keyword()})
 
     @classmethod
@@ -133,7 +144,8 @@ class BaseDescriptionComponent(es.Document):
             for relation in self.relations_in_self:
                 for obj in getattr(self, relation):
                     for e in obj.external_identifiers:
-                        e.source_identifier = "{}_{}".format(e.source, e.identifier)
+                        e.source_identifier = "{}_{}".format(
+                            e.source, e.identifier)
         except AttributeError:
             pass
 
@@ -143,7 +155,8 @@ class BaseDescriptionComponent(es.Document):
         identifier source and identifier.
         """
         self.add_source_identifier_fields()
-        return super(BaseDescriptionComponent, self).save(refresh=True, **kwargs)
+        return super(BaseDescriptionComponent, self).save(
+            refresh=True, **kwargs)
 
     class Index:
         name = 'default'
@@ -160,7 +173,8 @@ class DescriptionComponent(BaseDescriptionComponent):
 
     @classmethod
     def search(cls, **kwargs):
-        return cls._index.search(**kwargs).filter('term', component_reference='component')
+        return cls._index.search(
+            **kwargs).filter('term', component_reference='component')
 
     def generate_id(self):
         return shortuuid.uuid()
@@ -190,14 +204,19 @@ class DescriptionComponent(BaseDescriptionComponent):
         best to account for this.
         """
         new_references = []
-        index = self.meta.index if ('index' in self.meta) else self._index._name
-        references = self.get_references(source_identifier=source_identifier, relation=relation)
+        index = self.meta.index if (
+            'index' in self.meta) else self._index._name
+        references = self.get_references(
+            source_identifier=source_identifier,
+            relation=relation)
         if len(references) > 0:
             for reference in references:
-                new = self.save_reference(index, reference.meta.id, resolved_obj, relation)
+                new = self.save_reference(
+                    index, reference.meta.id, resolved_obj, relation)
                 new_references.append(new)
         else:
-            new = self.save_reference(index, self.generate_id(), resolved_obj, relation)
+            new = self.save_reference(
+                index, self.generate_id(), resolved_obj, relation)
             new_references.append(new)
         return new_references
 
@@ -205,7 +224,9 @@ class DescriptionComponent(BaseDescriptionComponent):
         s = Reference.search()
         s = s.filter('parent_id', type='reference', id=self.meta.id)
         if kwargs.get('source_identifier'):
-            s = s.filter('match_phrase', external_identifiers__source_identifier=kwargs.get('source_identifier'))
+            s = s.filter(
+                'match_phrase',
+                external_identifiers__source_identifier=kwargs.get('source_identifier'))
         if kwargs.get('relation'):
             s = s.filter('match_phrase', relation=kwargs.get('relation'))
         return s.params(routing=self.meta.id)
@@ -224,11 +245,14 @@ class DescriptionComponent(BaseDescriptionComponent):
         on the main Document object.
         """
         try:
-            self_ids = ["{}_{}".format(i.source, i.identifier) for i in self.external_identifiers]
+            self_ids = ["{}_{}".format(i.source, i.identifier)
+                        for i in self.external_identifiers]
             for relation in self.relations_to_self:
-                relation_key = "{}__external_identifiers__source_identifier".format(relation)
+                relation_key = "{}__external_identifiers__source_identifier".format(
+                    relation)
                 for i in self_ids:
-                    parents = DescriptionComponent.search().filter('match_phrase', **{relation_key: i}).execute()
+                    parents = DescriptionComponent.search().filter(
+                        'match_phrase', **{relation_key: i}).execute()
                     for p in parents:
                         p.add_references(i, self, relation)
         except AttributeError:
@@ -248,7 +272,8 @@ class DescriptionComponent(BaseDescriptionComponent):
                               for obj in getattr(self, relation)
                               for i in obj.external_identifiers]
                 for i in parent_ids:
-                    source_objs = DescriptionComponent.search().filter('match_phrase', external_identifiers__source_identifier=i).execute()
+                    source_objs = DescriptionComponent.search().filter(
+                        'match_phrase', external_identifiers__source_identifier=i).execute()
                     for o in source_objs:
                         self.add_references(i, o, relation)
         except AttributeError:
@@ -294,7 +319,8 @@ class Reference(BaseDescriptionComponent):
 
     @classmethod
     def search(cls, **kwargs):
-        return cls._index.search(**kwargs).exclude('term', component_reference='component')
+        return cls._index.search(
+            **kwargs).exclude('term', component_reference='component')
 
     def save(self, **kwargs):
         self.meta.routing = self.component_reference.parent
@@ -306,7 +332,9 @@ class Agent(DescriptionComponent):
     A person, organization or family that was involved in the creation and
     maintenance of records, or is the subject of those records.
     """
-    description = es.Text(analyzer=base_analyzer, fields={'keyword': es.Keyword()})
+    description = es.Text(
+        analyzer=base_analyzer, fields={
+            'keyword': es.Keyword()})
     dates = es.Object(Date)
     notes = es.Nested(Note)
 
@@ -334,7 +362,13 @@ class Collection(DescriptionComponent):
     rights_statements = es.Nested(RightsStatement)
 
     relations_to_self = ('ancestors', 'children', 'collections',)
-    relations_in_self = ('agents', 'ancestors', 'children', 'creators', 'terms',)
+    relations_in_self = (
+        'agents',
+        'ancestors',
+        'children',
+        'creators',
+        'terms',
+    )
 
     @classmethod
     def search(cls, **kwargs):
