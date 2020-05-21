@@ -1,0 +1,14 @@
+repos:
+-   repo: https://gitlab.com/pycqa/flake8
+    rev: 3.7.9
+    hooks:
+    -   id: flake8
+-   repo: https://github.com/pre-commit/mirrors-autopep8
+    rev: v1.5
+    hooks:
+    -   id: autopep8
+        args: [--exit-code, --aggressive, --in-place, -r]
+-   repo: git://github.com/doublify/pre-commit-isort
+    rev: v4.3.0
+    hooks:
+    -   id: isort

@@ -1,4 +1,4 @@
-from elasticsearch_dsl import analyzer, tokenizer
+from elasticsearch_dsl import analyzer
 
 base_analyzer = analyzer(
     'base_analyzer',
