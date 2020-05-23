@@ -204,20 +204,19 @@ class DescriptionComponent(BaseDescriptionComponent):
         best to account for this.
         """
         new_references = []
+        reference_count = 0
         index = self.meta.index if (
             'index' in self.meta) else self._index._name
         references = self.get_references(
             source_identifier=source_identifier,
             relation=relation)
-        if len(references) > 0:
-            for reference in references:
-                new = self.save_reference(
-                    index, reference.meta.id, resolved_obj, relation)
-                new_references.append(new)
-        else:
-            new = self.save_reference(
-                index, self.generate_id(), resolved_obj, relation)
-            new_references.append(new)
+        for reference in references:
+            new_references.append(elf.save_reference(
+                index, reference.meta.id, resolved_obj, relation))
+            reference_count += 1
+        if reference_count == 0:
+            new_references.append(self.save_reference(
+                index, self.generate_id(), resolved_obj, relation))
         return new_references
 
     def search_references(self, **kwargs):
@@ -229,7 +228,7 @@ class DescriptionComponent(BaseDescriptionComponent):
                 external_identifiers__source_identifier=kwargs.get('source_identifier'))
         if kwargs.get('relation'):
             s = s.filter('match_phrase', relation=kwargs.get('relation'))
-        return s.params(routing=self.meta.id)
+        return s.params(routing=self.meta.id).scan()
 
     def get_references(self, **kwargs):
         """Get references from inner_hits already present or by searching."""
