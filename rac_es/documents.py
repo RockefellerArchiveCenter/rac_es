@@ -51,7 +51,7 @@ class Extent(es.InnerDoc):
     The size of a group of records.
     """
     type = es.Text(required=True)
-    value = es.Float(required=True)
+    value = es.Text(required=True)
 
 
 class Language(es.InnerDoc):
