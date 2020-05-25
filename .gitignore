@@ -1,5 +1,6 @@
 # Compiled python modules.
 *.pyc
+**__pycache__
 
 # Setuptools distribution folder.
 /dist/
@@ -9,3 +10,4 @@
 .eggs
 
 .tox/
+.coverage

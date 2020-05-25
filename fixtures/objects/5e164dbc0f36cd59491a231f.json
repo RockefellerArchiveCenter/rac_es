@@ -1,0 +1,195 @@
+{
+  "index": 24,
+  "dates": [
+    {
+      "begin": "1914-09-25",
+      "end": "2006-07-14",
+      "type": "bulk",
+      "label": "issued",
+      "source": "archivesspace",
+      "expression": "September 24, 1914 - July 13, 2006"
+    },
+    {
+      "begin": "1935-08-25",
+      "end": "1984-08-11",
+      "type": "bulk",
+      "label": "issued",
+      "source": "archivesspace",
+      "expression": "August 24, 1935 - August 10, 1984"
+    }
+  ],
+  "ancestors": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/resources/10"
+        }
+      ]
+    }
+  ],
+  "extents": [
+    {
+      "type": "document box(es)",
+      "value": "0.79"
+    }
+  ],
+  "title": "Proident in consectetur id sint minim exercitation sunt nostrud excepteur et nulla sint aliqua amet.",
+  "notes": [],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/repositories/2/archival_objects/1"
+    }
+  ],
+  "languages": [
+    {
+      "identifier": "epo",
+      "expression": "English"
+    }
+  ],
+  "rights_statements": [
+    {
+      "begin": "1933-04-15",
+      "end": "2001-10-13",
+      "copyright_status": "unknown",
+      "notes": [
+        {
+          "source": "wikipedia",
+          "type": "permissions",
+          "subnotes": [
+            {
+              "content": [
+                "esse ipsum veniam anim quis ipsum",
+                "consectetur proident minim fugiat laborum cillum",
+                "minim sint id eiusmod officia duis",
+                "Lorem ut proident quis elit eu"
+              ],
+              "type": "definedlist"
+            }
+          ],
+          "title": "enim veniam aliqua"
+        }
+      ],
+      "jurisdiction": "FR",
+      "other_basis": "pariatur",
+      "rights_granted": [
+        {
+          "restriction": "disallow",
+          "begin": "1914-08-28",
+          "end": "1990-03-13",
+          "notes": [
+            {
+              "source": "wikidata",
+              "type": "rights_statement_act",
+              "subnotes": [
+                {
+                  "content": [
+                    "quis consequat pariatur eiusmod anim nisi",
+                    "aliquip quis labore nostrud culpa magna"
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    "anim reprehenderit ipsum in in ex",
+                    "consequat reprehenderit adipisicing mollit nulla duis",
+                    "nisi enim elit officia culpa fugiat",
+                    "laborum enim labore dolor nulla voluptate"
+                  ],
+                  "type": "orderedlist"
+                },
+                {
+                  "content": [
+                    "eiusmod dolore dolore aliqua occaecat do"
+                  ],
+                  "type": "text"
+                }
+              ],
+              "title": "commodo do adipisicing"
+            }
+          ],
+          "act": "use"
+        },
+        {
+          "restriction": "allow",
+          "begin": "1938-09-27",
+          "end": "1971-04-12",
+          "notes": [
+            {
+              "source": "cartographer",
+              "type": "materials",
+              "subnotes": [
+                {
+                  "content": [
+                    "occaecat ex consectetur sint velit Lorem",
+                    "velit ut occaecat exercitation reprehenderit do"
+                  ],
+                  "type": "orderedlist"
+                }
+              ],
+              "title": "Lorem sit consequat"
+            }
+          ],
+          "act": "use"
+        }
+      ],
+      "rights_status": "unknown",
+      "determination_date": "1918-07-15",
+      "type": "rights_statement",
+      "id": "5e164dbcdf91f34e470a3565",
+      "rights_type": "license"
+    },
+    {
+      "begin": "1957-09-19",
+      "end": "1985-03-30",
+      "copyright_status": "public domain",
+      "notes": [],
+      "jurisdiction": "CN",
+      "other_basis": "commodo",
+      "rights_granted": [
+        {
+          "restriction": "disallow",
+          "begin": "1927-01-03",
+          "end": "2012-09-08",
+          "notes": [],
+          "act": "disseminate"
+        }
+      ],
+      "rights_status": "copyrighted",
+      "determination_date": "1916-05-16",
+      "type": "rights_statement",
+      "id": "5e164dbc57e1f7f17fb0a093",
+      "rights_type": "other"
+    }
+  ],
+  "agents": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/4"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/3"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/2"
+        }
+      ]
+    }
+  ],
+  "terms": [],
+  "type": "object",
+  "id": "5e164dbc0f36cd59491a231f"
+}

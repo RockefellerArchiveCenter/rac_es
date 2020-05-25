@@ -1,0 +1,227 @@
+{
+  "index": 38,
+  "dates": [
+    {
+      "begin": "1941-01-09",
+      "end": "1993-07-12",
+      "type": "bulk",
+      "label": "copyright",
+      "source": "archivesspace",
+      "expression": "January 8, 1941 - July 11, 1993"
+    }
+  ],
+  "ancestors": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/resources/7"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/resources/6"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/resources/1"
+        }
+      ]
+    }
+  ],
+  "extents": [
+    {
+      "type": "cassettes",
+      "value": "3.52"
+    },
+    {
+      "type": "photographic_slides",
+      "value": "9.91"
+    }
+  ],
+  "level": "recordgrp",
+  "notes": [],
+  "title": "Ullamco dolor voluptate qui culpa qui elit nulla reprehenderit magna nulla sunt consequat velit ut.",
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/repositories/2/resources/3"
+    }
+  ],
+  "children": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/10"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/9"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/8"
+        }
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "identifier": "spa",
+      "expression": "Esperanto"
+    },
+    {
+      "identifier": "spa",
+      "expression": "English"
+    }
+  ],
+  "rights_statements": [
+    {
+      "begin": "1932-06-23",
+      "end": "1983-07-21",
+      "copyright_status": "unknown",
+      "notes": [],
+      "jurisdiction": "US",
+      "other_basis": "aute",
+      "rights_granted": [
+        {
+          "restriction": "allow",
+          "begin": "1949-04-02",
+          "end": "1995-01-09",
+          "notes": [
+            {
+              "source": "cartographer",
+              "type": "extension",
+              "subnotes": [
+                {
+                  "content": [
+                    "ut ad tempor Lorem nisi veniam",
+                    "nisi eu est aute do nisi"
+                  ],
+                  "type": "orderedlist"
+                },
+                {
+                  "content": [
+                    "dolor incididunt mollit reprehenderit proident est",
+                    "elit exercitation culpa amet commodo sit",
+                    "aute sint dolor proident minim enim",
+                    "mollit irure consequat sunt qui esse",
+                    "esse enim duis magna excepteur laborum"
+                  ],
+                  "type": "text"
+                }
+              ],
+              "title": "ex culpa id"
+            }
+          ],
+          "act": "use"
+        },
+        {
+          "restriction": "disallow",
+          "begin": "1936-04-27",
+          "end": "1989-06-04",
+          "notes": [
+            {
+              "source": "archivesspace",
+              "type": "materials",
+              "subnotes": [
+                {
+                  "content": [
+                    "eu consectetur minim aliquip cupidatat magna",
+                    "reprehenderit do ut dolor do tempor",
+                    "dolore ex aliquip officia est ut",
+                    "velit qui eiusmod ea reprehenderit fugiat"
+                  ],
+                  "type": "definedlist"
+                },
+                {
+                  "content": [
+                    "ea aute irure ullamco voluptate cupidatat",
+                    "mollit consectetur magna do excepteur nisi",
+                    "aute nostrud esse sit nisi sint",
+                    "tempor officia do enim id in",
+                    "ipsum adipisicing id consequat et deserunt"
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    "nisi nulla proident enim minim incididunt",
+                    "enim ea anim culpa veniam aliqua",
+                    "cillum proident sint excepteur mollit commodo",
+                    "mollit irure ipsum pariatur culpa velit",
+                    "occaecat excepteur velit voluptate ex minim"
+                  ],
+                  "type": "text"
+                }
+              ],
+              "title": "do do reprehenderit"
+            }
+          ],
+          "act": "replicate"
+        }
+      ],
+      "rights_status": "unknown",
+      "determination_date": "1925-01-12",
+      "type": "rights_statement",
+      "id": "5e16514cf836ddc559546223",
+      "rights_type": "other"
+    }
+  ],
+  "agents": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/6"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/7"
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/3"
+        }
+      ]
+    }
+  ],
+  "creators": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/4"
+        }
+      ]
+    }
+  ],
+  "type": "collection",
+  "id": "5e16514c2f0aeb2703835801"
+}

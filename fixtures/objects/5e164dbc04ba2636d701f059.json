@@ -1,0 +1,86 @@
+{
+  "index": 16,
+  "dates": [
+    {
+      "begin": "1953-10-10",
+      "end": "1964-01-24",
+      "type": "single",
+      "label": "modified",
+      "source": "archivesspace",
+      "expression": "October 9, 1953 - January 23, 1964"
+    }
+  ],
+  "ancestors": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/resources/8"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/resources/4"
+        }
+      ]
+    }
+  ],
+  "extents": [
+    {
+      "type": "reels",
+      "value": "7.72"
+    },
+    {
+      "type": "linear_feet",
+      "value": "4.47"
+    }
+  ],
+  "title": "Pariatur elit tempor ad excepteur occaecat.",
+  "notes": [],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/repositories/2/archival_objects/8"
+    }
+  ],
+  "languages": [
+    {
+      "identifier": "epo",
+      "expression": "Spanish"
+    }
+  ],
+  "rights_statements": [],
+  "agents": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/1"
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/5"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/4"
+        }
+      ]
+    }
+  ],
+  "type": "object",
+  "id": "5e164dbc04ba2636d701f059"
+}

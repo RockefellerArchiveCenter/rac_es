@@ -1,0 +1,238 @@
+{
+  "index": 43,
+  "dates": [
+    {
+      "begin": "1952-12-21",
+      "end": "2003-09-10",
+      "type": "inclusive",
+      "label": "other",
+      "source": "archivesspace",
+      "expression": "December 20, 1952 - September 9, 2003"
+    },
+    {
+      "begin": "1938-09-17",
+      "end": "2000-09-18",
+      "type": "inclusive",
+      "label": "event",
+      "source": "archivesspace",
+      "expression": "September 16, 1938 - September 17, 2000"
+    },
+    {
+      "begin": "1949-12-30",
+      "end": "1998-07-11",
+      "type": "bulk",
+      "label": "creation",
+      "source": "archivesspace",
+      "expression": "December 29, 1949 - July 10, 1998"
+    }
+  ],
+  "ancestors": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/resources/8"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/resources/7"
+        }
+      ]
+    }
+  ],
+  "extents": [
+    {
+      "type": "photographic_slides",
+      "value": "7.86"
+    }
+  ],
+  "title": "Cillum amet adipisicing occaecat exercitation.",
+  "notes": [
+    {
+      "source": "wikipedia",
+      "type": "dimensions",
+      "subnotes": [
+        {
+          "content": [
+            "eu eu amet esse esse consequat",
+            "id duis laborum officia ipsum laboris"
+          ],
+          "type": "orderedlist"
+        }
+      ],
+      "title": "laborum minim velit"
+    },
+    {
+      "source": "wikipedia",
+      "type": "inscription",
+      "subnotes": [
+        {
+          "content": [
+            "adipisicing anim sunt ea ullamco ut",
+            "est incididunt fugiat eu in magna",
+            "in non minim laborum amet consectetur"
+          ],
+          "type": "definedlist"
+        },
+        {
+          "content": [
+            "sit consequat cillum eu magna laboris",
+            "quis nisi amet elit consectetur elit",
+            "ex irure duis occaecat quis est",
+            "reprehenderit laboris non sit nulla labore"
+          ],
+          "type": "text"
+        }
+      ],
+      "title": "reprehenderit est non"
+    },
+    {
+      "source": "archivesspace",
+      "type": "extension",
+      "subnotes": [
+        {
+          "content": [
+            "aliqua laboris excepteur anim laborum sunt"
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            "ex pariatur ipsum quis commodo Lorem",
+            "pariatur irure qui minim reprehenderit non",
+            "in dolore exercitation culpa aliqua ullamco",
+            "voluptate minim cupidatat nulla cillum sunt",
+            "ipsum mollit occaecat enim pariatur proident"
+          ],
+          "type": "definedlist"
+        },
+        {
+          "content": [
+            "minim anim sint laboris minim qui",
+            "exercitation dolor laboris culpa voluptate minim",
+            "laborum id culpa adipisicing voluptate magna",
+            "nostrud dolor duis voluptate sunt laborum"
+          ],
+          "type": "text"
+        }
+      ],
+      "title": "aliqua sint dolore"
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/repositories/2/archival_objects/10"
+    }
+  ],
+  "languages": [
+    {
+      "identifier": "epo",
+      "expression": "Spanish"
+    }
+  ],
+  "rights_statements": [
+    {
+      "begin": "1953-01-31",
+      "end": "1993-08-21",
+      "copyright_status": "public domain",
+      "notes": [],
+      "jurisdiction": "FR",
+      "other_basis": "quis",
+      "rights_granted": [
+        {
+          "restriction": "disallow",
+          "begin": "1951-09-07",
+          "end": "1992-08-24",
+          "notes": [
+            {
+              "source": "cartographer",
+              "type": "type_note",
+              "subnotes": [
+                {
+                  "content": [
+                    "labore do ea ut amet cupidatat",
+                    "occaecat nisi magna culpa sit duis"
+                  ],
+                  "type": "definedlist"
+                },
+                {
+                  "content": [
+                    "veniam laborum eiusmod deserunt reprehenderit ipsum",
+                    "officia mollit velit et proident culpa",
+                    "aliqua duis minim consequat sit dolore",
+                    "ad tempor id eu quis duis"
+                  ],
+                  "type": "definedlist"
+                }
+              ],
+              "title": "dolor esse non"
+            }
+          ],
+          "act": "replicate"
+        },
+        {
+          "restriction": "disallow",
+          "begin": "1922-12-02",
+          "end": "1977-11-03",
+          "notes": [],
+          "act": "disseminate"
+        }
+      ],
+      "rights_status": "unknown",
+      "determination_date": "1945-12-06",
+      "type": "rights_statement",
+      "id": "5e164dbc22b7f52ca4c00bea",
+      "rights_type": "license"
+    }
+  ],
+  "agents": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/3"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/2"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/1"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/8"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/4"
+        }
+      ]
+    }
+  ],
+  "terms": [],
+  "type": "object",
+  "id": "5e164dbc7bc8c145d1631b92"
+}

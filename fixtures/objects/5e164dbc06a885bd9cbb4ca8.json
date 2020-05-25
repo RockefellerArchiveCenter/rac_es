@@ -1,0 +1,208 @@
+{
+  "index": 46,
+  "dates": [
+    {
+      "begin": "1923-02-16",
+      "end": "1978-01-17",
+      "type": "bulk",
+      "label": "agent_relation",
+      "source": "archivesspace",
+      "expression": "February 15, 1923 - January 16, 1978"
+    },
+    {
+      "begin": "1933-11-26",
+      "end": "1992-12-07",
+      "type": "single",
+      "label": "other",
+      "source": "archivesspace",
+      "expression": "November 25, 1933 - December 6, 1992"
+    },
+    {
+      "begin": "1952-03-22",
+      "end": "1972-12-09",
+      "type": "inclusive",
+      "label": "copyright",
+      "source": "archivesspace",
+      "expression": "March 21, 1952 - December 8, 1972"
+    }
+  ],
+  "ancestors": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/resources/2"
+        }
+      ]
+    }
+  ],
+  "extents": [
+    {
+      "type": "cubic_feet",
+      "value": "6.68"
+    }
+  ],
+  "title": "Elit anim fugiat ut ea consectetur voluptate aliquip tempor eu ipsum.",
+  "notes": [],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/repositories/2/archival_objects/9"
+    }
+  ],
+  "languages": [
+    {
+      "identifier": "epo",
+      "expression": "English"
+    }
+  ],
+  "rights_statements": [
+    {
+      "begin": "1954-01-30",
+      "end": "2018-02-03",
+      "copyright_status": "public domain",
+      "notes": [],
+      "jurisdiction": "CN",
+      "other_basis": "veniam",
+      "rights_granted": [
+        {
+          "restriction": "allow",
+          "begin": "1921-07-15",
+          "end": "2015-10-27",
+          "notes": [
+            {
+              "source": "archivesspace",
+              "type": "expiration",
+              "subnotes": [
+                {
+                  "content": [
+                    "nulla voluptate laborum tempor sint veniam"
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    "elit ullamco magna elit incididunt proident",
+                    "ullamco non anim id mollit laboris",
+                    "incididunt eu Lorem magna do irure",
+                    "excepteur in aliquip laboris dolore esse"
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    "mollit sint occaecat laborum proident nulla",
+                    "sint elit aute do pariatur est",
+                    "ex ipsum nulla pariatur ad magna",
+                    "cupidatat culpa sint anim et exercitation",
+                    "mollit deserunt exercitation ex do anim"
+                  ],
+                  "type": "orderedlist"
+                }
+              ],
+              "title": "voluptate dolor veniam"
+            }
+          ],
+          "act": "delete"
+        },
+        {
+          "restriction": "allow",
+          "begin": "1918-07-31",
+          "end": "1966-10-18",
+          "notes": [],
+          "act": "replicate"
+        }
+      ],
+      "rights_status": "copyrighted",
+      "determination_date": "1925-08-03",
+      "type": "rights_statement",
+      "id": "5e164dbca0bce93efddffc5f",
+      "rights_type": "statute"
+    },
+    {
+      "begin": "1936-12-30",
+      "end": "2018-05-04",
+      "copyright_status": "copyrighted",
+      "notes": [
+        {
+          "source": "wikipedia",
+          "type": "rights_statement",
+          "subnotes": [
+            {
+              "content": [
+                "reprehenderit in do ex ut ut",
+                "fugiat exercitation mollit occaecat laboris ex",
+                "duis labore non sint cupidatat laboris",
+                "proident esse nostrud incididunt sint do",
+                "fugiat sunt mollit dolore aute ullamco"
+              ],
+              "type": "orderedlist"
+            }
+          ],
+          "title": "ex velit cillum"
+        }
+      ],
+      "jurisdiction": "CN",
+      "other_basis": "consequat",
+      "rights_granted": [
+        {
+          "restriction": "disallow",
+          "begin": "1928-11-20",
+          "end": "2011-11-29",
+          "notes": [],
+          "act": "modify"
+        }
+      ],
+      "rights_status": "unknown",
+      "determination_date": "1931-01-14",
+      "type": "rights_statement",
+      "id": "5e164dbcd30007f03857c88d",
+      "rights_type": "license"
+    }
+  ],
+  "agents": [],
+  "terms": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/5"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/4"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/3"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/1"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/2"
+        }
+      ]
+    }
+  ],
+  "type": "object",
+  "id": "5e164dbc06a885bd9cbb4ca8"
+}

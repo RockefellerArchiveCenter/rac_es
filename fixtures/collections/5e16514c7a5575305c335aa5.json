@@ -1,0 +1,213 @@
+{
+  "index": 36,
+  "dates": [
+    {
+      "begin": "1948-12-16",
+      "end": "2019-01-23",
+      "type": "inclusive",
+      "label": "digitized",
+      "source": "archivesspace",
+      "expression": "December 15, 1948 - January 22, 2019"
+    },
+    {
+      "begin": "1913-01-01",
+      "end": "2015-06-09",
+      "type": "inclusive",
+      "label": "broadcast",
+      "source": "archivesspace",
+      "expression": "December 31, 1912 - June 8, 2015"
+    },
+    {
+      "begin": "1943-07-02",
+      "end": "1963-09-24",
+      "type": "inclusive",
+      "label": "agent_relation",
+      "source": "archivesspace",
+      "expression": "July 1, 1943 - September 23, 1963"
+    }
+  ],
+  "ancestors": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/resources/3"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/resources/9"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/resources/8"
+        }
+      ]
+    }
+  ],
+  "extents": [
+    {
+      "type": "cubic_feet",
+      "value": "7.10"
+    },
+    {
+      "type": "leaves",
+      "value": "4.59"
+    }
+  ],
+  "level": "recordgrp",
+  "notes": [
+    {
+      "source": "cartographer",
+      "type": "prefercite",
+      "subnotes": [
+        {
+          "content": [
+            "eu laboris pariatur sunt do labore"
+          ],
+          "type": "orderedlist"
+        },
+        {
+          "content": [
+            "velit eu sit commodo do do",
+            "enim mollit officia deserunt non minim"
+          ],
+          "type": "orderedlist"
+        }
+      ],
+      "title": "velit adipisicing do"
+    },
+    {
+      "source": "archivesspace",
+      "type": "note",
+      "subnotes": [
+        {
+          "content": [
+            "nisi proident magna nostrud do aliqua",
+            "ad non do tempor do excepteur",
+            "exercitation dolor officia proident dolor non",
+            "reprehenderit sunt proident ut voluptate enim"
+          ],
+          "type": "orderedlist"
+        },
+        {
+          "content": [
+            "sit id eu ex dolor minim",
+            "adipisicing nostrud magna aute irure deserunt"
+          ],
+          "type": "definedlist"
+        }
+      ],
+      "title": "proident deserunt occaecat"
+    },
+    {
+      "source": "wikipedia",
+      "type": "rights_statement_act",
+      "subnotes": [
+        {
+          "content": [
+            "sunt labore incididunt quis fugiat consectetur",
+            "id irure reprehenderit mollit ullamco anim"
+          ],
+          "type": "orderedlist"
+        },
+        {
+          "content": [
+            "est cillum et incididunt nostrud incididunt",
+            "tempor Lorem aliquip eu tempor non",
+            "tempor non incididunt consequat ex labore",
+            "tempor duis veniam tempor proident ullamco"
+          ],
+          "type": "text"
+        }
+      ],
+      "title": "duis ad enim"
+    }
+  ],
+  "title": "Qui aliquip minim minim et proident in nisi tempor deserunt consequat proident.",
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/repositories/2/resources/5"
+    }
+  ],
+  "children": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/8"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/6"
+        }
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "identifier": "spa",
+      "expression": "English"
+    }
+  ],
+  "rights_statements": [],
+  "agents": [],
+  "terms": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/4"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/8"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/2"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/7"
+        }
+      ]
+    }
+  ],
+  "creators": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/9"
+        }
+      ]
+    }
+  ],
+  "type": "collection",
+  "id": "5e16514c7a5575305c335aa5"
+}
