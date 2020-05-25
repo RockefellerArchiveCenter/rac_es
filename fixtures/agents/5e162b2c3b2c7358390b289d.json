@@ -1,0 +1,42 @@
+{
+  "index": 46,
+  "dates": [
+    {
+      "begin": "1923-02-23",
+      "end": "1964-06-11",
+      "type": "single",
+      "label": "agent_relation",
+      "source": "archivesspace",
+      "expression": "February 22, 1923 - June 10, 1964"
+    }
+  ],
+  "description": "Elit adipisicing labore velit quis eu officia. Non excepteur veniam ad voluptate ex occaecat mollit excepteur. Labore ea in minim cupidatat officia esse in ea sunt aliqua magna in aute. Laboris cillum ea do eu magna nulla ipsum. Laborum tempor pariatur laboris magna ullamco cillum elit quis mollit tempor do. Proident do incididunt duis qui veniam nisi velit in deserunt tempor elit.\r\n",
+  "title": "Constance Burton",
+  "notes": [
+    {
+      "source": "wikipedia",
+      "type": "expiration",
+      "subnotes": [
+        {
+          "content": [
+            "aliqua pariatur fugiat adipisicing laboris sint",
+            "et excepteur mollit proident ipsum commodo",
+            "culpa minim elit sunt sunt nisi",
+            "velit cupidatat laboris aute nisi exercitation"
+          ],
+          "type": "text"
+        }
+      ],
+      "title": "occaecat ullamco commodo"
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_person/3"
+    }
+  ],
+  "agent_type": "person",
+  "type": "agent",
+  "id": "5e162b2c3b2c7358390b289d"
+}

@@ -1,0 +1,67 @@
+{
+  "index": 44,
+  "dates": [
+    {
+      "begin": "1939-06-23",
+      "end": "1984-07-03",
+      "type": "inclusive",
+      "label": "agent_relation",
+      "source": "wikidata",
+      "expression": "June 22, 1939 - July 2, 1984"
+    },
+    {
+      "begin": "1940-08-18",
+      "end": "1986-04-04",
+      "type": "single",
+      "label": "existence",
+      "source": "archivesspace",
+      "expression": "August 17, 1940 - April 3, 1986"
+    }
+  ],
+  "description": "Eu qui cillum elit Lorem non velit ut exercitation. Excepteur culpa anim laborum sit nostrud sint exercitation labore ad excepteur in esse dolor. Eu nisi reprehenderit fugiat enim consectetur laborum nostrud pariatur.\r\n",
+  "title": "Priscilla Waters",
+  "notes": [
+    {
+      "source": "cartographer",
+      "type": "rights_statement",
+      "subnotes": [
+        {
+          "content": [
+            "amet dolore voluptate elit adipisicing aute",
+            "ipsum sunt deserunt nulla magna sunt",
+            "esse dolore commodo ipsum duis sint",
+            "nulla ut consectetur Lorem sint occaecat"
+          ],
+          "type": "definedlist"
+        },
+        {
+          "content": [
+            "culpa excepteur consequat magna quis exercitation",
+            "Lorem cillum qui pariatur esse irure"
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            "irure dolor elit mollit commodo nostrud",
+            "minim velit veniam et ad nisi",
+            "consequat duis cupidatat nisi eiusmod voluptate",
+            "incididunt qui sit nisi ipsum ex",
+            "laborum veniam laborum do tempor minim"
+          ],
+          "type": "orderedlist"
+        }
+      ],
+      "title": "sunt cupidatat veniam"
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_person/8"
+    }
+  ],
+  "agent_type": "person",
+  "type": "agent",
+  "id": "5e162b2c8eba6566060a0f0e"
+}

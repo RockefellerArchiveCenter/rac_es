@@ -1,0 +1,165 @@
+{
+  "index": 42,
+  "dates": [
+    {
+      "begin": "1914-08-25",
+      "end": "1976-04-01",
+      "type": "inclusive",
+      "label": "publication",
+      "source": "archivesspace",
+      "expression": "August 24, 1914 - March 31, 1976"
+    },
+    {
+      "begin": "1940-03-18",
+      "end": "2007-04-18",
+      "type": "inclusive",
+      "label": "creation",
+      "source": "archivesspace",
+      "expression": "March 17, 1940 - April 17, 2007"
+    }
+  ],
+  "ancestors": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/resources/3"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/resources/4"
+        }
+      ]
+    }
+  ],
+  "extents": [
+    {
+      "type": "files",
+      "value": "0.24"
+    },
+    {
+      "type": "megabytes",
+      "value": "2.76"
+    }
+  ],
+  "level": "subseries",
+  "notes": [
+    {
+      "source": "archivesspace",
+      "type": "legalstatus",
+      "subnotes": [
+        {
+          "content": [
+            "proident labore fugiat eiusmod adipisicing ut",
+            "irure consectetur ullamco minim Lorem eu",
+            "labore proident consequat aute eiusmod id",
+            "velit irure nisi sunt pariatur adipisicing",
+            "irure quis ipsum anim excepteur incididunt"
+          ],
+          "type": "text"
+        }
+      ],
+      "title": "adipisicing aliqua minim"
+    }
+  ],
+  "title": "Eu esse dolore exercitation minim excepteur sint.",
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/repositories/2/resources/2"
+    }
+  ],
+  "children": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/2"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/archival_objects/4"
+        }
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "identifier": "eng",
+      "expression": "Esperanto"
+    },
+    {
+      "identifier": "spa",
+      "expression": "Esperanto"
+    },
+    {
+      "identifier": "epo",
+      "expression": "English"
+    }
+  ],
+  "rights_statements": [],
+  "agents": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/8"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/7"
+        }
+      ]
+    }
+  ],
+  "terms": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/1"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/terms/7"
+        }
+      ]
+    }
+  ],
+  "creators": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/5"
+        }
+      ]
+    },
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/agents_person/7"
+        }
+      ]
+    }
+  ],
+  "type": "collection",
+  "id": "5e16514c1af28a619dc5eaf4"
+}

@@ -1,0 +1,277 @@
+{
+  "index": 18,
+  "dates": [
+    {
+      "begin": "1955-12-07",
+      "end": "2019-02-24",
+      "type": "bulk",
+      "label": "issued",
+      "source": "archivesspace",
+      "expression": "December 6, 1955 - February 23, 2019"
+    },
+    {
+      "begin": "1934-06-18",
+      "end": "2015-03-16",
+      "type": "inclusive",
+      "label": "broadcast",
+      "source": "archivesspace",
+      "expression": "June 17, 1934 - March 15, 2015"
+    },
+    {
+      "begin": "1937-09-15",
+      "end": "1991-08-03",
+      "type": "inclusive",
+      "label": "broadcast",
+      "source": "archivesspace",
+      "expression": "September 14, 1937 - August 2, 1991"
+    }
+  ],
+  "ancestors": [
+    {
+      "external_identifiers": [
+        {
+          "source": "archivesspace",
+          "identifier": "/repositories/2/resources/4"
+        }
+      ]
+    }
+  ],
+  "extents": [
+    {
+      "type": "photographic_prints",
+      "value": "0.46"
+    }
+  ],
+  "title": "Sint sint culpa ea Lorem duis duis sunt.",
+  "notes": [
+    {
+      "source": "wikidata",
+      "type": "index",
+      "subnotes": [
+        {
+          "content": [
+            "sint nulla reprehenderit ad fugiat est",
+            "pariatur incididunt voluptate magna exercitation velit",
+            "in sint deserunt quis exercitation fugiat",
+            "velit cillum aliqua eiusmod laboris fugiat"
+          ],
+          "type": "orderedlist"
+        },
+        {
+          "content": [
+            "sunt minim ex tempor elit id",
+            "dolor reprehenderit est ea cupidatat laboris",
+            "ut ullamco irure exercitation nostrud culpa"
+          ],
+          "type": "orderedlist"
+        }
+      ],
+      "title": "ad esse est"
+    },
+    {
+      "source": "cartographer",
+      "type": "materials",
+      "subnotes": [
+        {
+          "content": [
+            "reprehenderit est veniam sunt occaecat ullamco",
+            "do Lorem laborum consectetur nostrud tempor",
+            "deserunt exercitation consequat excepteur ea culpa"
+          ],
+          "type": "definedlist"
+        },
+        {
+          "content": [
+            "consequat adipisicing minim adipisicing et dolore",
+            "sunt eiusmod reprehenderit amet anim sint",
+            "exercitation irure proident anim esse id"
+          ],
+          "type": "definedlist"
+        },
+        {
+          "content": [
+            "id dolor magna ex ad aute",
+            "quis dolor elit irure exercitation eu",
+            "veniam quis amet pariatur qui aliqua",
+            "laboris exercitation eiusmod reprehenderit magna enim",
+            "officia sit cupidatat anim excepteur ad"
+          ],
+          "type": "orderedlist"
+        }
+      ],
+      "title": "tempor irure excepteur"
+    },
+    {
+      "source": "archivesspace",
+      "type": "custodhist",
+      "subnotes": [
+        {
+          "content": [
+            "reprehenderit elit ex sunt sint consequat",
+            "deserunt dolore irure ea consequat laborum"
+          ],
+          "type": "definedlist"
+        }
+      ],
+      "title": "aliqua do ea"
+    },
+    {
+      "source": "archivesspace",
+      "type": "bioghist",
+      "subnotes": [
+        {
+          "content": [
+            "fugiat commodo officia Lorem ipsum est",
+            "ipsum mollit dolore reprehenderit consequat duis",
+            "exercitation magna id duis eu minim"
+          ],
+          "type": "orderedlist"
+        },
+        {
+          "content": [
+            "eu enim commodo aliqua sint anim",
+            "eu cillum mollit ea aliqua nulla",
+            "sit cupidatat in tempor occaecat nisi",
+            "consequat reprehenderit laboris deserunt ad eiusmod",
+            "magna adipisicing fugiat nisi et irure"
+          ],
+          "type": "definedlist"
+        },
+        {
+          "content": [
+            "ad nisi do exercitation exercitation deserunt",
+            "commodo duis officia voluptate nostrud excepteur",
+            "ad dolor laborum sint nostrud amet"
+          ],
+          "type": "text"
+        }
+      ],
+      "title": "minim irure mollit"
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/repositories/2/archival_objects/2"
+    }
+  ],
+  "languages": [
+    {
+      "identifier": "eng",
+      "expression": "Spanish"
+    }
+  ],
+  "rights_statements": [
+    {
+      "begin": "1928-02-14",
+      "end": "1977-07-21",
+      "copyright_status": "copyrighted",
+      "notes": [
+        {
+          "source": "wikipedia",
+          "type": "type_note",
+          "subnotes": [
+            {
+              "content": [
+                "eu fugiat dolor incididunt et fugiat"
+              ],
+              "type": "text"
+            }
+          ],
+          "title": "labore consequat minim"
+        }
+      ],
+      "jurisdiction": "CN",
+      "other_basis": "cupidatat",
+      "rights_granted": [
+        {
+          "restriction": "disallow",
+          "begin": "1921-12-11",
+          "end": "1978-09-14",
+          "notes": [
+            {
+              "source": "wikipedia",
+              "type": "additional_information",
+              "subnotes": [
+                {
+                  "content": [
+                    "do enim aliqua officia officia do",
+                    "exercitation ipsum culpa laboris fugiat culpa",
+                    "anim exercitation laboris eiusmod dolore id",
+                    "laboris Lorem labore magna fugiat exercitation"
+                  ],
+                  "type": "definedlist"
+                }
+              ],
+              "title": "enim fugiat ut"
+            }
+          ],
+          "act": "replicate"
+        }
+      ],
+      "rights_status": "copyrighted",
+      "determination_date": "1955-06-29",
+      "type": "rights_statement",
+      "id": "5e164dbced4c94635808c663",
+      "rights_type": "copyright"
+    },
+    {
+      "begin": "1936-07-28",
+      "end": "1974-05-08",
+      "copyright_status": "unknown",
+      "notes": [],
+      "jurisdiction": "CN",
+      "other_basis": "duis",
+      "rights_granted": [
+        {
+          "restriction": "disallow",
+          "begin": "1925-05-23",
+          "end": "1979-07-12",
+          "notes": [
+            {
+              "source": "archivesspace",
+              "type": "materials",
+              "subnotes": [
+                {
+                  "content": [
+                    "sunt do elit nulla sit adipisicing",
+                    "voluptate ea consequat reprehenderit incididunt occaecat",
+                    "elit consectetur exercitation esse sit anim",
+                    "ut ipsum cillum amet elit laborum",
+                    "esse reprehenderit incididunt deserunt aute incididunt"
+                  ],
+                  "type": "text"
+                },
+                {
+                  "content": [
+                    "do sint aute sint sit mollit"
+                  ],
+                  "type": "orderedlist"
+                },
+                {
+                  "content": [
+                    "sunt cillum ipsum aute enim magna",
+                    "dolore consequat incididunt in non adipisicing",
+                    "aute laborum ullamco cillum voluptate minim"
+                  ],
+                  "type": "definedlist"
+                }
+              ],
+              "title": "reprehenderit amet ad"
+            }
+          ],
+          "act": "use"
+        }
+      ],
+      "rights_status": "copyrighted",
+      "determination_date": "1929-08-20",
+      "type": "rights_statement",
+      "id": "5e164dbc50c479128d1ffc63",
+      "rights_type": "statute"
+    }
+  ],
+  "agents": [],
+  "terms": [],
+  "type": "object",
+  "id": "5e164dbc1aee795fbc75953c"
+}

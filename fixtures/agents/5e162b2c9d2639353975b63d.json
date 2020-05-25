@@ -1,0 +1,61 @@
+{
+  "index": 13,
+  "dates": [
+    {
+      "begin": "1914-09-18",
+      "end": "1990-08-17",
+      "type": "inclusive",
+      "label": "broadcast",
+      "source": "archivesspace",
+      "expression": "September 17, 1914 - August 16, 1990"
+    },
+    {
+      "begin": "1940-09-25",
+      "end": "1985-12-23",
+      "type": "inclusive",
+      "label": "digitized",
+      "source": "wikidata",
+      "expression": "September 24, 1940 - December 22, 1985"
+    }
+  ],
+  "description": "Dolor tempor enim eiusmod excepteur do ullamco reprehenderit exercitation. Nulla magna incididunt eiusmod aliqua fugiat ad consectetur tempor esse. Commodo cupidatat voluptate cillum occaecat deserunt nostrud ut deserunt occaecat.\r\n",
+  "title": "Graciela Mcpherson",
+  "notes": [
+    {
+      "source": "wikipedia",
+      "type": "rights_statement_act",
+      "subnotes": [
+        {
+          "content": [
+            "ex nulla cupidatat exercitation magna Lorem",
+            "laboris et aliqua ullamco exercitation ullamco",
+            "minim eu laborum fugiat sit velit",
+            "labore ut eu occaecat nisi id",
+            "officia nulla adipisicing irure et irure"
+          ],
+          "type": "text"
+        },
+        {
+          "content": [
+            "ullamco eu ipsum voluptate commodo proident",
+            "pariatur culpa sit sunt proident est",
+            "adipisicing mollit nisi enim quis consequat",
+            "fugiat ipsum dolor ad non nostrud",
+            "aliquip sunt consequat officia deserunt nulla"
+          ],
+          "type": "text"
+        }
+      ],
+      "title": "tempor in Lorem"
+    }
+  ],
+  "external_identifiers": [
+    {
+      "source": "archivesspace",
+      "identifier": "/agents_person/10"
+    }
+  ],
+  "agent_type": "person",
+  "type": "agent",
+  "id": "5e162b2c9d2639353975b63d"
+}
