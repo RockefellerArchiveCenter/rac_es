@@ -21,3 +21,6 @@ matrix:
 
     - python: "3.7"
       env: TOXENV=linting
+
+notifications:
+  email: false
