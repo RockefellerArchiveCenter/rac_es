@@ -83,6 +83,14 @@ class TestDocuments(unittest.TestCase):
             self.assertEqual(
                 doc_cls.search().count(), doc_count,
                 "Wrong number of Documents of type {} created".format(doc_cls))
+
+        for f in os.listdir(os.path.join(FIXTURES_DIR, "terms")):
+            with open(os.path.join(FIXTURES_DIR, "terms", f), "r") as jf:
+                data = json.load(jf)
+                doc = doc_cls(**data)
+                doc.meta.id = data["id"]
+                doc.save()
+
         self.assertEqual(
             DescriptionComponent.search().count(), total_count,
             "Wrong total number of documents created.")

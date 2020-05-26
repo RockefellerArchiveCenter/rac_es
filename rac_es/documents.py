@@ -192,7 +192,6 @@ class DescriptionComponent(BaseDescriptionComponent):
             external_identifiers=resolved_obj.external_identifiers
         )
         reference.save()
-        return reference
 
     def add_references(self, source_identifier, resolved_obj, relation):
         """Indexes child references to a DescriptionComponent.
@@ -206,21 +205,21 @@ class DescriptionComponent(BaseDescriptionComponent):
         :returns: the newly created references
         :rytpe: list
         """
-        new_references = []
-        reference_count = 0
         index = self.meta.index if (
             'index' in self.meta) else self._index._name
         references = self.get_references(
             source_identifier=source_identifier,
             relation=relation)
-        for reference in references:
-            new_references.append(self.save_reference(
-                index, reference.meta.id, resolved_obj, relation))
-            reference_count += 1
-        if reference_count == 0:
-            new_references.append(self.save_reference(
-                index, self.generate_id(), resolved_obj, relation))
-        return new_references
+        if len(references):
+            for reference in references:
+                self.save_reference(
+                    index, reference.meta.id, resolved_obj, relation)
+        else:
+            self.save_reference(
+                index,
+                self.generate_id(),
+                resolved_obj,
+                relation)
 
     def _search_references(self, **kwargs):
         """Searches for references associated with a DescriptionComponent.
