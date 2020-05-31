@@ -59,7 +59,7 @@ class TestDocuments(unittest.TestCase):
             expected = self.expected_references(
                 data,
                 set(list(getattr(doc_cls, "relations_in_self", [])) + list(getattr(doc_cls, "relations_to_self", []))))
-            self.assertEqual(len(obj.get_references()),
+            self.assertEqual(len(list(obj.get_references())),
                              expected, (obj.type, obj.meta.id))
 
     def test_document_methods(self):

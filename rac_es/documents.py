@@ -195,24 +195,22 @@ class DescriptionComponent(BaseDescriptionComponent):
         )
         return reference.to_dict(True)
 
-    def add_references(self, source_identifier, resolved_obj, relation):
-        """Indexes child references to a DescriptionComponent.
+    def streaming_reference_dict(
+            self, source_identifier, resolved_obj, relation):
+        """Generates a dict for a child reference to a DescriptionComponent.
 
-        This allows for the edge case where one DescriptionComponent has
-        multiple relations to the same object. Likely this would be a data
-        quality issue (for example a term associated with the same object
-        multiple times), but given the state of our data, it's probably best
-        to account for this.
-
-        :returns: the newly created references
-        :rytpe: list
+        :returns: the newly created reference
+        :rytpe: dict
         """
         index = self.meta.index if (
             'index' in self.meta) else self._index._name
-        references = self.get_references(
+        references = list(self.get_references(
             source_identifier=source_identifier,
-            relation=relation)
-        if len(references):
+            relation=relation))
+        if len(references) > 1:
+            raise Exception(
+                "Returned {} Reference documents, expected only 1.".format(len(references)))
+        elif len(references) == 1:
             for reference in references:
                 return self.reference_to_dict(
                     index, reference.meta.id, resolved_obj, relation)
@@ -223,11 +221,11 @@ class DescriptionComponent(BaseDescriptionComponent):
                 resolved_obj,
                 relation)
 
-    def _search_references(self, **kwargs):
-        """Searches for references associated with a DescriptionComponent.
+    def get_references(self, **kwargs):
+        """Returns all references associated with a DescriptionComponent.
 
-        :yields: The References associated with a DescriptionComponent
-        :yield_type: Reference Document
+        :returns: all Reference Documents associated with a DescriptionComponent.
+        :rtype: list
         """
         s = Reference.search()
         s = s.filter('parent_id', type='reference', id=self.meta.id)
@@ -238,19 +236,6 @@ class DescriptionComponent(BaseDescriptionComponent):
         if kwargs.get('relation'):
             s = s.filter('match_phrase', relation=kwargs.get('relation'))
         return s.params(routing=self.meta.id).scan()
-
-    def get_references(self, **kwargs):
-        """Returns all references associated with a DescriptionComponent.
-
-        This method first looks for references already present in `inner_hits`,
-        so should be preferred over `_search_references()`.
-
-        :returns: all Reference Documents associated with a DescriptionComponent.
-        :rtype: list
-        """
-        if 'inner_hits' in self.meta and 'reference' in self.meta.inner_hits:
-            return self.meta.inner_hits.reference.hits
-        return list(self._search_references(**kwargs))
 
     def references_to_self(self):
         """Finds references to a DescriptionComponent in other
@@ -270,7 +255,7 @@ class DescriptionComponent(BaseDescriptionComponent):
                     parents = DescriptionComponent.search().filter(
                         'match_phrase', **{relation_key: i}).execute()
                     for p in parents:
-                        yield p.add_references(i, self, relation)
+                        yield p.streaming_reference_dict(i, self, relation)
         except AttributeError:
             pass
 
@@ -291,7 +276,7 @@ class DescriptionComponent(BaseDescriptionComponent):
                     source_objs = DescriptionComponent.search().filter(
                         'match_phrase', external_identifiers__source_identifier=i).execute()
                     for o in source_objs:
-                        yield self.add_references(i, o, relation)
+                        yield self.streaming_reference_dict(i, o, relation)
         except AttributeError:
             pass
 
