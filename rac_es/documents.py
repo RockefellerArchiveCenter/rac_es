@@ -2,6 +2,7 @@ from datetime import datetime
 
 import elasticsearch_dsl as es
 import shortuuid
+from elasticsearch.helpers import streaming_bulk
 
 from .analyzers import base_analyzer
 
@@ -173,8 +174,9 @@ class DescriptionComponent(BaseDescriptionComponent):
         """Generates a unique identifier."""
         return shortuuid.uuid()
 
-    def save_reference(self, index, identifier, resolved_obj, relation):
-        """Saves a Reference Document associated with a DescriptionComponent.
+    def reference_to_dict(self, index, identifier, resolved_obj, relation):
+        """Creates a dict for bulk actions based on a Reference Document
+        associated with a DescriptionComponent.
 
         :returns: the newly created Reference
         :rtype: Reference Document
@@ -191,41 +193,39 @@ class DescriptionComponent(BaseDescriptionComponent):
             title=resolved_obj.title,
             external_identifiers=resolved_obj.external_identifiers
         )
-        reference.save()
+        return reference.to_dict(True)
 
-    def add_references(self, source_identifier, resolved_obj, relation):
-        """Indexes child references to a DescriptionComponent.
+    def streaming_reference_dict(
+            self, source_identifier, resolved_obj, relation):
+        """Generates a dict for a child reference to a DescriptionComponent.
 
-        This allows for the edge case where one DescriptionComponent has
-        multiple relations to the same object. Likely this would be a data
-        quality issue (for example a term associated with the same object
-        multiple times), but given the state of our data, it's probably best
-        to account for this.
-
-        :returns: the newly created references
-        :rytpe: list
+        :returns: the newly created reference
+        :rytpe: dict
         """
         index = self.meta.index if (
             'index' in self.meta) else self._index._name
-        references = self.get_references(
+        references = list(self.get_references(
             source_identifier=source_identifier,
-            relation=relation)
-        if len(references):
+            relation=relation))
+        if len(references) > 1:
+            raise Exception(
+                "Returned {} Reference documents, expected only 1.".format(len(references)))
+        elif len(references) == 1:
             for reference in references:
-                self.save_reference(
+                return self.reference_to_dict(
                     index, reference.meta.id, resolved_obj, relation)
         else:
-            self.save_reference(
+            return self.reference_to_dict(
                 index,
                 self.generate_id(),
                 resolved_obj,
                 relation)
 
-    def _search_references(self, **kwargs):
-        """Searches for references associated with a DescriptionComponent.
+    def get_references(self, **kwargs):
+        """Returns all references associated with a DescriptionComponent.
 
-        :yields: The References associated with a DescriptionComponent
-        :yield_type: Reference Document
+        :returns: all Reference Documents associated with a DescriptionComponent.
+        :rtype: list
         """
         s = Reference.search()
         s = s.filter('parent_id', type='reference', id=self.meta.id)
@@ -237,20 +237,7 @@ class DescriptionComponent(BaseDescriptionComponent):
             s = s.filter('match_phrase', relation=kwargs.get('relation'))
         return s.params(routing=self.meta.id).scan()
 
-    def get_references(self, **kwargs):
-        """Returns all references associated with a DescriptionComponent.
-
-        This method first looks for references already present in `inner_hits`,
-        so should be preferred over `_search_references()`.
-
-        :returns: all Reference Documents associated with a DescriptionComponent.
-        :rtype: list
-        """
-        if 'inner_hits' in self.meta and 'reference' in self.meta.inner_hits:
-            return self.meta.inner_hits.reference.hits
-        return list(self._search_references(**kwargs))
-
-    def resolve_relations_to_self(self):
+    def references_to_self(self):
         """Finds references to a DescriptionComponent in other
         DescriptionComponents and creates or updates a child Reference Document
         for each.
@@ -268,11 +255,11 @@ class DescriptionComponent(BaseDescriptionComponent):
                     parents = DescriptionComponent.search().filter(
                         'match_phrase', **{relation_key: i}).execute()
                     for p in parents:
-                        p.add_references(i, self, relation)
+                        yield p.streaming_reference_dict(i, self, relation)
         except AttributeError:
             pass
 
-    def resolve_relations_in_self(self):
+    def references_in_self(self):
         """Finds references to other DescriptionComponents in a
         DescriptionComponent and creates or updates a Reference Document for each.
 
@@ -289,11 +276,21 @@ class DescriptionComponent(BaseDescriptionComponent):
                     source_objs = DescriptionComponent.search().filter(
                         'match_phrase', external_identifiers__source_identifier=i).execute()
                     for o in source_objs:
-                        self.add_references(i, o, relation)
+                        yield self.streaming_reference_dict(i, o, relation)
         except AttributeError:
             pass
 
-    def prepare_streaming_dict(self, identifier):
+    def index_references(self, connection):
+        for actions in [self.references_in_self(), self.references_to_self()]:
+            for ok, result in streaming_bulk(
+                    connection, actions, refresh=True):
+                action, result = result.popitem()
+                if not ok:
+                    raise Exception(
+                        "Failed to {} document {}: {}".format(
+                            action, result["_id"], result))
+
+    def prepare_streaming_dict(self, identifier, connection):
         """Prepares DescriptionComponent for bulk indexing.
 
         Executes custom save methods which would not otherwise be called when
@@ -305,15 +302,14 @@ class DescriptionComponent(BaseDescriptionComponent):
         self.meta.id = identifier
         self.component_reference = "component"
         self.add_source_identifier_fields()
-        self.resolve_relations_in_self()
-        self.resolve_relations_to_self()
+        self.index_references(connection)
         return self.to_dict(True)
 
-    def save(self, **kwargs):
+    def save(self, connection, **kwargs):
         """Adds additional behaviors to save method."""
-        self.resolve_relations_in_self()
-        self.resolve_relations_to_self()
-        self.component_reference = 'component'
+        self.component_reference = "component"
+        self.add_source_identifier_fields()
+        self.index_references(connection)
         return super(DescriptionComponent, self).save(**kwargs)
 
 
