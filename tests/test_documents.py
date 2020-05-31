@@ -73,7 +73,7 @@ class TestDocuments(unittest.TestCase):
                     data = json.load(jf)
                     doc = doc_cls(**data)
                     doc.meta.id = data["id"]
-                    doc.save()
+                    doc.save(self.connection)
                     doc_count += 1
                 self.assertEqual(
                     doc.component_reference, "component",
@@ -89,7 +89,7 @@ class TestDocuments(unittest.TestCase):
                 data = json.load(jf)
                 doc = doc_cls(**data)
                 doc.meta.id = data["id"]
-                doc.save()
+                doc.save(self.connection)
 
         self.assertEqual(
             DescriptionComponent.search().count(), total_count,
@@ -105,7 +105,8 @@ class TestDocuments(unittest.TestCase):
                 with open(os.path.join(FIXTURES_DIR, dir, f), "r") as jf:
                     data = json.load(jf)
                     doc = doc_cls(**data)
-                    streaming_dict = doc.prepare_streaming_dict(doc["id"])
+                    streaming_dict = doc.prepare_streaming_dict(
+                        doc["id"], self.connection)
                     self.assertTrue(isinstance(streaming_dict, dict))
                     self.assertEqual(streaming_dict["_id"], doc["id"])
                     self.assertEqual(
