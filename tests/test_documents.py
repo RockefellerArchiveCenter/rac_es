@@ -102,7 +102,14 @@ class TestDocuments(unittest.TestCase):
             with open(os.path.join(FIXTURES_DIR, dir, f), "r") as jf:
                 data = json.load(jf)
                 doc = doc_cls(**data)
-                yield doc.prepare_streaming_dict(doc["id"], self.connection)
+                streaming_dict = doc.prepare_streaming_dict(
+                    doc["id"], self.connection)
+                self.assertTrue(isinstance(streaming_dict, dict))
+                self.assertEqual(streaming_dict["_id"], doc["id"])
+                self.assertEqual(
+                    streaming_dict["_source"]["component_reference"],
+                    "component")
+                yield streaming_dict
 
     def test_bulk_methods(self):
         total_count = 0
