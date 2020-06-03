@@ -209,7 +209,7 @@ class DescriptionComponent(BaseDescriptionComponent):
             relation=relation))
         if len(references) > 1:
             raise Exception(
-                "Returned {} Reference documents, expected only 1. \n{}".format(len(references)), references)
+                "Returned {} Reference documents, expected only 1. \n{}".format(len(references), references))
         elif len(references) == 1:
             for reference in references:
                 return self.reference_to_dict(
