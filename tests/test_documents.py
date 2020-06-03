@@ -84,8 +84,8 @@ class TestDocuments(unittest.TestCase):
                 doc_cls.search().count(), doc_count,
                 "Wrong number of Documents of type {} created".format(doc_cls))
 
-        for f in os.listdir(os.path.join(FIXTURES_DIR, "terms")):
-            with open(os.path.join(FIXTURES_DIR, "terms", f), "r") as jf:
+        for f in os.listdir(os.path.join(FIXTURES_DIR, "collections")):
+            with open(os.path.join(FIXTURES_DIR, "collections", f), "r") as jf:
                 data = json.load(jf)
                 doc = doc_cls(**data)
                 doc.meta.id = data["id"]
@@ -97,17 +97,30 @@ class TestDocuments(unittest.TestCase):
         for obj in DescriptionComponent.search().scan():
             self.check_references(obj)
 
+    def prepare_streaming(self, doc_cls, dir):
+        for f in os.listdir(os.path.join(FIXTURES_DIR, dir)):
+            with open(os.path.join(FIXTURES_DIR, dir, f), "r") as jf:
+                data = json.load(jf)
+                doc = doc_cls(**data)
+                yield doc.prepare_streaming_dict(doc["id"], self.connection)
+
     def test_bulk_methods(self):
-        for doc_cls, dir in [
-                (Agent, "agents"), (Collection, "collections"),
-                (Object, "objects"), (Term, "terms")]:
-            for f in os.listdir(os.path.join(FIXTURES_DIR, dir)):
-                with open(os.path.join(FIXTURES_DIR, dir, f), "r") as jf:
-                    data = json.load(jf)
-                    doc = doc_cls(**data)
-                    streaming_dict = doc.prepare_streaming_dict(
-                        doc["id"], self.connection)
-                    self.assertTrue(isinstance(streaming_dict, dict))
-                    self.assertEqual(streaming_dict["_id"], doc["id"])
-                    self.assertEqual(
-                        streaming_dict["_source"]["component_reference"], "component")
+        total_count = 0
+        for doc_cls, dir, obj_type in [
+                (Agent, "agents", "agent"), (Collection,
+                                             "collections", "collection"),
+                (Object, "objects", "object"), (Term, "terms", "term")]:
+            indexed = doc_cls.bulk_save(
+                self.connection, self.prepare_streaming(doc_cls, dir), obj_type)
+            self.assertEqual(
+                doc_cls.search().count(), len(indexed),
+                "Wrong number of {} indexed, was {} expected {}".format(
+                    dir, doc_cls.search().count(), len(indexed)))
+            total_count += len(indexed)
+
+        self.assertEqual(
+            DescriptionComponent.search().count(), total_count,
+            "Wrong total number of documents created.")
+
+        for obj in DescriptionComponent.search().scan():
+            self.check_references(obj)
