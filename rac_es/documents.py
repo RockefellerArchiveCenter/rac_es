@@ -209,7 +209,7 @@ class DescriptionComponent(BaseDescriptionComponent):
             relation=relation))
         if len(references) > 1:
             raise Exception(
-                "Returned {} Reference documents, expected only 1.".format(len(references)))
+                "Returned {} Reference documents, expected only 1. \n{}".format(len(references)), references)
         elif len(references) == 1:
             for reference in references:
                 return self.reference_to_dict(
@@ -270,7 +270,7 @@ class DescriptionComponent(BaseDescriptionComponent):
             for relation in self.relations_in_self:
                 # Nested list comprehension, what's up?!?!
                 parent_ids = ["{}_{}".format(i.source, i.identifier)
-                              for obj in getattr(self, relation)
+                              for obj in getattr(self, relation, [])
                               for i in obj.external_identifiers]
                 for i in parent_ids:
                     source_objs = DescriptionComponent.search().filter(
@@ -294,7 +294,8 @@ class DescriptionComponent(BaseDescriptionComponent):
         """Prepares DescriptionComponent for bulk indexing.
 
         Executes custom save methods which would not otherwise be called when
-        data is passed to a bulk method.
+        data is passed to a bulk method. References are not saved for Collections
+        because they are saved in bulk indexing methods.
 
         :returns: an object ready to be indexed.
         :rtype: dict
@@ -302,8 +303,35 @@ class DescriptionComponent(BaseDescriptionComponent):
         self.meta.id = identifier
         self.component_reference = "component"
         self.add_source_identifier_fields()
-        self.index_references(connection)
+        if self.type != "collection":
+            self.index_references(connection)
         return self.to_dict(True)
+
+    @classmethod
+    def bulk_save(self, connection, actions, obj_type):
+        """Bulk save operation.
+
+        Provides better performance than atomic `save` method. Collections are
+        handled differently from other DescriptionComponents, because they
+        contain references to other Collections, and their References must be
+        indexed after all Collections have already been added to the index.
+
+        :returns: Elasticsearch identifiers of all indexed objects
+        :rtype: list
+        """
+        indexed = []
+        for ok, result in streaming_bulk(connection, actions, refresh=True):
+            action, result = result.popitem()
+            if not ok:
+                raise Exception()
+            else:
+                indexed.append(result["_id"])
+        if obj_type == "collection":
+            for es_id in indexed:
+                doc = Collection.get(id=es_id)
+                doc.index_references(connection)
+
+        return indexed
 
     def save(self, connection, **kwargs):
         """Adds additional behaviors to save method."""
