@@ -114,11 +114,14 @@ class TestDocuments(unittest.TestCase):
     def test_bulk_methods(self):
         total_count = 0
         for doc_cls, dir, obj_type in [
-                (Agent, "agents", "agent"), (Collection,
-                                             "collections", "collection"),
+                (Agent, "agents", "agent"),
+                (Collection, "collections", "collection"),
                 (Object, "objects", "object"), (Term, "terms", "term")]:
             indexed = doc_cls.bulk_save(
-                self.connection, self.prepare_streaming(doc_cls, dir), obj_type)
+                self.connection,
+                self.prepare_streaming(doc_cls, dir),
+                obj_type,
+                1000)
             self.assertEqual(
                 doc_cls.search().count(), len(indexed),
                 "Wrong number of {} indexed, was {} expected {}".format(

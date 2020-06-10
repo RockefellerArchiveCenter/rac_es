@@ -308,7 +308,7 @@ class DescriptionComponent(BaseDescriptionComponent):
         return self.to_dict(True)
 
     @classmethod
-    def bulk_save(self, connection, actions, obj_type):
+    def bulk_save(self, connection, actions, obj_type, max_objects):
         """Bulk save operation.
 
         Provides better performance than atomic `save` method. Collections are
@@ -320,12 +320,18 @@ class DescriptionComponent(BaseDescriptionComponent):
         :rtype: list
         """
         indexed = []
+        indexed_count = 0
         for ok, result in streaming_bulk(connection, actions, refresh=True):
             action, result = result.popitem()
             if not ok:
-                raise Exception()
+                raise Exception(
+                    "Failed to {} document {}: {}".format(
+                        action, result["_id"], result))
             else:
                 indexed.append(result["_id"])
+                indexed_count += 1
+            if indexed_count == max_objects:
+                break
         if obj_type == "collection":
             for es_id in indexed:
                 doc = Collection.get(id=es_id)
