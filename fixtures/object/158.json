@@ -1,0 +1,61 @@
+{
+    "agents": [],
+    "ancestors": [
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/6",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "3y5m8r7tfh7sffmctu3j3sf7i2",
+            "level": "series",
+            "order": null,
+            "title": "Lantern Slides",
+            "type": "collection"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/resources/1",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "z96u8h8tuefmbjixtxjta2iun5",
+            "level": "collection",
+            "order": null,
+            "title": "Max Bergmann papers, Rockefeller Institute for Medical Research Scientific Staff",
+            "type": "collection"
+        }
+    ],
+    "dates": [
+        {
+            "begin": null,
+            "end": null,
+            "expression": "Undated",
+            "label": "creation",
+            "source": "archivesspace",
+            "type": "single"
+        }
+    ],
+    "extents": [],
+    "external_identifiers": [
+        {
+            "identifier": "/repositories/2/archival_objects/158",
+            "source": "archivesspace"
+        }
+    ],
+    "languages": [
+        {
+            "expression": "English",
+            "identifier": "eng"
+        }
+    ],
+    "notes": [],
+    "rights": [],
+    "terms": [],
+    "title": "Lantern slides",
+    "tree_position": 0,
+    "type": "object",
+    "uri": "/repositories/2/archival_objects/158"
+}

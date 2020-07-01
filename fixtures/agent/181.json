@@ -1,0 +1,17 @@
+{
+    "agent_type": "organization",
+    "collections": [],
+    "dates": [],
+    "description": null,
+    "external_identifiers": [
+        {
+            "identifier": "/agents/corporate_entities/181",
+            "source": "archivesspace"
+        }
+    ],
+    "notes": [],
+    "objects": [],
+    "title": "United States. Dept. of State",
+    "type": "agent",
+    "uri": "/agents/corporate_entities/181"
+}

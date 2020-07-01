@@ -1,0 +1,17 @@
+{
+    "agent_type": "organization",
+    "collections": [],
+    "dates": [],
+    "description": null,
+    "external_identifiers": [
+        {
+            "identifier": "/agents/corporate_entities/9",
+            "source": "archivesspace"
+        }
+    ],
+    "notes": [],
+    "objects": [],
+    "title": "Museum of Modern Art (New York, N.Y.)",
+    "type": "agent",
+    "uri": "/agents/corporate_entities/9"
+}

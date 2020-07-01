@@ -1,0 +1,12 @@
+{
+    "external_identifiers": [
+        {
+            "identifier": "/subjects/123",
+            "source": "archivesspace"
+        }
+    ],
+    "term_type": "topical",
+    "title": "Prevention and health",
+    "type": "term",
+    "uri": "/subjects/123"
+}

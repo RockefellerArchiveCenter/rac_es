@@ -1,0 +1,17 @@
+{
+    "agent_type": "organization",
+    "collections": [],
+    "dates": [],
+    "description": null,
+    "external_identifiers": [
+        {
+            "identifier": "/agents/corporate_entities/188",
+            "source": "archivesspace"
+        }
+    ],
+    "notes": [],
+    "objects": [],
+    "title": "Inter-American Development Commission",
+    "type": "agent",
+    "uri": "/agents/corporate_entities/188"
+}
