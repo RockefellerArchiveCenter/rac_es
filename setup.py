@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name='rac_es',
-    version='0.4.5',
+    version='0.5',
     description="Helpers for Rockefeller Archive Center's Elasticsearch implementation.",
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -17,8 +17,7 @@ setup(
     install_requires=[
         'datetime',
         'elasticsearch_dsl',
-        'shortuuid',
     ],
     test_suite='nose.collector',
-    tests_require=['nose'],
+    tests_require=['nose', 'shortuuid'],
     zip_safe=False)
