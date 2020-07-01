@@ -1,7 +1,6 @@
 from datetime import datetime
 
 import elasticsearch_dsl as es
-import shortuuid
 from elasticsearch.helpers import streaming_bulk
 
 from .analyzers import base_analyzer
@@ -34,7 +33,7 @@ class Date(es.InnerDoc):
     a date or date range, while the begin and end values are machine readable
     and actionable values.
     """
-    begin = DateField(required=True)
+    begin = DateField()
     end = DateField()
     expression = es.Text(required=True)
     label = es.Text(required=True)
@@ -77,8 +76,25 @@ class Note(es.InnerDoc):
     title = es.Text(
         required=True,
         analyzer=base_analyzer,
-        fields={'keyword': es.Keyword()})
+        fields={
+            'keyword': es.Keyword()})
     type = es.Text(required=True)
+
+
+class Reference(es.InnerDoc):
+    """An embedded reference to another object."""
+    title = es.Text(
+        required=True,
+        analyzer=base_analyzer,
+        fields={
+            'keyword': es.Keyword()})
+    type = es.Text(required=True)
+    external_identifiers = es.Nested(ExternalIdentifier)
+    identifier = es.Text(required=True)
+    order = es.Integer()
+    level = es.Text()
+    relator = es.Text()
+    role = es.Text()
 
 
 class RightsGranted(es.InnerDoc):
@@ -114,9 +130,7 @@ class BaseDescriptionComponent(es.Document):
     """Base class for DescriptionComponents and Reference objects with
     common fields."""
 
-    component_reference = es.Join(relations={'component': 'reference'})
     external_identifiers = es.Object(ExternalIdentifier, required=True)
-    id = es.Text(required=True)
     title = es.Text(
         required=True,
         analyzer=base_analyzer,
@@ -146,176 +160,25 @@ class BaseDescriptionComponent(es.Document):
         except AttributeError:
             pass
 
-    def save(self, **kwargs):
-        """Adds custom save behaviors for BaseDescriptionComponents."""
-        self.add_source_identifier_fields()
-        return super(BaseDescriptionComponent, self).save(
-            refresh=True, **kwargs)
-
     class Index:
         name = 'default'
-
-
-class DescriptionComponent(BaseDescriptionComponent):
-    """Wrapper for Documents which describe components of archival collections."""
-
-    @classmethod
-    def _matches(cls, hit):
-        """Ensures that only DescriptionComponents are returned in searches."""
-        return hit['_source']['component_reference'] == 'component'
-
-    @classmethod
-    def search(cls, **kwargs):
-        """Provides custom filtering for searches."""
-        return cls._index.search(
-            **kwargs).filter('term', component_reference='component')
-
-    def generate_id(self):
-        """Generates a unique identifier."""
-        return shortuuid.uuid()
-
-    def reference_to_dict(self, index, identifier, resolved_obj, relation):
-        """Creates a dict for bulk actions based on a Reference Document
-        associated with a DescriptionComponent.
-
-        :returns: the newly created Reference
-        :rtype: Reference Document
-        """
-        reference = Reference(
-            _routing=self.meta.id,
-            _index=index,
-            _id=identifier,
-            component_reference={'name': 'reference', 'parent': self.meta.id},
-            id=identifier,
-            relation=relation,
-            uri='/{}/{}'.format(index, resolved_obj.meta.id),
-            type=resolved_obj.type,
-            title=resolved_obj.title,
-            external_identifiers=resolved_obj.external_identifiers
-        )
-        return reference.to_dict(True)
-
-    def streaming_reference_dict(
-            self, source_identifier, resolved_obj, relation):
-        """Generates a dict for a child reference to a DescriptionComponent.
-
-        :returns: the newly created reference
-        :rytpe: dict
-        """
-        index = self.meta.index if (
-            'index' in self.meta) else self._index._name
-        references = list(self.get_references(
-            source_identifier=source_identifier,
-            relation=relation))
-        if len(references) > 1:
-            raise Exception(
-                "Returned {} Reference documents, expected only 1. \n{}".format(
-                    len(references), [r.to_dict(True) for r in references]))
-        elif len(references) == 1:
-            for reference in references:
-                return self.reference_to_dict(
-                    index, reference.meta.id, resolved_obj, relation)
-        else:
-            return self.reference_to_dict(
-                index,
-                self.generate_id(),
-                resolved_obj,
-                relation)
-
-    def get_references(self, **kwargs):
-        """Returns all references associated with a DescriptionComponent.
-
-        :returns: all Reference Documents associated with a DescriptionComponent.
-        :rtype: list
-        """
-        s = Reference.search()
-        s = s.filter('parent_id', type='reference', id=self.meta.id)
-        if kwargs.get('source_identifier'):
-            s = s.filter(
-                'match_phrase',
-                external_identifiers__source_identifier=kwargs.get('source_identifier'))
-        if kwargs.get('relation'):
-            s = s.filter('match_phrase', relation=kwargs.get('relation'))
-        return s.params(routing=self.meta.id).scan()
-
-    def references_to_self(self):
-        """Finds references to a DescriptionComponent in other
-        DescriptionComponents and creates or updates a child Reference Document
-        for each.
-
-        These relations are listed as strings which correspond to a key in a
-        `relations_to_self` attribute on the main DescriptionComponent object.
-        """
-        try:
-            self_ids = ["{}_{}".format(i.source, i.identifier)
-                        for i in self.external_identifiers]
-            for relation in self.relations_to_self:
-                relation_key = "{}__external_identifiers__source_identifier".format(
-                    relation)
-                for i in self_ids:
-                    parents = DescriptionComponent.search().filter(
-                        'match_phrase', **{relation_key: i}).execute()
-                    for p in parents:
-                        yield p.streaming_reference_dict(i, self, relation)
-        except AttributeError:
-            pass
-
-    def references_in_self(self):
-        """Finds references to other DescriptionComponents in a
-        DescriptionComponent and creates or updates a Reference Document for each.
-
-        These relations are listed as strings which correspond to a key in a
-        `relations_in_self` attribute on the main Document object.
-        """
-        try:
-            for relation in self.relations_in_self:
-                # Nested list comprehension, what's up?!?!
-                parent_ids = ["{}_{}".format(i.source, i.identifier)
-                              for obj in getattr(self, relation, [])
-                              for i in obj.external_identifiers]
-                for i in parent_ids:
-                    source_objs = DescriptionComponent.search().filter(
-                        'match_phrase', external_identifiers__source_identifier=i).execute()
-                    for o in source_objs:
-                        yield self.streaming_reference_dict(i, o, relation)
-        except AttributeError:
-            pass
-
-    def index_references(self, connection):
-        for actions in [self.references_in_self(), self.references_to_self()]:
-            for ok, result in streaming_bulk(
-                    connection, actions, refresh=True):
-                action, result = result.popitem()
-                if not ok:
-                    raise Exception(
-                        "Failed to {} document {}: {}".format(
-                            action, result["_id"], result))
 
     def prepare_streaming_dict(self, identifier, connection):
         """Prepares DescriptionComponent for bulk indexing.
 
         Executes custom save methods which would not otherwise be called when
-        data is passed to a bulk method. References are not saved for Collections
-        because they are saved in bulk indexing methods.
+        data is passed to a bulk method.
 
         :returns: an object ready to be indexed.
         :rtype: dict
         """
         self.meta.id = identifier
-        self.component_reference = "component"
         self.add_source_identifier_fields()
-        if self.type != "collection":
-            self.index_references(connection)
         return self.to_dict(True)
 
     @classmethod
     def bulk_save(self, connection, actions, obj_type, max_objects):
-        """Bulk save operation.
-
-        Provides better performance than atomic `save` method. Collections are
-        handled differently from other DescriptionComponents, because they
-        contain references to other Collections, and their References must be
-        indexed after all Collections have already been added to the index.
+        """Saves a list of objects, providing better performance than atomic `save` method.
 
         :returns: Elasticsearch identifiers of all indexed objects
         :rtype: list
@@ -326,53 +189,22 @@ class DescriptionComponent(BaseDescriptionComponent):
             action, result = result.popitem()
             if not ok:
                 raise Exception(
-                    "Failed to {} document {}: {}".format(
-                        action, result["_id"], result))
+                    "Failed to {} document {}: {}".format(action, result["_id"], result))
             else:
                 indexed.append(result["_id"])
                 indexed_count += 1
             if indexed_count == max_objects:
                 break
-        if obj_type == "collection":
-            for es_id in indexed:
-                doc = Collection.get(id=es_id)
-                doc.index_references(connection)
-
         return indexed
 
-    def save(self, connection, **kwargs):
-        """Adds additional behaviors to save method."""
-        self.component_reference = "component"
-        self.add_source_identifier_fields()
-        self.index_references(connection)
-        return super(DescriptionComponent, self).save(**kwargs)
-
-
-class Reference(BaseDescriptionComponent):
-    """A minimal reference to a Document."""
-    uri = es.Text()
-    order = es.Integer()
-    relation = es.Text()
-
-    @classmethod
-    def _matches(cls, hit):
-        """Ensures that only Reference Documents are returned in searches."""
-        return isinstance(hit['_source']['component_reference'], dict) \
-            and hit['_source']['component_reference'].get('name') == 'reference'
-
-    @classmethod
-    def search(cls, **kwargs):
-        """Provides custom filtering for searches."""
-        return cls._index.search(
-            **kwargs).exclude('term', component_reference='component')
-
     def save(self, **kwargs):
-        """Adds additional data to Reference before saving."""
-        self.meta.routing = self.component_reference.parent
-        return super(Reference, self).save(**kwargs)
+        """Adds custom save behaviors for BaseDescriptionComponents."""
+        self.add_source_identifier_fields()
+        return super(BaseDescriptionComponent, self).save(
+            refresh=True, **kwargs)
 
 
-class Agent(DescriptionComponent):
+class Agent(BaseDescriptionComponent):
     """A person, organization or family that was involved in the creation and
     maintenance of records, or is the subject of those records."""
     description = es.Text(
@@ -381,8 +213,6 @@ class Agent(DescriptionComponent):
     dates = es.Object(Date)
     notes = es.Nested(Note)
 
-    relations_to_self = ('agents', 'creators',)
-
     @classmethod
     def search(cls, **kwargs):
         """Provides custom filtering for searches."""
@@ -390,7 +220,7 @@ class Agent(DescriptionComponent):
         return search.filter('term', type='agent')
 
 
-class Collection(DescriptionComponent):
+class Collection(BaseDescriptionComponent):
     """A group of archival records which contains other groups of records,
     and may itself be part of a larger Collection.
 
@@ -405,15 +235,11 @@ class Collection(DescriptionComponent):
     level = es.Text(fields={'keyword': es.Keyword()})
     notes = es.Nested(Note)
     rights_statements = es.Nested(RightsStatement)
-
-    relations_to_self = ('ancestors', 'children', 'collections',)
-    relations_in_self = (
-        'agents',
-        'ancestors',
-        'children',
-        'creators',
-        'terms',
-    )
+    agents = es.Nested(Reference)
+    ancestors = es.Nested(Reference)
+    children = es.Nested(Reference)
+    creators = es.Nested(Reference)
+    terms = es.Nested(Reference)
 
     @classmethod
     def search(cls, **kwargs):
@@ -422,17 +248,17 @@ class Collection(DescriptionComponent):
         return search.filter('term', type='collection')
 
 
-class Object(DescriptionComponent):
+class Object(BaseDescriptionComponent):
     """A group of archival records which is part of a larger Collection, but
     does not contain any other aggregations."""
     dates = es.Object(Date, required=True)
     languages = es.Object(Language)
-    extents = es.Nested(Extent, required=True)
+    extents = es.Nested(Extent)
     notes = es.Nested(Note)
     rights_statements = es.Nested(RightsStatement)
-
-    relations_to_self = ('ancestors', 'children', 'objects',)
-    relations_in_self = ('agents', 'ancestors', 'terms')
+    agents = es.Nested(Reference)
+    ancestors = es.Nested(Reference)
+    terms = es.Nested(Reference)
 
     @classmethod
     def search(cls, **kwargs):
@@ -441,10 +267,8 @@ class Object(DescriptionComponent):
         return search.filter('term', type='object')
 
 
-class Term(DescriptionComponent):
+class Term(BaseDescriptionComponent):
     """A subject, geographic area, document format or other controlled term."""
-
-    relations_to_self = ('terms',)
 
     @classmethod
     def search(cls, **kwargs):
