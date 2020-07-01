@@ -1,0 +1,26 @@
+{
+    "agent_type": "person",
+    "collections": [],
+    "dates": [
+        {
+            "begin": 1918,
+            "end": null,
+            "expression": "1918-",
+            "label": "existence",
+            "source": "archivesspace",
+            "type": "single"
+        }
+    ],
+    "description": null,
+    "external_identifiers": [
+        {
+            "identifier": "/agents/people/531",
+            "source": "archivesspace"
+        }
+    ],
+    "notes": [],
+    "objects": [],
+    "title": "Cannon, James M.",
+    "type": "agent",
+    "uri": "/agents/people/531"
+}

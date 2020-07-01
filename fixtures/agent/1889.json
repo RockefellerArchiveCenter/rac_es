@@ -1,0 +1,17 @@
+{
+    "agent_type": "person",
+    "collections": [],
+    "dates": [],
+    "description": null,
+    "external_identifiers": [
+        {
+            "identifier": "/agents/people/1889",
+            "source": "archivesspace"
+        }
+    ],
+    "notes": [],
+    "objects": [],
+    "title": "Allison, Richard",
+    "type": "agent",
+    "uri": "/agents/people/1889"
+}

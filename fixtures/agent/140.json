@@ -1,0 +1,26 @@
+{
+    "agent_type": "person",
+    "collections": [],
+    "dates": [
+        {
+            "begin": "1894",
+            "end": "1978",
+            "expression": "1894-1978",
+            "label": "existence",
+            "source": "archivesspace",
+            "type": "inclusive"
+        }
+    ],
+    "description": null,
+    "external_identifiers": [
+        {
+            "identifier": "/agents/people/140",
+            "source": "archivesspace"
+        }
+    ],
+    "notes": [],
+    "objects": [],
+    "title": "Weaver, Warren",
+    "type": "agent",
+    "uri": "/agents/people/140"
+}

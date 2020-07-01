@@ -1,0 +1,17 @@
+{
+    "agent_type": "organization",
+    "collections": [],
+    "dates": [],
+    "description": null,
+    "external_identifiers": [
+        {
+            "identifier": "/agents/corporate_entities/44",
+            "source": "archivesspace"
+        }
+    ],
+    "notes": [],
+    "objects": [],
+    "title": "Rockefeller Foundation. Cali (Colombia)",
+    "type": "agent",
+    "uri": "/agents/corporate_entities/44"
+}

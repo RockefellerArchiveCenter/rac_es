@@ -1,0 +1,17 @@
+{
+    "agent_type": "organization",
+    "collections": [],
+    "dates": [],
+    "description": null,
+    "external_identifiers": [
+        {
+            "identifier": "/agents/corporate_entities/47",
+            "source": "archivesspace"
+        }
+    ],
+    "notes": [],
+    "objects": [],
+    "title": "China Medical Board. Beijing (China)",
+    "type": "agent",
+    "uri": "/agents/corporate_entities/47"
+}
