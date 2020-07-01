@@ -79,14 +79,14 @@ class TestDocuments(unittest.TestCase):
             BaseDescriptionComponent.search().count(), total_count,
             "Wrong total number of documents created.")
 
-    def prepare_streaming(self, doc_cls, dir):
+    def prepare_streaming(self, doc_cls, dir, op_type="index"):
         for f in os.listdir(os.path.join(FIXTURES_DIR, dir)):
             with open(os.path.join(FIXTURES_DIR, dir, f), "r") as jf:
                 data = json.load(jf)
                 doc = doc_cls(**data)
                 ident = self.identifier_from_uri(data["uri"])
                 streaming_dict = doc.prepare_streaming_dict(
-                    ident, self.connection)
+                    ident, op_type)
                 self.assertTrue(isinstance(streaming_dict, dict))
                 self.assertEqual(
                     streaming_dict["_id"], ident)
@@ -94,18 +94,21 @@ class TestDocuments(unittest.TestCase):
 
     def test_bulk_methods(self):
         total_count = 0
-        for doc_cls, dir in TYPE_MAP:
-            indexed = doc_cls.bulk_save(
-                self.connection,
-                self.prepare_streaming(doc_cls, dir),
-                dir,
-                1000)
-            self.assertEqual(
-                doc_cls.search().count(), len(indexed),
-                "Wrong number of {} indexed, was {} expected {}".format(
-                    dir, doc_cls.search().count(), len(indexed)))
-            total_count += len(indexed)
+        for op_type in ["index", "delete"]:
+            for doc_cls, dir in TYPE_MAP:
+                indexed = doc_cls.bulk_action(
+                    self.connection,
+                    self.prepare_streaming(doc_cls, dir, op_type),
+                    dir,
+                    1000)
+                expected = len(indexed) if op_type == "index" else 0
+                self.assertEqual(
+                    doc_cls.search().count(), expected,
+                    "Wrong number of {} {}, was {} expected {}".format(
+                        dir, op_type, doc_cls.search().count(), expected))
+                total_count += expected
 
-        self.assertEqual(
-            BaseDescriptionComponent.search().count(), total_count,
-            "Wrong total number of documents created.")
+            total_count = total_count if op_type == "index" else 0
+            self.assertEqual(
+                BaseDescriptionComponent.search().count(), total_count,
+                "Wrong total number of documents {}.".format(op_type))

@@ -163,7 +163,7 @@ class BaseDescriptionComponent(es.Document):
     class Index:
         name = 'default'
 
-    def prepare_streaming_dict(self, identifier, connection):
+    def prepare_streaming_dict(self, identifier, op_type="index"):
         """Prepares DescriptionComponent for bulk indexing.
 
         Executes custom save methods which would not otherwise be called when
@@ -174,11 +174,16 @@ class BaseDescriptionComponent(es.Document):
         """
         self.meta.id = identifier
         self.add_source_identifier_fields()
-        return self.to_dict(True)
+        doc = self.to_dict(True)
+        doc["_op_type"] = op_type
+        return doc
 
     @classmethod
-    def bulk_save(self, connection, actions, obj_type, max_objects):
-        """Saves a list of objects, providing better performance than atomic `save` method.
+    def bulk_action(self, connection, actions, obj_type, max_objects):
+        """Performs a bulk action on a list of objects.
+
+        This method is strongly preferred over the atomic `save` method, because
+        it provides better performance.
 
         :returns: Elasticsearch identifiers of all indexed objects
         :rtype: list
