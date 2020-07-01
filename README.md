@@ -11,9 +11,23 @@ Make sure this library is installed:
 
 ## Usage
 
-You can then use `rac_es` in your python scripts by importing it:
+You can then use `rac_es` in your Python code by importing it:
 
     import rac_es
+
+
+## What's Here
+
+### Analyzers
+
+rac_es includes analyzers which provide custom processing of text fields.
+
+### Documents
+
+The Elasticsearch Document definitions in rac_es match the four main object
+types in the RAC data model: Agents, Collections, Objects and Terms. In addition
+to these definitions, rac_es provides custom search and save methods for these
+Documents, including bulk save and delete methods.
 
 
 ## License
