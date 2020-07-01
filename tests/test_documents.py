@@ -99,7 +99,6 @@ class TestDocuments(unittest.TestCase):
                 indexed = doc_cls.bulk_action(
                     self.connection,
                     self.prepare_streaming(doc_cls, dir, op_type),
-                    dir,
                     1000)
                 expected = len(indexed) if op_type == "index" else 0
                 self.assertEqual(

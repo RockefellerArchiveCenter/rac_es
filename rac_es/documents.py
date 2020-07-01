@@ -179,7 +179,7 @@ class BaseDescriptionComponent(es.Document):
         return doc
 
     @classmethod
-    def bulk_action(self, connection, actions, obj_type, max_objects):
+    def bulk_action(self, connection, actions, max_objects=None):
         """Performs a bulk action on a list of objects.
 
         This method is strongly preferred over the atomic `save` method, because
@@ -198,7 +198,7 @@ class BaseDescriptionComponent(es.Document):
             else:
                 indexed.append(result["_id"])
                 indexed_count += 1
-            if indexed_count == max_objects:
+            if max_objects and indexed_count == max_objects:
                 break
         return indexed
 
