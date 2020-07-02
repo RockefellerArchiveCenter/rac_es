@@ -137,6 +137,7 @@ class BaseDescriptionComponent(es.Document):
         fields={
             'keyword': es.Keyword()})
     type = es.Text(required=True, fields={'keyword': es.Keyword()})
+    uri = es.Keyword(required=True)
 
     @classmethod
     def _matches(cls, hit):
