@@ -47,7 +47,6 @@ class ExternalIdentifier(es.InnerDoc):
     """
     identifier = es.Text(required=True)
     source = es.Text(required=True)
-    source_identifier = es.Text()
 
 
 class Extent(es.InnerDoc):
@@ -144,23 +143,6 @@ class BaseDescriptionComponent(es.Document):
         """Ensures that this class is never used for deserialization."""
         return False
 
-    def add_source_identifier_fields(self):
-        """Adds source_identifier fields to BaseDescriptionComponents.
-
-        source_identifier fields are a concatenation of the source and identifier,
-        creating a unique identifier that can be searched.
-        """
-        for e in self.external_identifiers:
-            e.source_identifier = "{}_{}".format(e.source, e.identifier)
-        try:
-            for relation in self.relations_in_self:
-                for obj in getattr(self, relation):
-                    for e in obj.external_identifiers:
-                        e.source_identifier = "{}_{}".format(
-                            e.source, e.identifier)
-        except AttributeError:
-            pass
-
     class Index:
         name = 'default'
 
@@ -174,7 +156,6 @@ class BaseDescriptionComponent(es.Document):
         :rtype: dict
         """
         self.meta.id = identifier
-        self.add_source_identifier_fields()
         doc = self.to_dict(True)
         doc["_op_type"] = op_type
         return doc
@@ -205,7 +186,6 @@ class BaseDescriptionComponent(es.Document):
 
     def save(self, **kwargs):
         """Adds custom save behaviors for BaseDescriptionComponents."""
-        self.add_source_identifier_fields()
         return super(BaseDescriptionComponent, self).save(
             refresh=True, **kwargs)
 
