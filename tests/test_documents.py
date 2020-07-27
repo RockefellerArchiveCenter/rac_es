@@ -35,22 +35,6 @@ class TestDocuments(unittest.TestCase):
         shortuuid.set_alphabet('23456789abcdefghijkmnopqrstuvwxyz')
         return shortuuid.uuid(name=uri)
 
-    def check_source_identifiers(self, doc):
-        for e in doc.external_identifiers:
-            self.assertEqual(
-                e.source_identifier, "{}_{}".format(e.source, e.identifier),
-                "`source_identifier` value in {} `external_identifiers` did not match expected.".format(doc))
-        try:
-            for relation in doc.relations_in_self:
-                for obj in getattr(doc, relation):
-                    for e in obj.external_identifiers:
-                        self.assertEqual(
-                            e.source_identifier, "{}_{}".format(
-                                e.source, e.identifier),
-                            "`source_identifier` value in {} {} did not match expected.".format(doc, relation))
-        except AttributeError:
-            pass
-
     def test_document_methods(self):
         total_count = 0
         for doc_cls, dir in TYPE_MAP:
@@ -62,7 +46,6 @@ class TestDocuments(unittest.TestCase):
                     doc.meta.id = self.identifier_from_uri(data["uri"])
                     doc.save()
                     doc_count += 1
-                self.check_source_identifiers(doc)
             total_count += doc_count
             self.assertEqual(
                 doc_cls.search().count(), doc_count,
