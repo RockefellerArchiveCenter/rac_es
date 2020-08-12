@@ -198,6 +198,9 @@ class Agent(BaseDescriptionComponent):
             'keyword': es.Keyword()})
     dates = es.Object(Date)
     notes = es.Nested(Note)
+    people = es.Nested(Reference)
+    organizations = es.Nested(Reference)
+    families = es.Nested(Reference)
 
     @classmethod
     def search(cls, **kwargs):
@@ -221,11 +224,16 @@ class Collection(BaseDescriptionComponent):
     level = es.Text(fields={'keyword': es.Keyword()})
     notes = es.Nested(Note)
     rights_statements = es.Nested(RightsStatement)
-    agents = es.Nested(Reference)
+    people = es.Nested(Reference)
+    organizations = es.Nested(Reference)
+    families = es.Nested(Reference)
     ancestors = es.Nested(Reference)
     children = es.Nested(Reference)
     creators = es.Nested(Reference)
     terms = es.Nested(Reference)
+    online = es.Boolean()
+    formats = es.Text(fields={'keyword': es.Keyword()})
+    top_collection = es.Text(fields={'keyword': es.Keyword()})
 
     @classmethod
     def search(cls, **kwargs):
@@ -242,9 +250,14 @@ class Object(BaseDescriptionComponent):
     extents = es.Nested(Extent)
     notes = es.Nested(Note)
     rights_statements = es.Nested(RightsStatement)
-    agents = es.Nested(Reference)
+    people = es.Nested(Reference)
+    organizations = es.Nested(Reference)
+    families = es.Nested(Reference)
     ancestors = es.Nested(Reference)
     terms = es.Nested(Reference)
+    online = es.Boolean()
+    formats = es.Text(fields={'keyword': es.Keyword()})
+    top_collection = es.Text(fields={'keyword': es.Keyword()})
 
     @classmethod
     def search(cls, **kwargs):
