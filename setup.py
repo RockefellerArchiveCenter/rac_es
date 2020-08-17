@@ -18,5 +18,5 @@ setup(
         'elasticsearch_dsl',
     ],
     test_suite='nose.collector',
-    tests_require=['nose', 'shortuuid'],
+    tests_require=['nose', 'coverage'],
     zip_safe=False)
