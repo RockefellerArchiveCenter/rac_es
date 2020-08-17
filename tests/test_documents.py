@@ -2,7 +2,6 @@ import json
 import os
 import unittest
 
-import shortuuid
 from elasticsearch.exceptions import NotFoundError
 from elasticsearch_dsl import connections
 from rac_es.documents import (Agent, BaseDescriptionComponent, Collection,
@@ -31,10 +30,6 @@ class TestDocuments(unittest.TestCase):
             pass
         BaseDescriptionComponent.init()
 
-    def identifier_from_uri(self, uri):
-        shortuuid.set_alphabet('23456789abcdefghijkmnopqrstuvwxyz')
-        return shortuuid.uuid(name=uri)
-
     def test_document_methods(self):
         total_count = 0
         for doc_cls, dir in TYPE_MAP:
@@ -43,7 +38,7 @@ class TestDocuments(unittest.TestCase):
                 with open(os.path.join(FIXTURES_DIR, dir, f), "r") as jf:
                     data = json.load(jf)
                     doc = doc_cls(**data)
-                    doc.meta.id = self.identifier_from_uri(data["uri"])
+                    doc.meta.id = data["uri"].split("/")[-1]
                     doc.save()
                     doc_count += 1
             total_count += doc_count
@@ -55,7 +50,7 @@ class TestDocuments(unittest.TestCase):
             with open(os.path.join(FIXTURES_DIR, "collection", f), "r") as jf:
                 data = json.load(jf)
                 doc = doc_cls(**data)
-                doc.meta.id = self.identifier_from_uri(data["uri"])
+                doc.meta.id = data["uri"].split("/")[-1]
                 doc.save()
 
         self.assertEqual(
@@ -67,7 +62,7 @@ class TestDocuments(unittest.TestCase):
             with open(os.path.join(FIXTURES_DIR, dir, f), "r") as jf:
                 data = json.load(jf)
                 doc = doc_cls(**data)
-                ident = self.identifier_from_uri(data["uri"])
+                ident = data["uri"].split("/")[-1]
                 streaming_dict = doc.prepare_streaming_dict(
                     ident, op_type)
                 self.assertTrue(isinstance(streaming_dict, dict))
