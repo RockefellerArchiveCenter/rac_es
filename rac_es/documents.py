@@ -63,7 +63,7 @@ class Language(es.InnerDoc):
 
 class Subnote(es.InnerDoc):
     """Abstract wrapper for note content, associated with Note Documents."""
-    content = es.Text(required=True, analyzer=base_analyzer)
+    content = es.Text(analyzer=base_analyzer)
     type = es.Text(required=True)
 
 
@@ -137,6 +137,7 @@ class BaseDescriptionComponent(es.Document):
             'keyword': es.Keyword()})
     type = es.Text(required=True, fields={'keyword': es.Keyword()})
     uri = es.Keyword(required=True)
+    group = es.Keyword(required=True)
 
     @classmethod
     def _matches(cls, hit):
@@ -233,7 +234,6 @@ class Collection(BaseDescriptionComponent):
     terms = es.Nested(Reference)
     online = es.Boolean()
     formats = es.Text(fields={'keyword': es.Keyword()})
-    top_collection = es.Text(fields={'keyword': es.Keyword()})
 
     @classmethod
     def search(cls, **kwargs):
@@ -257,7 +257,6 @@ class Object(BaseDescriptionComponent):
     terms = es.Nested(Reference)
     online = es.Boolean()
     formats = es.Text(fields={'keyword': es.Keyword()})
-    top_collection = es.Text(fields={'keyword': es.Keyword()})
 
     @classmethod
     def search(cls, **kwargs):
