@@ -1,0 +1,192 @@
+{
+    "ancestors": [
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/2",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "n4z5jafejmf3zbuvydxz76iz95",
+            "level": "series",
+            "order": null,
+            "title": "Laboratory Administration",
+            "type": "collection"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/resources/1",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "z96u8h8tuefmbjixtxjta2iun5",
+            "level": "collection",
+            "order": null,
+            "title": "Max Bergmann papers, Rockefeller Institute for Medical Research Scientific Staff",
+            "type": "collection"
+        }
+    ],
+    "category": "collections",
+    "children": [
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/181",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "uxsry6zwvih4yimoa4hsyykyw3",
+            "level": "file",
+            "order": 0,
+            "title": "I. Miscellaneous Correspondence",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/182",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "fzmsc6boqiwf4xv73h2qkfsi55",
+            "level": "file",
+            "order": 1,
+            "title": "II. Invitations to Meetings",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/183",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "s8bgvnpcdirgoj2mpsvo758w33",
+            "level": "file",
+            "order": 2,
+            "title": "III. Reports",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/184",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "62iaub5hcxbf9t7c5tstnbr7q2",
+            "level": "file",
+            "order": 3,
+            "title": "IV. Samples Sent",
+            "type": "object"
+        }
+    ],
+    "creators": [
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/agents/people/2",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "td2maroavg5nsnm7kq88xeous2",
+            "relator": null,
+            "role": "creator",
+            "title": "Bergmann, M. (Max)",
+            "type": "person"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/agents/corporate_entities/3",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "fqbk2vnjpm2aa5ndjzpm9uz2h3",
+            "relator": null,
+            "role": "creator",
+            "title": "Rockefeller University",
+            "type": "organization"
+        }
+    ],
+    "dates": [
+        {
+            "begin": "1934",
+            "end": "1946",
+            "expression": "1934\u20131946 (bulk 1941\u20131944)",
+            "label": "creation",
+            "source": "archivesspace",
+            "type": "inclusive"
+        },
+        {
+            "begin": "1941",
+            "end": "1944",
+            "expression": "1941-1944",
+            "label": "creation",
+            "source": "archivesspace",
+            "type": "bulk"
+        }
+    ],
+    "extents": [
+        {
+            "type": "Cubic Feet",
+            "value": "3.5"
+        }
+    ],
+    "external_identifiers": [
+        {
+            "identifier": "/repositories/2/archival_objects/97",
+            "source": "archivesspace"
+        }
+    ],
+    "families": [],
+    "formats": [
+        "documents"
+    ],
+    "group": "/collections/z96u8h8tuefmbjixtxjta2iun5",
+    "languages": [
+        {
+            "expression": "English",
+            "identifier": "eng"
+        }
+    ],
+    "level": "file",
+    "notes": [],
+    "online": false,
+    "organizations": [
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/agents/corporate_entities/3",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "fqbk2vnjpm2aa5ndjzpm9uz2h3",
+            "relator": null,
+            "role": "creator",
+            "title": "Rockefeller University",
+            "type": "organization"
+        }
+    ],
+    "people": [
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/agents/people/2",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "td2maroavg5nsnm7kq88xeous2",
+            "relator": null,
+            "role": "creator",
+            "title": "Bergmann, M. (Max)",
+            "type": "person"
+        }
+    ],
+    "rights": [],
+    "terms": [],
+    "title": "Smith, Homer W.",
+    "type": "collection",
+    "uri": "/collections/xkwjypv5gr5bu48tepizd3izy4"
+}

@@ -1,0 +1,34 @@
+{
+    "agent_type": "person",
+    "category": "people",
+    "dates": [],
+    "description": null,
+    "external_identifiers": [
+        {
+            "identifier": "/agents/people/1887",
+            "source": "archivesspace"
+        }
+    ],
+    "families": [],
+    "group": "/agents/k5coqid7y257vjvqgzzy7p2dh2",
+    "notes": [],
+    "organizations": [],
+    "people": [
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/agents/people/1887",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "k5coqid7y257vjvqgzzy7p2dh2",
+            "relator": null,
+            "role": "creator",
+            "title": "Van Wie, Diane",
+            "type": "person"
+        }
+    ],
+    "title": "Van Wie, Diane",
+    "type": "agent",
+    "uri": "/agents/k5coqid7y257vjvqgzzy7p2dh2"
+}

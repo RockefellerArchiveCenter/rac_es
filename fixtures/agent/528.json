@@ -1,0 +1,34 @@
+{
+    "agent_type": "person",
+    "category": "people",
+    "dates": [],
+    "description": null,
+    "external_identifiers": [
+        {
+            "identifier": "/agents/people/528",
+            "source": "archivesspace"
+        }
+    ],
+    "families": [],
+    "group": "/agents/tv2tbdofybrpskebujhdvsbxa3",
+    "notes": [],
+    "organizations": [],
+    "people": [
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/agents/people/528",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "tv2tbdofybrpskebujhdvsbxa3",
+            "relator": null,
+            "role": "creator",
+            "title": "Hinman, George",
+            "type": "person"
+        }
+    ],
+    "title": "Hinman, George",
+    "type": "agent",
+    "uri": "/agents/tv2tbdofybrpskebujhdvsbxa3"
+}

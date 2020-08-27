@@ -1,0 +1,34 @@
+{
+    "agent_type": "organization",
+    "category": "organizations",
+    "dates": [],
+    "description": null,
+    "external_identifiers": [
+        {
+            "identifier": "/agents/corporate_entities/20013",
+            "source": "archivesspace"
+        }
+    ],
+    "families": [],
+    "group": "/agents/m8v8jjpuub675auq9kv3owk4j3",
+    "notes": [],
+    "organizations": [
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/agents/corporate_entities/20013",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "m8v8jjpuub675auq9kv3owk4j3",
+            "relator": null,
+            "role": "creator",
+            "title": "Rockefeller Foundation. International Health Division",
+            "type": "organization"
+        }
+    ],
+    "people": [],
+    "title": "Rockefeller Foundation. International Health Division",
+    "type": "agent",
+    "uri": "/agents/m8v8jjpuub675auq9kv3owk4j3"
+}

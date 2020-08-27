@@ -1,0 +1,43 @@
+{
+    "agent_type": "person",
+    "category": "people",
+    "dates": [
+        {
+            "begin": "1908",
+            "end": "1979",
+            "expression": "1908-1979",
+            "label": "existence",
+            "source": "archivesspace",
+            "type": "inclusive"
+        }
+    ],
+    "description": null,
+    "external_identifiers": [
+        {
+            "identifier": "/agents/people/147",
+            "source": "archivesspace"
+        }
+    ],
+    "families": [],
+    "group": "/agents/z4n8jwpqpomksa6vtzfgwaf9n5",
+    "notes": [],
+    "organizations": [],
+    "people": [
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/agents/people/147",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "z4n8jwpqpomksa6vtzfgwaf9n5",
+            "relator": null,
+            "role": "creator",
+            "title": "Rockefeller, Nelson A. (Nelson Aldrich)",
+            "type": "person"
+        }
+    ],
+    "title": "Rockefeller, Nelson A. (Nelson Aldrich)",
+    "type": "agent",
+    "uri": "/agents/z4n8jwpqpomksa6vtzfgwaf9n5"
+}

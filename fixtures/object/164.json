@@ -1,0 +1,91 @@
+{
+    "ancestors": [
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/90",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "txsqyd8zaqhit9pww9mttf8ve3",
+            "level": "file",
+            "order": null,
+            "title": "Receipts",
+            "type": "collection"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/2",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "n4z5jafejmf3zbuvydxz76iz95",
+            "level": "series",
+            "order": null,
+            "title": "Laboratory Administration",
+            "type": "collection"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/resources/1",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "z96u8h8tuefmbjixtxjta2iun5",
+            "level": "collection",
+            "order": null,
+            "title": "Max Bergmann papers, Rockefeller Institute for Medical Research Scientific Staff",
+            "type": "collection"
+        }
+    ],
+    "category": "collections",
+    "dates": [
+        {
+            "begin": "1941",
+            "end": "1945",
+            "expression": "1941\u20131945",
+            "label": "creation",
+            "source": "archivesspace",
+            "type": "inclusive"
+        }
+    ],
+    "extents": [
+        {
+            "type": "folder",
+            "value": "1"
+        },
+        {
+            "type": "folder",
+            "value": "1"
+        }
+    ],
+    "external_identifiers": [
+        {
+            "identifier": "/repositories/2/archival_objects/164",
+            "source": "archivesspace"
+        }
+    ],
+    "families": [],
+    "formats": [
+        "documents"
+    ],
+    "group": "/collections/z96u8h8tuefmbjixtxjta2iun5",
+    "languages": [
+        {
+            "expression": "English",
+            "identifier": "eng"
+        }
+    ],
+    "notes": [],
+    "online": false,
+    "organizations": [],
+    "people": [],
+    "rights": [],
+    "terms": [],
+    "title": "B reports (2 folders)",
+    "tree_position": 1,
+    "type": "object",
+    "uri": "/objects/nfzjw5h6udw42sfpz75fudh9h4"
+}

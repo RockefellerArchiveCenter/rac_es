@@ -1,0 +1,379 @@
+{
+    "ancestors": [
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/3",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "3pnr9kariwnqpin5fohkv2hzs2",
+            "level": "series",
+            "order": null,
+            "title": "Research",
+            "type": "collection"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/resources/1",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "z96u8h8tuefmbjixtxjta2iun5",
+            "level": "collection",
+            "order": null,
+            "title": "Max Bergmann papers, Rockefeller Institute for Medical Research Scientific Staff",
+            "type": "collection"
+        }
+    ],
+    "category": "collections",
+    "children": [
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/201",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "p96n9tprjcjdpqscwpr9vwxyv2",
+            "level": "file",
+            "order": 0,
+            "title": "December",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/202",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "c57rav68jwur6uhnynqdppz6j4",
+            "level": "file",
+            "order": 1,
+            "title": "January \u2013 February",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/203",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "dwc5xs3f3eofzncfenhiq32r23",
+            "level": "file",
+            "order": 2,
+            "title": "March \u2013 April",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/204",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "romzm7aakxkeyszx4n5myo6ub3",
+            "level": "file",
+            "order": 3,
+            "title": "May \u2013 June",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/205",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "ftdq8gm3bzwym2vwqxk7c3que5",
+            "level": "file",
+            "order": 4,
+            "title": "July \u2013 August",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/206",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "mx4hw6chugstwxn4y4cqit8fn5",
+            "level": "file",
+            "order": 5,
+            "title": "September \u2013 October",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/207",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "chkecvbzcep3iw3kzukaywpw54",
+            "level": "file",
+            "order": 6,
+            "title": "November \u2013 December",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/208",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "xk6h3em3b43egoukk85gbk4ed5",
+            "level": "file",
+            "order": 7,
+            "title": "January \u2013 February",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/209",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "3tezt3uysv4sa4umiy9oqesbd5",
+            "level": "file",
+            "order": 8,
+            "title": "March \u2013 April",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/210",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "2dtie45rkows3ikkqyum4mhs84",
+            "level": "file",
+            "order": 9,
+            "title": "May \u2013 June",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/211",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "9aa2kffmuz53o5tuuw82b29zt3",
+            "level": "file",
+            "order": 10,
+            "title": "July \u2013 August",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/212",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "mcgsuksxfzvcw4m6qtk96wdx83",
+            "level": "file",
+            "order": 11,
+            "title": "September \u2013 October",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/213",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "bqv8bgntikmhykk5rvonruj6z3",
+            "level": "file",
+            "order": 12,
+            "title": "November \u2013 December",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/214",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "p5g9nibov2fsftmpnytv2yfqd3",
+            "level": "file",
+            "order": 13,
+            "title": "January \u2013 February",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/215",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "vmkxppbnn3uytxrvgeiss8zkq4",
+            "level": "file",
+            "order": 14,
+            "title": "March \u2013 April",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/216",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "zd5jvsodo5nsvdo9r4tnwitsr2",
+            "level": "file",
+            "order": 15,
+            "title": "May \u2013 June",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/217",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "phtzubburdqg389f4ph7kf4hw3",
+            "level": "file",
+            "order": 16,
+            "title": "July \u2013 August",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/218",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "7vwiqny5cya9ixdtznw4bxv5p2",
+            "level": "file",
+            "order": 17,
+            "title": "September \u2013 October",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/219",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "kaxvcqyzekg7h7h5pn6iy9wrq4",
+            "level": "file",
+            "order": 18,
+            "title": "November \u2013 December",
+            "type": "object"
+        }
+    ],
+    "creators": [
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/agents/people/2",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "td2maroavg5nsnm7kq88xeous2",
+            "relator": null,
+            "role": "creator",
+            "title": "Bergmann, M. (Max)",
+            "type": "person"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/agents/corporate_entities/3",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "fqbk2vnjpm2aa5ndjzpm9uz2h3",
+            "relator": null,
+            "role": "creator",
+            "title": "Rockefeller University",
+            "type": "organization"
+        }
+    ],
+    "dates": [
+        {
+            "begin": "1940",
+            "end": "1946",
+            "expression": "1940\u20131946",
+            "label": "creation",
+            "source": "archivesspace",
+            "type": "inclusive"
+        }
+    ],
+    "extents": [
+        {
+            "type": "Cubic Feet",
+            "value": "1.1"
+        }
+    ],
+    "external_identifiers": [
+        {
+            "identifier": "/repositories/2/archival_objects/117",
+            "source": "archivesspace"
+        }
+    ],
+    "families": [],
+    "formats": [
+        "documents"
+    ],
+    "group": "/collections/z96u8h8tuefmbjixtxjta2iun5",
+    "languages": [
+        {
+            "expression": "English",
+            "identifier": "eng"
+        }
+    ],
+    "level": "file",
+    "notes": [],
+    "online": false,
+    "organizations": [
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/agents/corporate_entities/3",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "fqbk2vnjpm2aa5ndjzpm9uz2h3",
+            "relator": null,
+            "role": "creator",
+            "title": "Rockefeller University",
+            "type": "organization"
+        }
+    ],
+    "people": [
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/agents/people/2",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "td2maroavg5nsnm7kq88xeous2",
+            "relator": null,
+            "role": "creator",
+            "title": "Bergmann, M. (Max)",
+            "type": "person"
+        }
+    ],
+    "rights": [],
+    "terms": [],
+    "title": "Informal Progress Reports",
+    "type": "collection",
+    "uri": "/collections/kvipspf37873ga9urxf36dbc35"
+}

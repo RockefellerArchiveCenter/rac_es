@@ -1,0 +1,34 @@
+{
+    "agent_type": "organization",
+    "category": "organizations",
+    "dates": [],
+    "description": null,
+    "external_identifiers": [
+        {
+            "identifier": "/agents/corporate_entities/187",
+            "source": "archivesspace"
+        }
+    ],
+    "families": [],
+    "group": "/agents/icf63wbknyhdrpoymkr9qj58a3",
+    "notes": [],
+    "organizations": [
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/agents/corporate_entities/187",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "icf63wbknyhdrpoymkr9qj58a3",
+            "relator": null,
+            "role": "creator",
+            "title": "United States. Dept. of State. Bureau of Western Hemisphere Affairs",
+            "type": "organization"
+        }
+    ],
+    "people": [],
+    "title": "United States. Dept. of State. Bureau of Western Hemisphere Affairs",
+    "type": "agent",
+    "uri": "/agents/icf63wbknyhdrpoymkr9qj58a3"
+}

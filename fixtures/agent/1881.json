@@ -1,0 +1,34 @@
+{
+    "agent_type": "person",
+    "category": "people",
+    "dates": [],
+    "description": null,
+    "external_identifiers": [
+        {
+            "identifier": "/agents/people/1881",
+            "source": "archivesspace"
+        }
+    ],
+    "families": [],
+    "group": "/agents/ayrfo88b9zbqiha5dum5z85682",
+    "notes": [],
+    "organizations": [],
+    "people": [
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/agents/people/1881",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "ayrfo88b9zbqiha5dum5z85682",
+            "relator": null,
+            "role": "creator",
+            "title": "Uht, Carol Kinzel",
+            "type": "person"
+        }
+    ],
+    "title": "Uht, Carol Kinzel",
+    "type": "agent",
+    "uri": "/agents/ayrfo88b9zbqiha5dum5z85682"
+}

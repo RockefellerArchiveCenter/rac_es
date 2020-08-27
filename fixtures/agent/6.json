@@ -1,0 +1,34 @@
+{
+    "agent_type": "family",
+    "category": "people",
+    "dates": [],
+    "description": null,
+    "external_identifiers": [
+        {
+            "identifier": "/agents/families/6",
+            "source": "archivesspace"
+        }
+    ],
+    "families": [
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/agents/families/6",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "bc6ii3i42663mstu4urg7i4c83",
+            "relator": null,
+            "role": "creator",
+            "title": "Rockefeller family",
+            "type": "family"
+        }
+    ],
+    "group": "/agents/bc6ii3i42663mstu4urg7i4c83",
+    "notes": [],
+    "organizations": [],
+    "people": [],
+    "title": "Rockefeller family",
+    "type": "agent",
+    "uri": "/agents/bc6ii3i42663mstu4urg7i4c83"
+}

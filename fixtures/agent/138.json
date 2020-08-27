@@ -1,0 +1,43 @@
+{
+    "agent_type": "person",
+    "category": "people",
+    "dates": [
+        {
+            "begin": "1915",
+            "end": "1915",
+            "expression": "1915-",
+            "label": "existence",
+            "source": "archivesspace",
+            "type": "single"
+        }
+    ],
+    "description": null,
+    "external_identifiers": [
+        {
+            "identifier": "/agents/people/138",
+            "source": "archivesspace"
+        }
+    ],
+    "families": [],
+    "group": "/agents/3ba7nur6r4x38r226x3khsz9n5",
+    "notes": [],
+    "organizations": [],
+    "people": [
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/agents/people/138",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "3ba7nur6r4x38r226x3khsz9n5",
+            "relator": null,
+            "role": "creator",
+            "title": "Rockefeller, David",
+            "type": "person"
+        }
+    ],
+    "title": "Rockefeller, David",
+    "type": "agent",
+    "uri": "/agents/3ba7nur6r4x38r226x3khsz9n5"
+}

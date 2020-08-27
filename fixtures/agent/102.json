@@ -1,0 +1,34 @@
+{
+    "agent_type": "organization",
+    "category": "organizations",
+    "dates": [],
+    "description": null,
+    "external_identifiers": [
+        {
+            "identifier": "/agents/corporate_entities/102",
+            "source": "archivesspace"
+        }
+    ],
+    "families": [],
+    "group": "/agents/to4tqsrykjc86u4bcvs5kf8zu3",
+    "notes": [],
+    "organizations": [
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/agents/corporate_entities/102",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "to4tqsrykjc86u4bcvs5kf8zu3",
+            "relator": null,
+            "role": "creator",
+            "title": "Peking. Union Medical College",
+            "type": "organization"
+        }
+    ],
+    "people": [],
+    "title": "Peking. Union Medical College",
+    "type": "agent",
+    "uri": "/agents/to4tqsrykjc86u4bcvs5kf8zu3"
+}

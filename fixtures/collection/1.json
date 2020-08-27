@@ -1,0 +1,290 @@
+{
+    "ancestors": [
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/resources/1",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "z96u8h8tuefmbjixtxjta2iun5",
+            "level": "collection",
+            "order": null,
+            "title": "Max Bergmann papers, Rockefeller Institute for Medical Research Scientific Staff",
+            "type": "collection"
+        }
+    ],
+    "category": "collections",
+    "children": [
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/7",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "hnsymowhy5tqwvp6u52mdprqu3",
+            "level": "file",
+            "order": 0,
+            "title": "American Philosophical Society Library: Max Bergmann Papers",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/8",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "tnsspqmynqfsjz8hwo5853mk75",
+            "level": "file",
+            "order": 1,
+            "title": "Diaries, See logbooks",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/9",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "tptaxc3km8ju8sn8avr2zy7844",
+            "level": "file",
+            "order": 2,
+            "title": "Bergmann, Martha",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/10",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "xbygeeesb7wjxxygdx73ix8ta2",
+            "level": "file",
+            "order": 3,
+            "title": "Biographical Synopses",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/11",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "pfeguwaqpwqvuboem3hzm9j5t4",
+            "level": "file",
+            "order": 4,
+            "title": "Correspondence",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/12",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "ywy25erua6prx8n4dxmsq35zn3",
+            "level": "file",
+            "order": 5,
+            "title": "Funeral Service",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/13",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "pzcu96evy9yyo3sztg5wsonb92",
+            "level": "file",
+            "order": 6,
+            "title": "Naturalization Documents",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/14",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "52agoswpueryb5syin7k2ovfk2",
+            "level": "file",
+            "order": 7,
+            "title": "Photographs",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/15",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "8rziaq7wzac2c4s8vzhq9epqv4",
+            "level": "file",
+            "order": 8,
+            "title": "Physical Examinations",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/16",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "gwiw4tt7gtws74mnocpsz86io5",
+            "level": "file",
+            "order": 9,
+            "title": "Scientific Periodicals and Books from the Library of Dr. Max Bergmann",
+            "type": "object"
+        }
+    ],
+    "creators": [
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/agents/people/2",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "td2maroavg5nsnm7kq88xeous2",
+            "relator": null,
+            "role": "creator",
+            "title": "Bergmann, M. (Max)",
+            "type": "person"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/agents/corporate_entities/3",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "fqbk2vnjpm2aa5ndjzpm9uz2h3",
+            "relator": null,
+            "role": "creator",
+            "title": "Rockefeller University",
+            "type": "organization"
+        }
+    ],
+    "dates": [
+        {
+            "begin": "1886",
+            "end": "1961",
+            "expression": "1886\u20131961 (bulk 1933\u20131946)",
+            "label": "creation",
+            "source": "archivesspace",
+            "type": "inclusive"
+        },
+        {
+            "begin": "1933",
+            "end": "1946",
+            "expression": "1933-1946",
+            "label": "creation",
+            "source": "archivesspace",
+            "type": "bulk"
+        }
+    ],
+    "extents": [
+        {
+            "type": "Cubic Feet",
+            "value": "0.2"
+        },
+        {
+            "type": "Cubic Feet",
+            "value": "0.2"
+        }
+    ],
+    "external_identifiers": [
+        {
+            "identifier": "/repositories/2/archival_objects/1",
+            "source": "archivesspace"
+        }
+    ],
+    "families": [],
+    "formats": [
+        "documents"
+    ],
+    "group": "/collections/z96u8h8tuefmbjixtxjta2iun5",
+    "languages": [
+        {
+            "expression": "English",
+            "identifier": "eng"
+        }
+    ],
+    "level": "series",
+    "notes": [
+        {
+            "source": "archivesspace",
+            "subnotes": [
+                {
+                    "content": [
+                        "Alphabetical by subject or format."
+                    ],
+                    "items": [],
+                    "type": "text"
+                }
+            ],
+            "title": "Arrangement:",
+            "type": "multipart"
+        },
+        {
+            "source": "archivesspace",
+            "subnotes": [
+                {
+                    "content": [
+                        "This series consists primarily of Bergmann's correspondence from 1934\u20131944 documenting his appointment to the Rockefeller Institute of Medical Research (RIMR), arrangements for his arrival in the U.S., efforts to gain immigrant status, retiring allowances, and RIMR administrative matters. Correspondents include Simon Flexner, H. T. Clarke, and J. B. Conant. The series also documents Bergmann's death and his funeral service held at RIMR, including a biographical memoir written by Joseph S. Fruton that was used in the Memorial Minute adopted by the Board of Scientific Directors and a short address delivered by Fruton at the funeral service. Other biographical records consist of copies of documents submitted for naturalization, including Bergmann's birth certificate, prison record, and marriage certificate, all of which are in German. Also included are several photographs of Bergmann, a listing of periodicals and books from Bergmann's library that were made available for purchase by Joseph Fruton following Bergmann's death, and a copy of the collection description and inventory for the Max Bergmann papers housed at the American Philosophical Society Library."
+                    ],
+                    "items": [],
+                    "type": "text"
+                }
+            ],
+            "title": "Summary:",
+            "type": "multipart"
+        }
+    ],
+    "online": false,
+    "organizations": [
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/agents/corporate_entities/3",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "fqbk2vnjpm2aa5ndjzpm9uz2h3",
+            "relator": null,
+            "role": "creator",
+            "title": "Rockefeller University",
+            "type": "organization"
+        }
+    ],
+    "people": [
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/agents/people/2",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "td2maroavg5nsnm7kq88xeous2",
+            "relator": null,
+            "role": "creator",
+            "title": "Bergmann, M. (Max)",
+            "type": "person"
+        }
+    ],
+    "rights": [],
+    "terms": [],
+    "title": "Personal",
+    "type": "collection",
+    "uri": "/collections/rg8ia6yvtv63buq4sg3jpsdph4"
+}
