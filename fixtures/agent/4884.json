@@ -1,0 +1,34 @@
+{
+    "agent_type": "organization",
+    "category": "organizations",
+    "dates": [],
+    "description": null,
+    "external_identifiers": [
+        {
+            "identifier": "/agents/corporate_entities/4884",
+            "source": "archivesspace"
+        }
+    ],
+    "families": [],
+    "group": "/agents/7qbtwmjq3ejv5g7kpi89jd39o3",
+    "notes": [],
+    "organizations": [
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/agents/corporate_entities/4884",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "7qbtwmjq3ejv5g7kpi89jd39o3",
+            "relator": null,
+            "role": "creator",
+            "title": "Rockefeller Foundation",
+            "type": "organization"
+        }
+    ],
+    "people": [],
+    "title": "Rockefeller Foundation",
+    "type": "agent",
+    "uri": "/agents/7qbtwmjq3ejv5g7kpi89jd39o3"
+}

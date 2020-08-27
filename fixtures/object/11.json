@@ -1,0 +1,93 @@
+{
+    "ancestors": [
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/1",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "rg8ia6yvtv63buq4sg3jpsdph4",
+            "level": "series",
+            "order": null,
+            "title": "Personal",
+            "type": "collection"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/resources/1",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "z96u8h8tuefmbjixtxjta2iun5",
+            "level": "collection",
+            "order": null,
+            "title": "Max Bergmann papers, Rockefeller Institute for Medical Research Scientific Staff",
+            "type": "collection"
+        }
+    ],
+    "category": "collections",
+    "dates": [
+        {
+            "begin": "1933",
+            "end": "1944",
+            "expression": "1933\u20131944",
+            "label": "creation",
+            "source": "archivesspace",
+            "type": "inclusive"
+        }
+    ],
+    "extents": [
+        {
+            "type": "folder",
+            "value": "1"
+        },
+        {
+            "type": "folder",
+            "value": "1"
+        }
+    ],
+    "external_identifiers": [
+        {
+            "identifier": "/repositories/2/archival_objects/11",
+            "source": "archivesspace"
+        }
+    ],
+    "families": [],
+    "formats": [
+        "documents"
+    ],
+    "group": "/collections/z96u8h8tuefmbjixtxjta2iun5",
+    "languages": [
+        {
+            "expression": "English",
+            "identifier": "eng"
+        }
+    ],
+    "notes": [
+        {
+            "source": "archivesspace",
+            "subnotes": [
+                {
+                    "content": [
+                        "'2 folders'"
+                    ],
+                    "items": [],
+                    "type": "text"
+                }
+            ],
+            "title": "Container Summary",
+            "type": "singlepart"
+        }
+    ],
+    "online": false,
+    "organizations": [],
+    "people": [],
+    "rights": [],
+    "terms": [],
+    "title": "Correspondence",
+    "tree_position": 4,
+    "type": "object",
+    "uri": "/objects/pfeguwaqpwqvuboem3hzm9j5t4"
+}

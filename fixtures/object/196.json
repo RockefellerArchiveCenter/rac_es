@@ -1,0 +1,87 @@
+{
+    "ancestors": [
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/116",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "nnatfs7jmohtemjsi75zio3db2",
+            "level": "file",
+            "order": null,
+            "title": "Formal Progress Reports",
+            "type": "collection"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/3",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "3pnr9kariwnqpin5fohkv2hzs2",
+            "level": "series",
+            "order": null,
+            "title": "Research",
+            "type": "collection"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/resources/1",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "z96u8h8tuefmbjixtxjta2iun5",
+            "level": "collection",
+            "order": null,
+            "title": "Max Bergmann papers, Rockefeller Institute for Medical Research Scientific Staff",
+            "type": "collection"
+        }
+    ],
+    "category": "collections",
+    "dates": [
+        {
+            "begin": "1942",
+            "end": "1942",
+            "expression": "1942",
+            "label": "creation",
+            "source": "archivesspace",
+            "type": "inclusive"
+        }
+    ],
+    "extents": [
+        {
+            "type": "folder",
+            "value": "1"
+        }
+    ],
+    "external_identifiers": [
+        {
+            "identifier": "/repositories/2/archival_objects/196",
+            "source": "archivesspace"
+        }
+    ],
+    "families": [],
+    "formats": [
+        "documents"
+    ],
+    "group": "/collections/z96u8h8tuefmbjixtxjta2iun5",
+    "languages": [
+        {
+            "expression": "English",
+            "identifier": "eng"
+        }
+    ],
+    "notes": [],
+    "online": false,
+    "organizations": [],
+    "people": [],
+    "rights": [],
+    "terms": [],
+    "title": "N\u2013Nitroso\u2013N\u2013Chloroethylcarbamic Acid Methyl Ester (TL 186)",
+    "tree_position": 5,
+    "type": "object",
+    "uri": "/objects/hokuc5546knydf36su8ggrc2q3"
+}

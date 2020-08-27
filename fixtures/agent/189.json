@@ -1,0 +1,34 @@
+{
+    "agent_type": "organization",
+    "category": "organizations",
+    "dates": [],
+    "description": null,
+    "external_identifiers": [
+        {
+            "identifier": "/agents/corporate_entities/189",
+            "source": "archivesspace"
+        }
+    ],
+    "families": [],
+    "group": "/agents/49bz4pf7gbui8969nizxtci273",
+    "notes": [],
+    "organizations": [
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/agents/corporate_entities/189",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "49bz4pf7gbui8969nizxtci273",
+            "relator": null,
+            "role": "creator",
+            "title": "United States. President's Advisory Committee on Government Organization",
+            "type": "organization"
+        }
+    ],
+    "people": [],
+    "title": "United States. President's Advisory Committee on Government Organization",
+    "type": "agent",
+    "uri": "/agents/49bz4pf7gbui8969nizxtci273"
+}

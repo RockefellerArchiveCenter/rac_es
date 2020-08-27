@@ -1,0 +1,43 @@
+{
+    "agent_type": "person",
+    "category": "people",
+    "dates": [
+        {
+            "begin": "1908",
+            "end": "1908",
+            "expression": "1908-",
+            "label": "existence",
+            "source": "archivesspace",
+            "type": "single"
+        }
+    ],
+    "description": null,
+    "external_identifiers": [
+        {
+            "identifier": "/agents/people/529",
+            "source": "archivesspace"
+        }
+    ],
+    "families": [],
+    "group": "/agents/naacitagyhyysximvqngrvda42",
+    "notes": [],
+    "organizations": [],
+    "people": [
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/agents/people/529",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "naacitagyhyysximvqngrvda42",
+            "relator": null,
+            "role": "creator",
+            "title": "Whitman, Ann",
+            "type": "person"
+        }
+    ],
+    "title": "Whitman, Ann",
+    "type": "agent",
+    "uri": "/agents/naacitagyhyysximvqngrvda42"
+}

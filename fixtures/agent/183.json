@@ -1,0 +1,34 @@
+{
+    "agent_type": "organization",
+    "category": "organizations",
+    "dates": [],
+    "description": null,
+    "external_identifiers": [
+        {
+            "identifier": "/agents/corporate_entities/183",
+            "source": "archivesspace"
+        }
+    ],
+    "families": [],
+    "group": "/agents/whbg9rmqcxnkmpiq8savpyrdb5",
+    "notes": [],
+    "organizations": [
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/agents/corporate_entities/183",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "whbg9rmqcxnkmpiq8savpyrdb5",
+            "relator": null,
+            "role": "creator",
+            "title": "United States. International Development Advisory Board",
+            "type": "organization"
+        }
+    ],
+    "people": [],
+    "title": "United States. International Development Advisory Board",
+    "type": "agent",
+    "uri": "/agents/whbg9rmqcxnkmpiq8savpyrdb5"
+}

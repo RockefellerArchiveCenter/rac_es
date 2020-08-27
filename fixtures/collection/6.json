@@ -1,0 +1,177 @@
+{
+    "ancestors": [
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/resources/1",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "z96u8h8tuefmbjixtxjta2iun5",
+            "level": "collection",
+            "order": null,
+            "title": "Max Bergmann papers, Rockefeller Institute for Medical Research Scientific Staff",
+            "type": "collection"
+        }
+    ],
+    "category": "collections",
+    "children": [
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/158",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "dhryafwdqzo3f73si5zwdd2zm2",
+            "level": "file",
+            "order": 0,
+            "title": "Lantern slides",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/159",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "qpjwcew8c959r94e7wangbov55",
+            "level": "file",
+            "order": 1,
+            "title": "Lantern slides",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/160",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "k8ctu38qikwfu5hqv9hq3qgjv3",
+            "level": "file",
+            "order": 2,
+            "title": "Lantern slides",
+            "type": "object"
+        }
+    ],
+    "creators": [
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/agents/people/2",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "td2maroavg5nsnm7kq88xeous2",
+            "relator": null,
+            "role": "creator",
+            "title": "Bergmann, M. (Max)",
+            "type": "person"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/agents/corporate_entities/3",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "fqbk2vnjpm2aa5ndjzpm9uz2h3",
+            "relator": null,
+            "role": "creator",
+            "title": "Rockefeller University",
+            "type": "organization"
+        }
+    ],
+    "dates": [
+        {
+            "begin": "1900",
+            "end": "1900",
+            "expression": "Undated",
+            "label": "creation",
+            "source": "archivesspace",
+            "type": "single"
+        }
+    ],
+    "extents": [
+        {
+            "type": "Cubic Feet",
+            "value": "0.75"
+        },
+        {
+            "type": "Cubic Feet",
+            "value": "0.75"
+        }
+    ],
+    "external_identifiers": [
+        {
+            "identifier": "/repositories/2/archival_objects/6",
+            "source": "archivesspace"
+        }
+    ],
+    "families": [],
+    "formats": [
+        "documents"
+    ],
+    "group": "/collections/z96u8h8tuefmbjixtxjta2iun5",
+    "languages": [
+        {
+            "expression": "English",
+            "identifier": "eng"
+        }
+    ],
+    "level": "series",
+    "notes": [
+        {
+            "source": "archivesspace",
+            "subnotes": [
+                {
+                    "content": [
+                        "An item level inventory of the lantern slides is available here:"
+                    ],
+                    "items": [],
+                    "type": "text"
+                }
+            ],
+            "title": "Other Finding Aids",
+            "type": "multipart"
+        }
+    ],
+    "online": false,
+    "organizations": [
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/agents/corporate_entities/3",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "fqbk2vnjpm2aa5ndjzpm9uz2h3",
+            "relator": null,
+            "role": "creator",
+            "title": "Rockefeller University",
+            "type": "organization"
+        }
+    ],
+    "people": [
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/agents/people/2",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "td2maroavg5nsnm7kq88xeous2",
+            "relator": null,
+            "role": "creator",
+            "title": "Bergmann, M. (Max)",
+            "type": "person"
+        }
+    ],
+    "rights": [],
+    "terms": [],
+    "title": "Lantern Slides",
+    "type": "collection",
+    "uri": "/collections/3y5m8r7tfh7sffmctu3j3sf7i2"
+}

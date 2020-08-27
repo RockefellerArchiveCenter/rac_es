@@ -1,0 +1,270 @@
+{
+    "ancestors": [
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/2",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "n4z5jafejmf3zbuvydxz76iz95",
+            "level": "series",
+            "order": null,
+            "title": "Laboratory Administration",
+            "type": "collection"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/resources/1",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "z96u8h8tuefmbjixtxjta2iun5",
+            "level": "collection",
+            "order": null,
+            "title": "Max Bergmann papers, Rockefeller Institute for Medical Research Scientific Staff",
+            "type": "collection"
+        }
+    ],
+    "category": "collections",
+    "children": [
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/163",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "yuy2ujevgp6xkmqypw5s7835d5",
+            "level": "file",
+            "order": 0,
+            "title": "A reports",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/164",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "nfzjw5h6udw42sfpz75fudh9h4",
+            "level": "file",
+            "order": 1,
+            "title": "B reports (2 folders)",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/165",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "zicf7h3iegtash6nhahc53g6q3",
+            "level": "file",
+            "order": 2,
+            "title": "Bushnell Weekly News Letters",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/166",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "chdie8axq3niaxjdkigkgdfj82",
+            "level": "file",
+            "order": 3,
+            "title": "C reports",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/167",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "wfj2jmas8c6fz9hkm2hfw9vhj4",
+            "level": "file",
+            "order": 4,
+            "title": "CMR Reports",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/168",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "j3h977asvkcc637nsjkm35r6b5",
+            "level": "file",
+            "order": 5,
+            "title": "Miscellaneous",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/169",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "ozyrbnowfsi9dbbwbej3rmrb43",
+            "level": "file",
+            "order": 6,
+            "title": "Moore, Stanford",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/170",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "aqtmx4883bm7cq3fyj46fwdma2",
+            "level": "file",
+            "order": 7,
+            "title": "Progress Reports",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/171",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "vxykh79hysctpkywe3uumf6w43",
+            "level": "file",
+            "order": 8,
+            "title": "Reports Returned to Washington",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/172",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "w4euz9vvjdsf8wxea6hxmhr4d2",
+            "level": "file",
+            "order": 9,
+            "title": "Special Reports (2 folders)",
+            "type": "object"
+        }
+    ],
+    "creators": [
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/agents/people/2",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "td2maroavg5nsnm7kq88xeous2",
+            "relator": null,
+            "role": "creator",
+            "title": "Bergmann, M. (Max)",
+            "type": "person"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/agents/corporate_entities/3",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "fqbk2vnjpm2aa5ndjzpm9uz2h3",
+            "relator": null,
+            "role": "creator",
+            "title": "Rockefeller University",
+            "type": "organization"
+        }
+    ],
+    "dates": [
+        {
+            "begin": "1934",
+            "end": "1946",
+            "expression": "1934\u20131946 (bulk 1941\u20131944)",
+            "label": "creation",
+            "source": "archivesspace",
+            "type": "inclusive"
+        },
+        {
+            "begin": "1941",
+            "end": "1944",
+            "expression": "1941-1944",
+            "label": "creation",
+            "source": "archivesspace",
+            "type": "bulk"
+        }
+    ],
+    "extents": [
+        {
+            "type": "Cubic Feet",
+            "value": "3.5"
+        }
+    ],
+    "external_identifiers": [
+        {
+            "identifier": "/repositories/2/archival_objects/90",
+            "source": "archivesspace"
+        }
+    ],
+    "families": [],
+    "formats": [
+        "documents"
+    ],
+    "group": "/collections/z96u8h8tuefmbjixtxjta2iun5",
+    "languages": [
+        {
+            "expression": "English",
+            "identifier": "eng"
+        }
+    ],
+    "level": "file",
+    "notes": [],
+    "online": false,
+    "organizations": [
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/agents/corporate_entities/3",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "fqbk2vnjpm2aa5ndjzpm9uz2h3",
+            "relator": null,
+            "role": "creator",
+            "title": "Rockefeller University",
+            "type": "organization"
+        }
+    ],
+    "people": [
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/agents/people/2",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "td2maroavg5nsnm7kq88xeous2",
+            "relator": null,
+            "role": "creator",
+            "title": "Bergmann, M. (Max)",
+            "type": "person"
+        }
+    ],
+    "rights": [],
+    "terms": [],
+    "title": "Receipts",
+    "type": "collection",
+    "uri": "/collections/txsqyd8zaqhit9pww9mttf8ve3"
+}

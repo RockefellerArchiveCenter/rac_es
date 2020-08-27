@@ -1,0 +1,43 @@
+{
+    "agent_type": "person",
+    "category": "people",
+    "dates": [
+        {
+            "begin": "1894",
+            "end": "1978",
+            "expression": "1894-1978",
+            "label": "existence",
+            "source": "archivesspace",
+            "type": "inclusive"
+        }
+    ],
+    "description": null,
+    "external_identifiers": [
+        {
+            "identifier": "/agents/people/140",
+            "source": "archivesspace"
+        }
+    ],
+    "families": [],
+    "group": "/agents/ooszdy6okphfmriusntvbjrvw2",
+    "notes": [],
+    "organizations": [],
+    "people": [
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/agents/people/140",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "ooszdy6okphfmriusntvbjrvw2",
+            "relator": null,
+            "role": "creator",
+            "title": "Weaver, Warren",
+            "type": "person"
+        }
+    ],
+    "title": "Weaver, Warren",
+    "type": "agent",
+    "uri": "/agents/ooszdy6okphfmriusntvbjrvw2"
+}

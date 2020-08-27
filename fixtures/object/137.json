@@ -1,0 +1,74 @@
+{
+    "ancestors": [
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/5",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "xes9c62hm4s5wubrrmwu53qnk4",
+            "level": "series",
+            "order": null,
+            "title": "Declassifed Reports",
+            "type": "collection"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/resources/1",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "z96u8h8tuefmbjixtxjta2iun5",
+            "level": "collection",
+            "order": null,
+            "title": "Max Bergmann papers, Rockefeller Institute for Medical Research Scientific Staff",
+            "type": "collection"
+        }
+    ],
+    "category": "collections",
+    "dates": [
+        {
+            "begin": "1941",
+            "end": "1944",
+            "expression": "1941-1944",
+            "label": "creation",
+            "source": "archivesspace",
+            "type": "inclusive"
+        }
+    ],
+    "extents": [
+        {
+            "type": "folder",
+            "value": "1"
+        }
+    ],
+    "external_identifiers": [
+        {
+            "identifier": "/repositories/2/archival_objects/137",
+            "source": "archivesspace"
+        }
+    ],
+    "families": [],
+    "formats": [
+        "documents"
+    ],
+    "group": "/collections/z96u8h8tuefmbjixtxjta2iun5",
+    "languages": [
+        {
+            "expression": "English",
+            "identifier": "eng"
+        }
+    ],
+    "notes": [],
+    "online": false,
+    "organizations": [],
+    "people": [],
+    "rights": [],
+    "terms": [],
+    "title": "Literature Notes \u2013 H and Divinyl Sulfone",
+    "tree_position": 11,
+    "type": "object",
+    "uri": "/objects/k9qebtjuzyzu2oamfpp4fdrv63"
+}
