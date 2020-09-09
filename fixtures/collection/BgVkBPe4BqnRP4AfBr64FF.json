@@ -1,0 +1,305 @@
+{
+    "ancestors": [
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/resources/1",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "ndQQPbTBCnVGhKs3U2VReD",
+            "level": "collection",
+            "order": null,
+            "title": "Max Bergmann papers, Rockefeller Institute for Medical Research Scientific Staff",
+            "type": "collection"
+        }
+    ],
+    "category": "collection",
+    "children": [
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/114",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "MTVQuwmgSRX7ZcyHgqoUXC",
+            "level": "file",
+            "order": 0,
+            "title": "British Reports",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/115",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "DcZ2bLnwCswYkZuQ3htepx",
+            "level": "file",
+            "order": 1,
+            "title": "Drafts and Corrections",
+            "type": "collection"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/116",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "5V9HKYT95wgaVvUPbBt2MN",
+            "level": "file",
+            "order": 2,
+            "title": "Formal Progress Reports",
+            "type": "collection"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/117",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "fN5dQNydWim9taXonUisYk",
+            "level": "file",
+            "order": 3,
+            "title": "Informal Progress Reports",
+            "type": "collection"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/118",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "Fyucz8jmhoMtzfuWtCBsCV",
+            "level": "file",
+            "order": 4,
+            "title": "Laboratory Scientific and Volunteer Staff",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/119",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "c3fvzb8xV23MYrFXUPYkaN",
+            "level": "file",
+            "order": 5,
+            "title": "Moore, Stanford",
+            "type": "collection"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/120",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "bgrZYz67fZKjB2K2cS25pn",
+            "level": "file",
+            "order": 6,
+            "title": "Report Summaries: Copy Instructions",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/121",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "cb32BnGhjV9wU7VMbis85w",
+            "level": "file",
+            "order": 7,
+            "title": "Stein, William H.",
+            "type": "collection"
+        }
+    ],
+    "creators": [
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/agents/people/2",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "BdQWyrRQuo8oSshosmEZcA",
+            "relator": null,
+            "role": "creator",
+            "title": "Bergmann, M. (Max)",
+            "type": "person"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/agents/corporate_entities/3",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "KtRhd3ochjeqfooUHGRNtf",
+            "relator": null,
+            "role": "creator",
+            "title": "Rockefeller University",
+            "type": "organization"
+        }
+    ],
+    "dates": [
+        {
+            "begin": "1940",
+            "end": "1946",
+            "expression": "1940\u20131946",
+            "label": "creation",
+            "source": "archivesspace",
+            "type": "inclusive"
+        }
+    ],
+    "extents": [
+        {
+            "type": "Cubic Feet",
+            "value": "1.1"
+        },
+        {
+            "type": "Cubic Feet",
+            "value": "1.1"
+        }
+    ],
+    "external_identifiers": [
+        {
+            "identifier": "/repositories/2/archival_objects/3",
+            "source": "archivesspace"
+        }
+    ],
+    "families": [],
+    "formats": [
+        "documents"
+    ],
+    "group": {
+        "creators": [
+            {
+                "external_identifiers": [
+                    {
+                        "identifier": "/agents/people/2",
+                        "source": "archivesspace"
+                    }
+                ],
+                "identifier": "BdQWyrRQuo8oSshosmEZcA",
+                "relator": null,
+                "role": "creator",
+                "title": "Bergmann, M. (Max)",
+                "type": "person"
+            },
+            {
+                "external_identifiers": [
+                    {
+                        "identifier": "/agents/corporate_entities/3",
+                        "source": "archivesspace"
+                    }
+                ],
+                "identifier": "KtRhd3ochjeqfooUHGRNtf",
+                "relator": null,
+                "role": "creator",
+                "title": "Rockefeller University",
+                "type": "organization"
+            }
+        ],
+        "dates": [
+            {
+                "begin": "1886",
+                "end": "1961",
+                "expression": "1886-1961 (bulk 1941-1945)",
+                "label": "creation",
+                "source": "archivesspace",
+                "type": "inclusive"
+            },
+            {
+                "begin": "1941",
+                "end": "1945",
+                "expression": "1941-1945",
+                "label": "creation",
+                "source": "archivesspace",
+                "type": "bulk"
+            }
+        ],
+        "identifier": "/collections/ndQQPbTBCnVGhKs3U2VReD",
+        "title": "Max Bergmann papers, Rockefeller Institute for Medical Research Scientific Staff"
+    },
+    "languages": [
+        {
+            "expression": "English",
+            "identifier": "eng"
+        }
+    ],
+    "level": "series",
+    "notes": [
+        {
+            "source": "archivesspace",
+            "subnotes": [
+                {
+                    "content": [
+                        "Alphabetical by subject or format."
+                    ],
+                    "items": [],
+                    "type": "text"
+                }
+            ],
+            "title": "Arrangement:",
+            "type": "multipart"
+        },
+        {
+            "source": "archivesspace",
+            "subnotes": [
+                {
+                    "content": [
+                        "This series documents the research Max Bergmann and his scientific staff conducted under contract with the U.S. Office of Scientific Research and Development to benefit the national defense during World War II. This research focused on the synthetic, analytical, and inorganic problems in chemical warfare and B\u20134 toxicity, especially mustard gases. Records consist primarily of informal and formal progress reports, as well as the laboratory and literature notes of two of Bergmann's key scientific staff members, William H. Stein and Stanford Moore.\n\nEight folders in this series have a correlating folder with the same title in series 5: Declassified Reports, the contents of which were declassified by the U.S. Army after this collection was archivally processed. Researchers may wish to review both the folder in this series as well as the one with the same title found in series 5 for a full view of material on a given subject."
+                    ],
+                    "items": [],
+                    "type": "text"
+                }
+            ],
+            "title": "Summary:",
+            "type": "multipart"
+        }
+    ],
+    "online": false,
+    "organizations": [
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/agents/corporate_entities/3",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "KtRhd3ochjeqfooUHGRNtf",
+            "relator": null,
+            "role": "creator",
+            "title": "Rockefeller University",
+            "type": "organization"
+        }
+    ],
+    "people": [
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/agents/people/2",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "BdQWyrRQuo8oSshosmEZcA",
+            "relator": null,
+            "role": "creator",
+            "title": "Bergmann, M. (Max)",
+            "type": "person"
+        }
+    ],
+    "rights": [],
+    "terms": [],
+    "title": "Research",
+    "type": "collection",
+    "uri": "/collections/BgVkBPe4BqnRP4AfBr64FF"
+}

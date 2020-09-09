@@ -1,0 +1,215 @@
+{
+    "ancestors": [
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/2",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "hqhUygoxRoJxAQoF8uNRZN",
+            "level": "series",
+            "order": null,
+            "title": "Laboratory Administration",
+            "type": "collection"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/resources/1",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "ndQQPbTBCnVGhKs3U2VReD",
+            "level": "collection",
+            "order": null,
+            "title": "Max Bergmann papers, Rockefeller Institute for Medical Research Scientific Staff",
+            "type": "collection"
+        }
+    ],
+    "category": "collection",
+    "children": [
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/185",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "YJ4ikVyZYhfqTxohp6Mt2d",
+            "level": "file",
+            "order": 0,
+            "title": "General",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/186",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "fcADYBjzRVJRognuhXxrDa",
+            "level": "file",
+            "order": 1,
+            "title": "C.W. Agents Program",
+            "type": "object"
+        }
+    ],
+    "creators": [
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/agents/people/2",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "BdQWyrRQuo8oSshosmEZcA",
+            "relator": null,
+            "role": "creator",
+            "title": "Bergmann, M. (Max)",
+            "type": "person"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/agents/corporate_entities/3",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "KtRhd3ochjeqfooUHGRNtf",
+            "relator": null,
+            "role": "creator",
+            "title": "Rockefeller University",
+            "type": "organization"
+        }
+    ],
+    "dates": [
+        {
+            "begin": "1934",
+            "end": "1946",
+            "expression": "1934\u20131946 (bulk 1941\u20131944)",
+            "label": "creation",
+            "source": "archivesspace",
+            "type": "inclusive"
+        },
+        {
+            "begin": "1941",
+            "end": "1944",
+            "expression": "1941-1944",
+            "label": "creation",
+            "source": "archivesspace",
+            "type": "bulk"
+        }
+    ],
+    "extents": [
+        {
+            "type": "Cubic Feet",
+            "value": "3.5"
+        }
+    ],
+    "external_identifiers": [
+        {
+            "identifier": "/repositories/2/archival_objects/98",
+            "source": "archivesspace"
+        }
+    ],
+    "families": [],
+    "formats": [
+        "documents"
+    ],
+    "group": {
+        "creators": [
+            {
+                "external_identifiers": [
+                    {
+                        "identifier": "/agents/people/2",
+                        "source": "archivesspace"
+                    }
+                ],
+                "identifier": "BdQWyrRQuo8oSshosmEZcA",
+                "relator": null,
+                "role": "creator",
+                "title": "Bergmann, M. (Max)",
+                "type": "person"
+            },
+            {
+                "external_identifiers": [
+                    {
+                        "identifier": "/agents/corporate_entities/3",
+                        "source": "archivesspace"
+                    }
+                ],
+                "identifier": "KtRhd3ochjeqfooUHGRNtf",
+                "relator": null,
+                "role": "creator",
+                "title": "Rockefeller University",
+                "type": "organization"
+            }
+        ],
+        "dates": [
+            {
+                "begin": "1886",
+                "end": "1961",
+                "expression": "1886-1961 (bulk 1941-1945)",
+                "label": "creation",
+                "source": "archivesspace",
+                "type": "inclusive"
+            },
+            {
+                "begin": "1941",
+                "end": "1945",
+                "expression": "1941-1945",
+                "label": "creation",
+                "source": "archivesspace",
+                "type": "bulk"
+            }
+        ],
+        "identifier": "/collections/ndQQPbTBCnVGhKs3U2VReD",
+        "title": "Max Bergmann papers, Rockefeller Institute for Medical Research Scientific Staff"
+    },
+    "languages": [
+        {
+            "expression": "English",
+            "identifier": "eng"
+        }
+    ],
+    "level": "file",
+    "notes": [],
+    "online": false,
+    "organizations": [
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/agents/corporate_entities/3",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "KtRhd3ochjeqfooUHGRNtf",
+            "relator": null,
+            "role": "creator",
+            "title": "Rockefeller University",
+            "type": "organization"
+        }
+    ],
+    "people": [
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/agents/people/2",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "BdQWyrRQuo8oSshosmEZcA",
+            "relator": null,
+            "role": "creator",
+            "title": "Bergmann, M. (Max)",
+            "type": "person"
+        }
+    ],
+    "rights": [],
+    "terms": [],
+    "title": "Stahmann, Mark A.",
+    "type": "collection",
+    "uri": "/collections/P2KhzEKiaPg5axGNXzc7fE"
+}
