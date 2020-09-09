@@ -1,0 +1,136 @@
+{
+    "ancestors": [
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/121",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "cb32BnGhjV9wU7VMbis85w",
+            "level": "file",
+            "order": null,
+            "title": "Stein, William H.",
+            "type": "collection"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/3",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "BgVkBPe4BqnRP4AfBr64FF",
+            "level": "series",
+            "order": null,
+            "title": "Research",
+            "type": "collection"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/resources/1",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "ndQQPbTBCnVGhKs3U2VReD",
+            "level": "collection",
+            "order": null,
+            "title": "Max Bergmann papers, Rockefeller Institute for Medical Research Scientific Staff",
+            "type": "collection"
+        }
+    ],
+    "category": "collection",
+    "dates": [
+        {
+            "begin": "1946",
+            "end": "1946",
+            "expression": "undated, 1946",
+            "label": "creation",
+            "source": "archivesspace",
+            "type": "inclusive"
+        }
+    ],
+    "extents": [
+        {
+            "type": "folder",
+            "value": "1"
+        }
+    ],
+    "external_identifiers": [
+        {
+            "identifier": "/repositories/2/archival_objects/222",
+            "source": "archivesspace"
+        }
+    ],
+    "families": [],
+    "formats": [
+        "documents"
+    ],
+    "group": {
+        "creators": [
+            {
+                "external_identifiers": [
+                    {
+                        "identifier": "/agents/people/2",
+                        "source": "archivesspace"
+                    }
+                ],
+                "identifier": "BdQWyrRQuo8oSshosmEZcA",
+                "relator": null,
+                "role": "creator",
+                "title": "Bergmann, M. (Max)",
+                "type": "person"
+            },
+            {
+                "external_identifiers": [
+                    {
+                        "identifier": "/agents/corporate_entities/3",
+                        "source": "archivesspace"
+                    }
+                ],
+                "identifier": "KtRhd3ochjeqfooUHGRNtf",
+                "relator": null,
+                "role": "creator",
+                "title": "Rockefeller University",
+                "type": "organization"
+            }
+        ],
+        "dates": [
+            {
+                "begin": "1886",
+                "end": "1961",
+                "expression": "1886-1961 (bulk 1941-1945)",
+                "label": "creation",
+                "source": "archivesspace",
+                "type": "inclusive"
+            },
+            {
+                "begin": "1941",
+                "end": "1945",
+                "expression": "1941-1945",
+                "label": "creation",
+                "source": "archivesspace",
+                "type": "bulk"
+            }
+        ],
+        "identifier": "/collections/ndQQPbTBCnVGhKs3U2VReD",
+        "title": "Max Bergmann papers, Rockefeller Institute for Medical Research Scientific Staff"
+    },
+    "languages": [
+        {
+            "expression": "English",
+            "identifier": "eng"
+        }
+    ],
+    "notes": [],
+    "online": false,
+    "organizations": [],
+    "people": [],
+    "rights": [],
+    "terms": [],
+    "title": "Chapter 19. Chemical Reactions of the Sulfur and Nitrogen Mustards",
+    "tree_position": 0,
+    "type": "object",
+    "uri": "/objects/jjjCJZG4HJhiETKeY6NTg2"
+}

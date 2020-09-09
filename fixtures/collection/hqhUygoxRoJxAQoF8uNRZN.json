@@ -1,0 +1,1444 @@
+{
+    "ancestors": [
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/resources/1",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "ndQQPbTBCnVGhKs3U2VReD",
+            "level": "collection",
+            "order": null,
+            "title": "Max Bergmann papers, Rockefeller Institute for Medical Research Scientific Staff",
+            "type": "collection"
+        }
+    ],
+    "category": "collection",
+    "children": [
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/17",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "dAGQAXPBK9DXcxRN6yiLKY",
+            "level": "file",
+            "order": 0,
+            "title": "A",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/18",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "4cJPgDikdRoTTZmQpihY2M",
+            "level": "file",
+            "order": 1,
+            "title": "Account \"K\" NDRC",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/19",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "RJdVJGYruLceequ3aXke8d",
+            "level": "file",
+            "order": 2,
+            "title": "B",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/20",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "ar487BsUZQi4mQFhWLE2fM",
+            "level": "file",
+            "order": 3,
+            "title": "Bergmann Appointments: Consultant Official Investigators",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/21",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "m9puU2bSFnXeXLMHK5hxMr",
+            "level": "file",
+            "order": 4,
+            "title": "Bergmann, Max Dr.",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/22",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "2hFRtprac9curxf3WLbUsr",
+            "level": "file",
+            "order": 5,
+            "title": "Bowman, Robert A.",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/23",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "Efi2BFx4WHaYCKTwfBCGG7",
+            "level": "file",
+            "order": 6,
+            "title": "Bush, Vannevar",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/24",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "df6qGNK93Rk93kEDNpGdpq",
+            "level": "file",
+            "order": 7,
+            "title": "C",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/25",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "UGjLfX6reLQfsq7u2tZZXA",
+            "level": "file",
+            "order": 8,
+            "title": "Cannan, R. K.",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/26",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "UV9goq6s8mrZC26FVFkgE7",
+            "level": "file",
+            "order": 9,
+            "title": "Chadwell, Harris M.",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/27",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "TyKow8cc9oMrMGMSKKzYtU",
+            "level": "file",
+            "order": 10,
+            "title": "Campbell, Mrs. Marcia D.",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/28",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "fhZFisF7X6DQ53yfGic4YY",
+            "level": "file",
+            "order": 11,
+            "title": "Cohen, Barbett",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/29",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "BK5UKkVstHAgctaocr3DeZ",
+            "level": "file",
+            "order": 12,
+            "title": "Conner, Ralph A.",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/30",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "aCDi46qf5PMyN3y6faQ4wQ",
+            "level": "file",
+            "order": 13,
+            "title": "Contract No. OEMsr\u2013313",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/31",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "TH6ZtMLCsmTjRVokA2CHBB",
+            "level": "file",
+            "order": 14,
+            "title": "Contract Symbol 881",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/32",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "Uuw9fVHwejzsQuR5nkjt6Q",
+            "level": "file",
+            "order": 15,
+            "title": "Cope, Arthur C.",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/33",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "AFZLVsbEru7j3mJUBH546M",
+            "level": "file",
+            "order": 16,
+            "title": "Cori, Carl F.",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/34",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "TaRUTVnH5Z7FegjFJc4jFv",
+            "level": "file",
+            "order": 17,
+            "title": "D",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/35",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "UMqiRqevjBBpajDC325V8M",
+            "level": "file",
+            "order": 18,
+            "title": "DB 3 Reagent: Directions for use of",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/36",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "gm35sc2VXWYfakpGYpNA54",
+            "level": "file",
+            "order": 19,
+            "title": "Deferments Log",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/37",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "WHQcG3nT8QZSfH2iHNyDTx",
+            "level": "file",
+            "order": 20,
+            "title": "Directions",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/38",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "jqmXrAMmEj4MWZNi7emZDZ",
+            "level": "file",
+            "order": 21,
+            "title": "Discussion Log",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/39",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "8dfuHkMw3FfZdDzoD653Je",
+            "level": "file",
+            "order": 22,
+            "title": "Du Vigneaud, Vincent",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/40",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "S3ijLnZikTJqyUqSmnFAhy",
+            "level": "file",
+            "order": 23,
+            "title": "E",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/41",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "Y5YzF9BKKXFGeAFw8NNLz7",
+            "level": "file",
+            "order": 24,
+            "title": "Espionage Act",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/42",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "39QtBTrQWUHJAJfTdQCYr5",
+            "level": "file",
+            "order": 25,
+            "title": "F",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/43",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "KtBYmFcteuKEQFQ4pfnJNM",
+            "level": "file",
+            "order": 26,
+            "title": "Failey, Crawford F.",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/44",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "GV2v95c6yViiMkYoFLJCYR",
+            "level": "file",
+            "order": 27,
+            "title": "Friedenwald, Jonas S.",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/45",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "dKDQ6wzC2ncBA7yYVhLsZE",
+            "level": "file",
+            "order": 28,
+            "title": "Fruton, Joseph S.",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/46",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "MTtFyH6Nkx6kdh9yy98mYi",
+            "level": "file",
+            "order": 29,
+            "title": "G",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/47",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "ix4xxEjPaR6TfsdnPGFTQq",
+            "level": "file",
+            "order": 30,
+            "title": "Gasser, H. S.",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/48",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "eF4RTexnbNn7oVYFUP4chc",
+            "level": "file",
+            "order": 31,
+            "title": "Golumbic, Calvin",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/49",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "ghh7YbAwjnzguvYFhWuhZH",
+            "level": "file",
+            "order": 32,
+            "title": "H",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/50",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "Avuq6qmv43D7rQrzsafezW",
+            "level": "file",
+            "order": 33,
+            "title": "I",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/51",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "kGUBgFiiGj33Z6BMaPdc7U",
+            "level": "file",
+            "order": 34,
+            "title": "Indexes to Reports",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/52",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "MabyfLX9EWESt3jTmKmRRF",
+            "level": "file",
+            "order": 35,
+            "title": "J",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/53",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "hUh29ZVWyUhDeiecHre387",
+            "level": "file",
+            "order": 36,
+            "title": "K",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/54",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "TPgsASBgi3rit79botgf2j",
+            "level": "file",
+            "order": 37,
+            "title": "KB 16: Correspondence",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/55",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "LotDNtnJWWWtTGWpMsRjm6",
+            "level": "file",
+            "order": 38,
+            "title": "Kelley, Dr. Louise",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/56",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "WAjx48kwcyDvtifTWkpG9e",
+            "level": "file",
+            "order": 39,
+            "title": "L",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/57",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "PusGvGdnqT9HwAtE7MEsm4",
+            "level": "file",
+            "order": 40,
+            "title": "Literature I",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/58",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "9iQ3TBtFA7f6gxoG3deg9K",
+            "level": "file",
+            "order": 41,
+            "title": "Literature II: A. G. Ogston and R. A. Peters",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/59",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "dRphKzUtMDp7AvZcZyGLTG",
+            "level": "file",
+            "order": 42,
+            "title": "Literature III: E thru L",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/60",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "kmttfXTmSkLrq7z5isnjdX",
+            "level": "file",
+            "order": 43,
+            "title": "Literature IV: Miscellaneous",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/61",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "UiUedmkZ37fjsgTeU8Doj2",
+            "level": "file",
+            "order": 44,
+            "title": "Literature V: A thru D",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/62",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "8bY9VZnzucTMeTJjLgQUph",
+            "level": "file",
+            "order": 45,
+            "title": "Literature VI: M thru P",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/63",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "X8gR894RokLuwPp9qLiCUa",
+            "level": "file",
+            "order": 46,
+            "title": "Literature VII: Michael Heidelberger",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/64",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "TMRjaDYLPyHtusN6xsnN45",
+            "level": "file",
+            "order": 47,
+            "title": "Literature VIII: Edgewood Arsenal",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/65",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "7XMfPBmCkwC45RLuXkUVn2",
+            "level": "file",
+            "order": 48,
+            "title": "Literature IX: Howe Laboratory",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/66",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "8ijZqMLtBCrL3JhtsCFdMP",
+            "level": "file",
+            "order": 49,
+            "title": "Literature X: Salter, William T.",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/67",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "MALVVMaasERAq6uVCEcwnB",
+            "level": "file",
+            "order": 50,
+            "title": "Literature XI: Skipper, H. E.",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/68",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "TvRnb9AuWHVZoELG4W5enF",
+            "level": "file",
+            "order": 51,
+            "title": "Literature XII: Porton Reports",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/69",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "2UWD8g8VTgKVvSCRy9BzBV",
+            "level": "file",
+            "order": 52,
+            "title": "Literature XIII: Q thru Z",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/70",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "XqNny7S9DoTm48MYQQuTPW",
+            "level": "file",
+            "order": 53,
+            "title": "Literature XIV: Wilmer Institute",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/71",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "ZUBaSMS2F5JaQ9sUqhcwVo",
+            "level": "file",
+            "order": 54,
+            "title": "M",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/72",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "7TTqjBGstvMnKdrKY7dXoU",
+            "level": "file",
+            "order": 55,
+            "title": "Mail",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/73",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "edxtkuuSAhccnFQvZZx42b",
+            "level": "file",
+            "order": 56,
+            "title": "Material Received",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/74",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "dMipcmFUUnCT3YRvpL3Tti",
+            "level": "file",
+            "order": 57,
+            "title": "McClean, Franklin C.",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/75",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "CfLurgkEY9qhMeqXdYZWNp",
+            "level": "file",
+            "order": 58,
+            "title": "McMaster, Philip D.",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/76",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "G8gUDALCiqjSXc2nYNiaYV",
+            "level": "file",
+            "order": 59,
+            "title": "Me",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/77",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "fPk9ZdXxq7XPFjNg5RCv3Y",
+            "level": "file",
+            "order": 60,
+            "title": "Meetings",
+            "type": "collection"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/78",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "MQxvV8thjXrpGEagFXNiwN",
+            "level": "file",
+            "order": 61,
+            "title": "Moore, Stanford",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/79",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "aCuXLwRhCKEANQ6rVx7GeA",
+            "level": "file",
+            "order": 62,
+            "title": "N",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/80",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "JBZLgMdKtyLPJK4zx8jNZY",
+            "level": "file",
+            "order": 63,
+            "title": "Nagy, Stephen",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/81",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "8seuhWoodxXYLucmCrtLeg",
+            "level": "file",
+            "order": 64,
+            "title": "Northrop, John H.",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/82",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "PmAb6WqhZSefokwHcJrVzV",
+            "level": "file",
+            "order": 65,
+            "title": "O",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/83",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "UUe7me5nqM8cXhkhCcEVGs",
+            "level": "file",
+            "order": 66,
+            "title": "Office Memorandum (2 folders)",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/84",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "aNvEUH8fHqaP2YdAgw5k6h",
+            "level": "file",
+            "order": 67,
+            "title": "P",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/85",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "RFDHsF3UUsbCT9sSsCGips",
+            "level": "file",
+            "order": 68,
+            "title": "Pending",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/86",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "itKaPbX7PthykUEfYNrzLB",
+            "level": "file",
+            "order": 69,
+            "title": "Penetration Work",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/87",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "iHm93QVfH4bX8QUW7pjVT4",
+            "level": "file",
+            "order": 70,
+            "title": "Q",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/88",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "dyP9JAfpMe76fD7W9q34Ce",
+            "level": "file",
+            "order": 71,
+            "title": "R",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/89",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "4Mfz4GgZ2v4MYvBDqeX4AB",
+            "level": "file",
+            "order": 72,
+            "title": "Renshaw, Birdseye",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/90",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "K6FUTEwCDMBMEjiZAJTYfR",
+            "level": "file",
+            "order": 73,
+            "title": "Receipts",
+            "type": "collection"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/91",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "hjM4HDRweNpcAYKYwuiKRL",
+            "level": "file",
+            "order": 74,
+            "title": "Reports",
+            "type": "collection"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/92",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "hrQ4CYQHy7TVN29vZuxP5F",
+            "level": "file",
+            "order": 75,
+            "title": "S",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/93",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "HXjwBbVGL8ZqBUokv2PJ5E",
+            "level": "file",
+            "order": 76,
+            "title": "S 1130 Compound",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/94",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "KpLkwr74xqYsNgymNUTEKj",
+            "level": "file",
+            "order": 77,
+            "title": "Samples: Received and Sent Out",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/95",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "oVSkE3oQskEPW8rt7GKW2c",
+            "level": "file",
+            "order": 78,
+            "title": "Selective Service Deferment (2 folders)",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/96",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "iaXKyyEKCkWXicYUWYHMFg",
+            "level": "file",
+            "order": 79,
+            "title": "Shriner, R. L.",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/97",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "eVgDzwEtmFrrJqfP4xPCtu",
+            "level": "file",
+            "order": 80,
+            "title": "Smith, Homer W.",
+            "type": "collection"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/98",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "P2KhzEKiaPg5axGNXzc7fE",
+            "level": "file",
+            "order": 81,
+            "title": "Stahmann, Mark A.",
+            "type": "collection"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/99",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "P6R7khrohM9adySQnB6Qsw",
+            "level": "file",
+            "order": 82,
+            "title": "Stein, William H.",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/100",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "j28r3yj2EfdPzt4jBgwoZo",
+            "level": "file",
+            "order": 83,
+            "title": "Stewart, Irvin",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/101",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "TAkq8MX2y54uAgy3H7oEFe",
+            "level": "file",
+            "order": 84,
+            "title": "Stock, C. Chester",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/102",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "N5LycFMbFbcxmk3NLS6J5u",
+            "level": "file",
+            "order": 85,
+            "title": "T",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/103",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "ZYBLHUh9Y5Zd9JHdutqmod",
+            "level": "file",
+            "order": 86,
+            "title": "Telephone Numbers",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/104",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "DRpRq3NPpBgc2vZtFutPeG",
+            "level": "file",
+            "order": 87,
+            "title": "Substituted Thioureases: Yoe and Overholser",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/105",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "PXRLSGsSBsSeCsfqrD5BR7",
+            "level": "file",
+            "order": 88,
+            "title": "Travel",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/106",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "Sg8VTbYLannB3fDKu6wdUZ",
+            "level": "file",
+            "order": 89,
+            "title": "U",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/109",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "gM2SdVPRVwUYjY629yb5wQ",
+            "level": "file",
+            "order": 90,
+            "title": "V",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/110",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "cAreDeBiCGPaBHqhHKT9vH",
+            "level": "file",
+            "order": 91,
+            "title": "Vickery, H. B.",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/111",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "PnpVpigynpsfKEQbXyf3N6",
+            "level": "file",
+            "order": 92,
+            "title": "W",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/112",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "2Zq5f6e76nLsCkQttK7kVT",
+            "level": "file",
+            "order": 93,
+            "title": "W Agent",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/113",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "AWNoXA8tiUavU8ihhU83Ct",
+            "level": "file",
+            "order": 94,
+            "title": "X\u2013Y\u2013Z",
+            "type": "object"
+        }
+    ],
+    "creators": [
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/agents/people/2",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "BdQWyrRQuo8oSshosmEZcA",
+            "relator": null,
+            "role": "creator",
+            "title": "Bergmann, M. (Max)",
+            "type": "person"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/agents/corporate_entities/3",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "KtRhd3ochjeqfooUHGRNtf",
+            "relator": null,
+            "role": "creator",
+            "title": "Rockefeller University",
+            "type": "organization"
+        }
+    ],
+    "dates": [
+        {
+            "begin": "1934",
+            "end": "1946",
+            "expression": "1934\u20131946 (bulk 1941\u20131944)",
+            "label": "creation",
+            "source": "archivesspace",
+            "type": "inclusive"
+        },
+        {
+            "begin": "1941",
+            "end": "1944",
+            "expression": "1941-1944",
+            "label": "creation",
+            "source": "archivesspace",
+            "type": "bulk"
+        }
+    ],
+    "extents": [
+        {
+            "type": "Cubic Feet",
+            "value": "3.5"
+        },
+        {
+            "type": "Cubic Feet",
+            "value": "3.5"
+        }
+    ],
+    "external_identifiers": [
+        {
+            "identifier": "/repositories/2/archival_objects/2",
+            "source": "archivesspace"
+        }
+    ],
+    "families": [],
+    "formats": [
+        "documents"
+    ],
+    "group": {
+        "creators": [
+            {
+                "external_identifiers": [
+                    {
+                        "identifier": "/agents/people/2",
+                        "source": "archivesspace"
+                    }
+                ],
+                "identifier": "BdQWyrRQuo8oSshosmEZcA",
+                "relator": null,
+                "role": "creator",
+                "title": "Bergmann, M. (Max)",
+                "type": "person"
+            },
+            {
+                "external_identifiers": [
+                    {
+                        "identifier": "/agents/corporate_entities/3",
+                        "source": "archivesspace"
+                    }
+                ],
+                "identifier": "KtRhd3ochjeqfooUHGRNtf",
+                "relator": null,
+                "role": "creator",
+                "title": "Rockefeller University",
+                "type": "organization"
+            }
+        ],
+        "dates": [
+            {
+                "begin": "1886",
+                "end": "1961",
+                "expression": "1886-1961 (bulk 1941-1945)",
+                "label": "creation",
+                "source": "archivesspace",
+                "type": "inclusive"
+            },
+            {
+                "begin": "1941",
+                "end": "1945",
+                "expression": "1941-1945",
+                "label": "creation",
+                "source": "archivesspace",
+                "type": "bulk"
+            }
+        ],
+        "identifier": "/collections/ndQQPbTBCnVGhKs3U2VReD",
+        "title": "Max Bergmann papers, Rockefeller Institute for Medical Research Scientific Staff"
+    },
+    "languages": [
+        {
+            "expression": "English",
+            "identifier": "eng"
+        }
+    ],
+    "level": "series",
+    "notes": [
+        {
+            "source": "archivesspace",
+            "subnotes": [
+                {
+                    "content": [
+                        "This series has been retained in its original order and the original file folder labels were used. Bergmann arranged his folders alphabetically by subject. Within the folders, he roughly arranged his records either in reverse chronological order or by subject depending on the type of document. For instance, the correspondence files tend to be in reverse chronological order, whereas more general files are in alphabetical order by subject, which is usually typed on the right side of the document. His arrangement within folders, however, is not always consistent. The Office Memorandum folders, for instance, combine order by memorandum number within a rough overall alphabetical order. Bergmann also maintained a system of extensive cross\u2013references within these files."
+                    ],
+                    "items": [],
+                    "type": "text"
+                }
+            ],
+            "title": "Arrangement:",
+            "type": "multipart"
+        },
+        {
+            "source": "archivesspace",
+            "subnotes": [
+                {
+                    "content": [
+                        "This series documents Max Bergmann's administration of his laboratory at Rockefeller University while it was under contract with the U.S. Office of Scientific Research and Development to conduct research of benefit to the national defense during World War II. This research focused on the synthetic, analytical, and inorganic problems in chemical warfare and B\u20134 toxicity, especially mustard gases. This series consists primarily of correspondence, receipts, and forms tracking the routine exchange and use of scientific reports. Correspondence with other scientists also documents the exchange of samples, as well as directions for specific tests, preparations of samples, and brief discussions of reactions and test results. Also included is a significant amount of correspondence and forms related to the Espionage Act Oaths of Secrecy and Selective Service deferments for the scientists working in Bergmann's laboratory. The Literature files consist of reports and reprints from other scientists, along with Bergmann's handwritten notes about what he read. Also included in this series is an incomplete set of Administrative Circulars and Office Memorandum documenting the policies and procedures of the Office of Scientific Research and Development and the National Defense Research Committee. The majority of memos are located in Box 5, but some are filed alphabetically by subject throughout the series.\n\nEight folders in this series have a correlating folder with the same title in series 5: Declassified Reports, the contents of which were declassified by the U.S. Army after this collection was archivally processed. Researchers may wish to review both the folder in this series as well as the one with the same title found in series 5 for a full view of material on a given subject."
+                    ],
+                    "items": [],
+                    "type": "text"
+                }
+            ],
+            "title": "Summary:",
+            "type": "multipart"
+        }
+    ],
+    "online": false,
+    "organizations": [
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/agents/corporate_entities/3",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "KtRhd3ochjeqfooUHGRNtf",
+            "relator": null,
+            "role": "creator",
+            "title": "Rockefeller University",
+            "type": "organization"
+        }
+    ],
+    "people": [
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/agents/people/2",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "BdQWyrRQuo8oSshosmEZcA",
+            "relator": null,
+            "role": "creator",
+            "title": "Bergmann, M. (Max)",
+            "type": "person"
+        }
+    ],
+    "rights": [],
+    "terms": [],
+    "title": "Laboratory Administration",
+    "type": "collection",
+    "uri": "/collections/hqhUygoxRoJxAQoF8uNRZN"
+}

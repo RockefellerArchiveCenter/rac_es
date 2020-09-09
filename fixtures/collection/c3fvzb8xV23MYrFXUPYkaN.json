@@ -1,0 +1,207 @@
+{
+    "ancestors": [
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/3",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "BgVkBPe4BqnRP4AfBr64FF",
+            "level": "series",
+            "order": null,
+            "title": "Research",
+            "type": "collection"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/resources/1",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "ndQQPbTBCnVGhKs3U2VReD",
+            "level": "collection",
+            "order": null,
+            "title": "Max Bergmann papers, Rockefeller Institute for Medical Research Scientific Staff",
+            "type": "collection"
+        }
+    ],
+    "category": "collection",
+    "children": [
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/220",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "6GXMMhGfemsTrHCWAaUEVQ",
+            "level": "file",
+            "order": 0,
+            "title": "Laboratory Notes",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/221",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "UziN5bS9YBmdZ5rG35fyHQ",
+            "level": "file",
+            "order": 1,
+            "title": "Literature Notes",
+            "type": "object"
+        }
+    ],
+    "creators": [
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/agents/people/2",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "BdQWyrRQuo8oSshosmEZcA",
+            "relator": null,
+            "role": "creator",
+            "title": "Bergmann, M. (Max)",
+            "type": "person"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/agents/corporate_entities/3",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "KtRhd3ochjeqfooUHGRNtf",
+            "relator": null,
+            "role": "creator",
+            "title": "Rockefeller University",
+            "type": "organization"
+        }
+    ],
+    "dates": [
+        {
+            "begin": "1940",
+            "end": "1946",
+            "expression": "1940\u20131946",
+            "label": "creation",
+            "source": "archivesspace",
+            "type": "inclusive"
+        }
+    ],
+    "extents": [
+        {
+            "type": "Cubic Feet",
+            "value": "1.1"
+        }
+    ],
+    "external_identifiers": [
+        {
+            "identifier": "/repositories/2/archival_objects/119",
+            "source": "archivesspace"
+        }
+    ],
+    "families": [],
+    "formats": [
+        "documents"
+    ],
+    "group": {
+        "creators": [
+            {
+                "external_identifiers": [
+                    {
+                        "identifier": "/agents/people/2",
+                        "source": "archivesspace"
+                    }
+                ],
+                "identifier": "BdQWyrRQuo8oSshosmEZcA",
+                "relator": null,
+                "role": "creator",
+                "title": "Bergmann, M. (Max)",
+                "type": "person"
+            },
+            {
+                "external_identifiers": [
+                    {
+                        "identifier": "/agents/corporate_entities/3",
+                        "source": "archivesspace"
+                    }
+                ],
+                "identifier": "KtRhd3ochjeqfooUHGRNtf",
+                "relator": null,
+                "role": "creator",
+                "title": "Rockefeller University",
+                "type": "organization"
+            }
+        ],
+        "dates": [
+            {
+                "begin": "1886",
+                "end": "1961",
+                "expression": "1886-1961 (bulk 1941-1945)",
+                "label": "creation",
+                "source": "archivesspace",
+                "type": "inclusive"
+            },
+            {
+                "begin": "1941",
+                "end": "1945",
+                "expression": "1941-1945",
+                "label": "creation",
+                "source": "archivesspace",
+                "type": "bulk"
+            }
+        ],
+        "identifier": "/collections/ndQQPbTBCnVGhKs3U2VReD",
+        "title": "Max Bergmann papers, Rockefeller Institute for Medical Research Scientific Staff"
+    },
+    "languages": [
+        {
+            "expression": "English",
+            "identifier": "eng"
+        }
+    ],
+    "level": "file",
+    "notes": [],
+    "online": false,
+    "organizations": [
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/agents/corporate_entities/3",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "KtRhd3ochjeqfooUHGRNtf",
+            "relator": null,
+            "role": "creator",
+            "title": "Rockefeller University",
+            "type": "organization"
+        }
+    ],
+    "people": [
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/agents/people/2",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "BdQWyrRQuo8oSshosmEZcA",
+            "relator": null,
+            "role": "creator",
+            "title": "Bergmann, M. (Max)",
+            "type": "person"
+        }
+    ],
+    "rights": [],
+    "terms": [],
+    "title": "Moore, Stanford",
+    "type": "collection",
+    "uri": "/collections/c3fvzb8xV23MYrFXUPYkaN"
+}

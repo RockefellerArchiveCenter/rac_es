@@ -1,0 +1,363 @@
+{
+    "ancestors": [
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/3",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "BgVkBPe4BqnRP4AfBr64FF",
+            "level": "series",
+            "order": null,
+            "title": "Research",
+            "type": "collection"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/resources/1",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "ndQQPbTBCnVGhKs3U2VReD",
+            "level": "collection",
+            "order": null,
+            "title": "Max Bergmann papers, Rockefeller Institute for Medical Research Scientific Staff",
+            "type": "collection"
+        }
+    ],
+    "category": "collection",
+    "children": [
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/222",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "jjjCJZG4HJhiETKeY6NTg2",
+            "level": "file",
+            "order": 0,
+            "title": "Chapter 19. Chemical Reactions of the Sulfur and Nitrogen Mustards",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/223",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "EbscUNKcJGNhmmUjU2hmRD",
+            "level": "file",
+            "order": 1,
+            "title": "Laboratory Notes",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/224",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "3B7LCGs92b9BTV4tcKHk7e",
+            "level": "file",
+            "order": 2,
+            "title": "Laboratory Notes",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/225",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "R3JCUGmfZFgPUp3gedtHEe",
+            "level": "file",
+            "order": 3,
+            "title": "Literature Notes \u2013 1130",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/226",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "PRPS2x7RjeMFQzgHdoauFW",
+            "level": "file",
+            "order": 4,
+            "title": "Literature Notes \u2013 H (Chemical)",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/227",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "H2gLpLbDkmiUmAoXkgkTTB",
+            "level": "file",
+            "order": 5,
+            "title": "Literature Notes \u2013 H (Physiological)",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/228",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "jFVK5BvHyZRzZSkUKoK3xS",
+            "level": "file",
+            "order": 6,
+            "title": "Literature Notes \u2013 H and Divinyl Sulfone",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/229",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "BgPzV32iRvCHhPC2qm3Tat",
+            "level": "file",
+            "order": 7,
+            "title": "Literature Notes \u2013 MFA",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/230",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "aTMLw8nhkMUpEbDQqeAXty",
+            "level": "file",
+            "order": 8,
+            "title": "Literature Notes \u2013 N\u2013Mustards",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/231",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "8oB3G3Es87xSScyjPQKxTo",
+            "level": "file",
+            "order": 9,
+            "title": "Literature Notes \u2013 Other Agents",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/232",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "GJkhGkHYtnDZZMH2Dzv7fv",
+            "level": "file",
+            "order": 10,
+            "title": "Literature Notes \u2013 Q and Related Compounds",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/233",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "V9FhbZFzbGpWz95zYQCHtz",
+            "level": "file",
+            "order": 11,
+            "title": "Literature Notes \u2013 W Agent",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/234",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "FRn3bdLj5ZK3muZobeF5wM",
+            "level": "file",
+            "order": 12,
+            "title": "Special Notes",
+            "type": "object"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/repositories/2/archival_objects/235",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "g6aJyFK8yugZQCwmBxFAra",
+            "level": "file",
+            "order": 13,
+            "title": "TL 110",
+            "type": "object"
+        }
+    ],
+    "creators": [
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/agents/people/2",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "BdQWyrRQuo8oSshosmEZcA",
+            "relator": null,
+            "role": "creator",
+            "title": "Bergmann, M. (Max)",
+            "type": "person"
+        },
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/agents/corporate_entities/3",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "KtRhd3ochjeqfooUHGRNtf",
+            "relator": null,
+            "role": "creator",
+            "title": "Rockefeller University",
+            "type": "organization"
+        }
+    ],
+    "dates": [
+        {
+            "begin": "1940",
+            "end": "1946",
+            "expression": "1940\u20131946",
+            "label": "creation",
+            "source": "archivesspace",
+            "type": "inclusive"
+        }
+    ],
+    "extents": [
+        {
+            "type": "Cubic Feet",
+            "value": "1.1"
+        }
+    ],
+    "external_identifiers": [
+        {
+            "identifier": "/repositories/2/archival_objects/121",
+            "source": "archivesspace"
+        }
+    ],
+    "families": [],
+    "formats": [
+        "documents"
+    ],
+    "group": {
+        "creators": [
+            {
+                "external_identifiers": [
+                    {
+                        "identifier": "/agents/people/2",
+                        "source": "archivesspace"
+                    }
+                ],
+                "identifier": "BdQWyrRQuo8oSshosmEZcA",
+                "relator": null,
+                "role": "creator",
+                "title": "Bergmann, M. (Max)",
+                "type": "person"
+            },
+            {
+                "external_identifiers": [
+                    {
+                        "identifier": "/agents/corporate_entities/3",
+                        "source": "archivesspace"
+                    }
+                ],
+                "identifier": "KtRhd3ochjeqfooUHGRNtf",
+                "relator": null,
+                "role": "creator",
+                "title": "Rockefeller University",
+                "type": "organization"
+            }
+        ],
+        "dates": [
+            {
+                "begin": "1886",
+                "end": "1961",
+                "expression": "1886-1961 (bulk 1941-1945)",
+                "label": "creation",
+                "source": "archivesspace",
+                "type": "inclusive"
+            },
+            {
+                "begin": "1941",
+                "end": "1945",
+                "expression": "1941-1945",
+                "label": "creation",
+                "source": "archivesspace",
+                "type": "bulk"
+            }
+        ],
+        "identifier": "/collections/ndQQPbTBCnVGhKs3U2VReD",
+        "title": "Max Bergmann papers, Rockefeller Institute for Medical Research Scientific Staff"
+    },
+    "languages": [
+        {
+            "expression": "English",
+            "identifier": "eng"
+        }
+    ],
+    "level": "file",
+    "notes": [],
+    "online": false,
+    "organizations": [
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/agents/corporate_entities/3",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "KtRhd3ochjeqfooUHGRNtf",
+            "relator": null,
+            "role": "creator",
+            "title": "Rockefeller University",
+            "type": "organization"
+        }
+    ],
+    "people": [
+        {
+            "external_identifiers": [
+                {
+                    "identifier": "/agents/people/2",
+                    "source": "archivesspace"
+                }
+            ],
+            "identifier": "BdQWyrRQuo8oSshosmEZcA",
+            "relator": null,
+            "role": "creator",
+            "title": "Bergmann, M. (Max)",
+            "type": "person"
+        }
+    ],
+    "rights": [],
+    "terms": [],
+    "title": "Stein, William H.",
+    "type": "collection",
+    "uri": "/collections/cb32BnGhjV9wU7VMbis85w"
+}
