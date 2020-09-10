@@ -145,7 +145,7 @@ class BaseDescriptionComponent(es.Document):
             'keyword': es.Keyword()})
     type = es.Text(required=True, fields={'keyword': es.Keyword()})
     uri = es.Keyword(required=True)
-    group = es.Nested(Group, required=True)
+    group = es.Object(Group, required=True)
     category = es.Keyword()
 
     @classmethod
