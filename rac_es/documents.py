@@ -128,7 +128,7 @@ class RightsStatement(es.InnerDoc):
 class Group(es.InnerDoc):
     """Information about the highest-level collection for a document."""
     creators = es.Nested(Reference)
-    dates = es.Nested(Date)
+    dates = es.Object(Date)
     identifier = es.Keyword()
     title = es.Keyword()
 
@@ -145,7 +145,7 @@ class BaseDescriptionComponent(es.Document):
             'keyword': es.Keyword()})
     type = es.Text(required=True, fields={'keyword': es.Keyword()})
     uri = es.Keyword(required=True)
-    group = es.Object(Group, required=True)
+    group = es.Nested(Group, required=True)
     category = es.Keyword()
 
     @classmethod
