@@ -332,6 +332,7 @@
         "documents"
     ],
     "group": {
+        "category": "collection",
         "creators": [
             {
                 "external_identifiers": [

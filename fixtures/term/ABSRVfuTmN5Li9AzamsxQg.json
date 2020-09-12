@@ -1,4 +1,5 @@
 {
+    "category": "subject",
     "external_identifiers": [
         {
             "identifier": "/subjects/9",
@@ -6,6 +7,7 @@
         }
     ],
     "group": {
+        "category": "subject",
         "creators": [],
         "dates": [],
         "identifier": "/terms/ABSRVfuTmN5Li9AzamsxQg",

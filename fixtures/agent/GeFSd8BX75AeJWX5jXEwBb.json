@@ -25,6 +25,7 @@
         }
     ],
     "group": {
+        "category": "person",
         "creators": [
             {
                 "external_identifiers": [
