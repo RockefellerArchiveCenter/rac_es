@@ -127,6 +127,7 @@ class RightsStatement(es.InnerDoc):
 
 class Group(es.InnerDoc):
     """Information about the highest-level collection for a document."""
+    category = es.Keyword()
     creators = es.Nested(Reference)
     dates = es.Object(Date)
     identifier = es.Keyword()
