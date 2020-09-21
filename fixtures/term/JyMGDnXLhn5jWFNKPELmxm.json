@@ -2,7 +2,7 @@
     "category": "subject",
     "external_identifiers": [
         {
-            "identifier": "/subjects/26",
+            "identifier": "/subjects/19",
             "source": "archivesspace"
         }
     ],
@@ -10,11 +10,11 @@
         "category": "subject",
         "creators": [],
         "dates": [],
-        "identifier": "/terms/GpyVLH8fSSMrjC52XcGKX5",
-        "title": "Economics"
+        "identifier": "/terms/JyMGDnXLhn5jWFNKPELmxm",
+        "title": "Arts"
     },
     "term_type": "topical",
-    "title": "Economics",
+    "title": "Arts",
     "type": "term",
-    "uri": "/terms/GpyVLH8fSSMrjC52XcGKX5"
+    "uri": "/terms/JyMGDnXLhn5jWFNKPELmxm"
 }
