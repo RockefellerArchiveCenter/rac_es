@@ -2,7 +2,7 @@
     "category": "subject",
     "external_identifiers": [
         {
-            "identifier": "/subjects/26",
+            "identifier": "/subjects/3",
             "source": "archivesspace"
         }
     ],
@@ -10,11 +10,11 @@
         "category": "subject",
         "creators": [],
         "dates": [],
-        "identifier": "/terms/GpyVLH8fSSMrjC52XcGKX5",
-        "title": "Economics"
+        "identifier": "/terms/ZunQjKBfmNCsrUYihXuHuk",
+        "title": "Public health -- Latin America"
     },
     "term_type": "topical",
-    "title": "Economics",
+    "title": "Public health -- Latin America",
     "type": "term",
-    "uri": "/terms/GpyVLH8fSSMrjC52XcGKX5"
+    "uri": "/terms/ZunQjKBfmNCsrUYihXuHuk"
 }

@@ -2,7 +2,7 @@
     "category": "subject",
     "external_identifiers": [
         {
-            "identifier": "/subjects/26",
+            "identifier": "/subjects/15",
             "source": "archivesspace"
         }
     ],
@@ -10,11 +10,11 @@
         "category": "subject",
         "creators": [],
         "dates": [],
-        "identifier": "/terms/GpyVLH8fSSMrjC52XcGKX5",
-        "title": "Economics"
+        "identifier": "/terms/nK2VC8oZLCCAY2Wa5YP6tV",
+        "title": "Civics"
     },
     "term_type": "topical",
-    "title": "Economics",
+    "title": "Civics",
     "type": "term",
-    "uri": "/terms/GpyVLH8fSSMrjC52XcGKX5"
+    "uri": "/terms/nK2VC8oZLCCAY2Wa5YP6tV"
 }

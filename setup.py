@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name='rac_es',
-    version='0.11',
+    version='0.12',
     description="Helpers for Rockefeller Archive Center's Elasticsearch implementation.",
     long_description=long_description,
     long_description_content_type="text/markdown",

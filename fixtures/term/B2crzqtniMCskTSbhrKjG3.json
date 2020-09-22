@@ -2,7 +2,7 @@
     "category": "subject",
     "external_identifiers": [
         {
-            "identifier": "/subjects/26",
+            "identifier": "/subjects/6",
             "source": "archivesspace"
         }
     ],
@@ -10,11 +10,11 @@
         "category": "subject",
         "creators": [],
         "dates": [],
-        "identifier": "/terms/GpyVLH8fSSMrjC52XcGKX5",
-        "title": "Economics"
+        "identifier": "/terms/B2crzqtniMCskTSbhrKjG3",
+        "title": "Philanthropy -- New York (N.Y.)"
     },
     "term_type": "topical",
-    "title": "Economics",
+    "title": "Philanthropy -- New York (N.Y.)",
     "type": "term",
-    "uri": "/terms/GpyVLH8fSSMrjC52XcGKX5"
+    "uri": "/terms/B2crzqtniMCskTSbhrKjG3"
 }
