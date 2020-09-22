@@ -1,6 +1,7 @@
 from datetime import datetime
 
 import elasticsearch_dsl as es
+from dateutil import parser
 from elasticsearch.helpers import streaming_bulk
 
 from .analyzers import base_analyzer
@@ -11,18 +12,23 @@ class ResolveException(Exception):
 
 
 class DateField(es.Date):
-    """Custom Date field to support indexing dates without timezones."""
+    """Custom Date field to support indexing year-only dates and dates without timezones."""
 
     def deserialize(self, data):
-        """Properly deserializes date fields.
-
-        :returns: date data
-        :rtype: date
-        """
-        data = super(DateField, self).deserialize(data)
+        """Properly deserializes date fields."""
+        if isinstance(data, str):
+            data = parser.parse(data, default=self.default)
         if isinstance(data, datetime):
             data = data.date()
         return data
+
+
+class StartDate(DateField):
+    default = datetime(2020, 1, 1)
+
+
+class EndDate(DateField):
+    default = datetime(2020, 12, 31)
 
 
 class Date(es.InnerDoc):
@@ -33,8 +39,8 @@ class Date(es.InnerDoc):
     a date or date range, while the begin and end values are machine readable
     and actionable values.
     """
-    begin = DateField()
-    end = DateField()
+    begin = StartDate(format="yyyy-MM-dd||yyyy-MM||yyyy")
+    end = EndDate(format="yyyy-MM-dd||yyyy-MM||yyyy")
     expression = es.Text(required=True)
     label = es.Text(required=True)
     type = es.Text(required=True)
@@ -94,14 +100,16 @@ class Reference(es.InnerDoc):
     level = es.Text()
     relator = es.Text()
     role = es.Text()
+    dates = es.Text()
+    description = es.Text()
 
 
 class RightsGranted(es.InnerDoc):
     """Abstract wrapper for RightsGranted information, associated with a
     RightsStatement Document."""
     act = es.Text(required=True)
-    begin = DateField(required=True)
-    end = DateField(required=True)
+    begin = StartDate(required=True, format="yyyy-MM-dd||yyyy-MM||yyyy")
+    end = EndDate(required=True, format="yyyy-MM-dd||yyyy-MM||yyyy")
     notes = es.Nested(Note)
     restriction = es.Text(required=True)
 
@@ -113,10 +121,11 @@ class RightsStatement(es.InnerDoc):
     This structure is based
     on the PREservation Metadata: Implementation Strategies (PREMIS) Rights entity.
     """
-    begin = DateField(required=True)
+    begin = StartDate(required=True, format="yyyy-MM-dd||yyyy-MM||yyyy")
     copyright_status = es.Text()
-    determination_date = DateField(required=True)
-    end = DateField(required=True)
+    determination_date = StartDate(
+        required=True, format="yyyy-MM-dd||yyyy-MM||yyyy")
+    end = EndDate(required=True, format="yyyy-MM-dd||yyyy-MM||yyyy")
     jurisdiction = es.Text()
     notes = es.Nested(Note)
     other_basis = es.Text()
