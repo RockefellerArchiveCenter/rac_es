@@ -248,7 +248,7 @@ class Collection(BaseDescriptionComponent):
     organizations = es.Nested(Reference)
     families = es.Nested(Reference)
     ancestors = es.Nested(Reference)
-    children = es.Nested(Reference)
+    children = es.Object(Reference)
     creators = es.Nested(Reference)
     terms = es.Nested(Reference)
     online = es.Boolean()
