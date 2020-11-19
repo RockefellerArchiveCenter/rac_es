@@ -86,21 +86,6 @@ class Note(es.InnerDoc):
     type = es.Text(required=True)
 
 
-class ChildReference(es.InnerDoc):
-    """An embedded reference to a child object."""
-    title = es.Text(
-        required=True,
-        analyzer=base_analyzer,
-        fields={
-            'keyword': es.Keyword()})
-    type = es.Text(required=True)
-    identifier = es.Text(required=True)
-    order = es.Integer()
-    level = es.Text()
-    dates = es.Text()
-    description = es.Text()
-
-
 class Reference(es.InnerDoc):
     """An embedded reference to another object."""
     title = es.Text(
@@ -262,9 +247,10 @@ class Collection(BaseDescriptionComponent):
     organizations = es.Nested(Reference)
     families = es.Nested(Reference)
     ancestors = es.Nested(Reference)
-    children = es.Object(ChildReference)
     creators = es.Nested(Reference)
     terms = es.Nested(Reference)
+    parent = es.Keyword()
+    position = es.Integer()
     online = es.Boolean()
     formats = es.Text(fields={'keyword': es.Keyword()})
 
@@ -288,6 +274,8 @@ class Object(BaseDescriptionComponent):
     families = es.Nested(Reference)
     ancestors = es.Nested(Reference)
     terms = es.Nested(Reference)
+    parent = es.Keyword()
+    position = es.Integer()
     online = es.Boolean()
     formats = es.Text(fields={'keyword': es.Keyword()})
 
