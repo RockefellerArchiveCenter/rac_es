@@ -15,6 +15,7 @@ setup(
     license='MIT',
     packages=find_packages(),
     install_requires=[
+        'elasticsearch',
         'elasticsearch_dsl',
     ],
     test_suite='nose.collector',
