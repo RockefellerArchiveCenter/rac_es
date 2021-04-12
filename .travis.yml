@@ -8,7 +8,6 @@ cache: pip
 
 before_script:
   - pip install tox tox-docker
-  - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
 
 script: tox
 
