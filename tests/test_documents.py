@@ -23,7 +23,7 @@ class TestDocuments(unittest.TestCase):
         self.connection = connections.create_connection(
             hosts="{}:{}".format(
                 os.environ.get("ELASTICSEARCH_HOST"),
-                os.environ.get("ELASTICSEARCH_9200_TCP")), timeout=60)
+                os.environ.get("ELASTICSEARCH_9200_TCP_PORT")), timeout=60)
         try:
             BaseDescriptionComponent._index.delete()
         except NotFoundError:

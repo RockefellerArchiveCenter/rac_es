@@ -7,7 +7,7 @@ language: python
 cache: pip
 
 before_script:
-  - pip install tox tox-docker
+  - pip install -r test_requirements.txt
 
 script: tox
 
