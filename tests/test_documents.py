@@ -49,7 +49,7 @@ class TestDocuments(unittest.TestCase):
         for f in os.listdir(os.path.join(FIXTURES_DIR, "collection")):
             with open(os.path.join(FIXTURES_DIR, "collection", f), "r") as jf:
                 data = json.load(jf)
-                doc = doc_cls(**data)
+                doc = Collection(**data)
                 doc.meta.id = data["uri"].split("/")[-1]
                 doc.save()
 
