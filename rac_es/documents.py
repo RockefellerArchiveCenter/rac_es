@@ -251,7 +251,7 @@ class Collection(BaseDescriptionComponent):
     terms = es.Nested(Reference)
     parent = es.Keyword()
     position = es.Integer()
-    online = es.Boolean()
+    online = es.Boolean(fields={'keyword': es.Keyword()})
     formats = es.Text(fields={'keyword': es.Keyword()})
 
     @classmethod
@@ -276,7 +276,7 @@ class Object(BaseDescriptionComponent):
     terms = es.Nested(Reference)
     parent = es.Keyword()
     position = es.Integer()
-    online = es.Boolean()
+    online = es.Boolean(fields={'keyword': es.Keyword()})
     formats = es.Text(fields={'keyword': es.Keyword()})
 
     @classmethod
