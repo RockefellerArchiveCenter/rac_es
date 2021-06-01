@@ -1,2 +1,2 @@
-elasticsearch==7.12.1
+elasticsearch==7.13.0
 elasticsearch-dsl==7.3.0
