@@ -220,6 +220,7 @@ class Agent(BaseDescriptionComponent):
     people = es.Nested(Reference)
     organizations = es.Nested(Reference)
     families = es.Nested(Reference)
+    authorized_name = es.Text(required=True)
 
     @classmethod
     def search(cls, **kwargs):

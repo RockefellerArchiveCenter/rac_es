@@ -49,6 +49,7 @@
         }
     ],
     "title": "Administrator",
+    "authorized_name": "Administrator",
     "type": "agent",
     "uri": "/agents/7gdvKz2bSKaqNGfNFrp9AP"
 }
