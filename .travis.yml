@@ -11,10 +11,12 @@ script: tox
 matrix:
   include:
 
-    - python: "3.6"
-      env: TOXENV=py36
+    - python: "3.10"
+      env: TOXENV=py310
 
-    - python: "3.6"
+    # Linters
+
+    - python: "3.10"
       env: TOXENV=linting
 
 notifications:
