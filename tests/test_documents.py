@@ -1,9 +1,11 @@
 import json
 import os
+import random
 import unittest
 
 from elasticsearch.exceptions import NotFoundError
 from elasticsearch_dsl import connections
+
 from rac_es.documents import (Agent, BaseDescriptionComponent, Collection,
                               Object, Term)
 
@@ -89,3 +91,16 @@ class TestDocuments(unittest.TestCase):
             self.assertEqual(
                 BaseDescriptionComponent.search().count(), total_count,
                 "Wrong total number of documents {}.".format(op_type))
+
+    def test_bulk_method_error(self):
+        """Asserts that all valid documents in a batch are indexed."""
+
+        documents = list(self.prepare_streaming(Object, "object", "index"))
+        invalid_doc = random.choice(documents)
+        invalid_doc["_source"]["dates"][0]["begin"] = "0000"   # invalidate
+        expected_indexed = len(documents) - 1
+        with self.assertRaises(Exception):
+            Object.bulk_action(self.connection, documents, 1000)
+        self.assertEqual(
+            Object.search().count(), expected_indexed,
+            "Not all valid documents were indexed")

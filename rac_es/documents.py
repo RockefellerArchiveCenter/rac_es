@@ -191,16 +191,19 @@ class BaseDescriptionComponent(es.Document):
         """
         indexed = []
         indexed_count = 0
+        errored = []
         for ok, result in streaming_bulk(connection, actions, refresh=True):
             action, result = result.popitem()
             if not ok:
-                raise Exception(
-                    "Failed to {} document {}: {}".format(action, result["_id"], result))
+                errored.append(result)
             else:
                 indexed.append(result["_id"])
                 indexed_count += 1
             if max_objects and indexed_count == max_objects:
                 break
+        if len(errored):
+            raise Exception(
+                "The following error(s) were encountered while {} documents: {}".format(action, errored))
         return indexed
 
     def save(self, **kwargs):
