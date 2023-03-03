@@ -1,2 +1,2 @@
 tox==3.*
-tox-docker==3.*
+tox-docker==4.*
