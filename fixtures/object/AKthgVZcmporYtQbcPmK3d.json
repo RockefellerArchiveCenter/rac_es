@@ -50,6 +50,13 @@
         }
     ],
     "families": [],
+    "files": [
+        {
+            "title": "AV 6637 - AV 6691",
+            "download": "https://iiif.rockarch.org/pdfs/AKthgVZcmporYtQbcPmK3d",
+            "manifest": "https://iiif.rockarch.org/manifests/AKthgVZcmporYtQbcPmK3d"
+        }
+    ],
     "formats": [
         "documents",
         "audio"

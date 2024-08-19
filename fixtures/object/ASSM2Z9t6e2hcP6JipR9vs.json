@@ -50,7 +50,9 @@
         }
     ],
     "families": [],
+    "files": [],
     "formats": [
+        
         "documents",
         "audio"
     ],
