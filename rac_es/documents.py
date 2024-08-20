@@ -61,6 +61,13 @@ class Extent(es.InnerDoc):
     value = es.Text(required=True)
 
 
+class FileObject(es.InnerDoc):
+    """The files associated with a digital object."""
+    title = es.Text(required=True)
+    download = es.Text()
+    manifest = es.Text()
+
+
 class Language(es.InnerDoc):
     """A human language."""
     expression = es.Text(required=True)
@@ -282,6 +289,7 @@ class Object(BaseDescriptionComponent):
     position = es.Integer()
     online = es.Boolean(fields={'keyword': es.Keyword()})
     formats = es.Text(fields={'keyword': es.Keyword()})
+    files = es.Nested(FileObject)
 
     @classmethod
     def search(cls, **kwargs):
