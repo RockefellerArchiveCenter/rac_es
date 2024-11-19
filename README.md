@@ -2,7 +2,6 @@
 
 Helpers for Elasticsearch, including Analyzers and Documents.
 
-[![Build Status](https://travis-ci.org/RockefellerArchiveCenter/rac_es.svg?branch=base)](https://travis-ci.org/RockefellerArchiveCenter/rac_es)
 
 ## Setup
 
