@@ -4,9 +4,9 @@
 #
 #    pip-compile --output-file=test_requirements.txt test_requirements.in
 #
-cachetools==5.5.0
+cachetools==5.5.1
     # via tox
-certifi==2024.12.14
+certifi==2025.1.31
     # via requests
 chardet==5.2.0
     # via tox
@@ -18,7 +18,7 @@ distlib==0.3.9
     # via virtualenv
 docker==7.1.0
     # via tox-docker
-filelock==3.16.1
+filelock==3.17.0
     # via
     #   tox
     #   virtualenv
@@ -34,11 +34,11 @@ platformdirs==4.3.6
     #   virtualenv
 pluggy==1.5.0
     # via tox
-pyproject-api==1.8.0
+pyproject-api==1.9.0
     # via tox
 requests==2.32.3
     # via docker
-tox==4.23.2
+tox==4.24.1
     # via
     #   -r test_requirements.in
     #   tox-docker
@@ -48,5 +48,5 @@ urllib3==2.3.0
     # via
     #   docker
     #   requests
-virtualenv==20.28.0
+virtualenv==20.29.1
     # via tox
