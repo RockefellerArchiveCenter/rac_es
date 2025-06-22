@@ -44,7 +44,7 @@ tox==4.26.0
     #   tox-docker
 tox-docker==5.0.0
     # via -r test_requirements.in
-urllib3==2.4.0
+urllib3==2.5.0
     # via
     #   docker
     #   requests
