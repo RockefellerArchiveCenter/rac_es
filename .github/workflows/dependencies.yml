@@ -32,7 +32,7 @@ jobs:
         run: pre-commit autoupdate
 
       - name: Update test requirements
-        run: pip-compile --upgrade test_requirements.in -o test_requirements.txt
+        run: pip-compile --upgrade --no-header test_requirements.in -o test_requirements.txt
 
       - name: Run GitHub Actions Version Updater
         uses: saadmk11/github-actions-version-updater@v0.9.0
