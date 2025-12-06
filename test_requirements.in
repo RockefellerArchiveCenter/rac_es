@@ -1,2 +1,2 @@
-tox==4.*
-tox-docker==5.*
+tox~=4.32
+tox-docker~=5.0
