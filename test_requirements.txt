@@ -1,6 +1,6 @@
 cachetools==6.2.4
     # via tox
-certifi==2025.11.12
+certifi==2026.1.4
     # via requests
 chardet==5.2.0
     # via tox
@@ -12,7 +12,7 @@ distlib==0.4.0
     # via virtualenv
 docker==7.1.0
     # via tox-docker
-filelock==3.20.1
+filelock==3.20.2
     # via
     #   tox
     #   virtualenv
@@ -32,15 +32,15 @@ pyproject-api==1.10.0
     # via tox
 requests==2.32.5
     # via docker
-tox==4.32.0
+tox==4.34.0
     # via
     #   -r test_requirements.in
     #   tox-docker
 tox-docker==5.0.0
     # via -r test_requirements.in
-urllib3==2.6.2
+urllib3==2.6.3
     # via
     #   docker
     #   requests
-virtualenv==20.35.4
+virtualenv==20.36.0
     # via tox
