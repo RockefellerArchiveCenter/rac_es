@@ -42,5 +42,5 @@ urllib3==2.6.3
     # via
     #   docker
     #   requests
-virtualenv==20.36.0
+virtualenv==20.36.1
     # via tox
