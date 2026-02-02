@@ -1,4 +1,4 @@
-cachetools==6.2.4
+cachetools==6.2.6
     # via tox
 certifi==2026.1.4
     # via requests
@@ -18,7 +18,7 @@ filelock==3.20.3
     #   virtualenv
 idna==3.11
     # via requests
-packaging==25.0
+packaging==26.0
     # via
     #   pyproject-api
     #   tox
