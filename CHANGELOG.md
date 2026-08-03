@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.1.4](https://github.com/RockefellerArchiveCenter/rac_es/compare/rac-es-v1.1.3...rac-es-v1.1.4) (2026-08-03)
+
+
+### Bug Fixes
+
+* **deps:** Scheduled dependency updates ([5e3877c](https://github.com/RockefellerArchiveCenter/rac_es/commit/5e3877cf13f96f652ce795c7eb3ce5b5c6771a95))
+* **deps:** Scheduled dependency updates ([5e3877c](https://github.com/RockefellerArchiveCenter/rac_es/commit/5e3877cf13f96f652ce795c7eb3ce5b5c6771a95))
+* **deps:** Scheduled dependency updates ([efdd70e](https://github.com/RockefellerArchiveCenter/rac_es/commit/efdd70ec8d3109f4b1de56da27a938f4ff7553b8))
+* **deps:** Scheduled dependency updates ([efdd70e](https://github.com/RockefellerArchiveCenter/rac_es/commit/efdd70ec8d3109f4b1de56da27a938f4ff7553b8))
+* **deps:** Scheduled dependency updates ([43ecc7a](https://github.com/RockefellerArchiveCenter/rac_es/commit/43ecc7a346e7ccfe106c803d210060503600c9e2))
+
 ## [1.1.3](https://github.com/RockefellerArchiveCenter/rac_es/compare/rac-es-v1.1.2...rac-es-v1.1.3) (2026-07-06)
 
 
