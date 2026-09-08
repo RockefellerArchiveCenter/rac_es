@@ -9,6 +9,6 @@ repos:
     -   id: autopep8
         args: [--exit-code, --aggressive, --in-place, -r]
 -   repo: https://github.com/PyCQA/isort
-    rev: 9.0.0b1
+    rev: 9.0.1
     hooks:
     -   id: isort
