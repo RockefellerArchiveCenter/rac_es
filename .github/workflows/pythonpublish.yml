@@ -41,7 +41,9 @@ jobs:
         with:
           python-version: "3.x"
 
-      - run: python3 -m pip install --user build
+      - run: |
+          python3 -m pip install --upgrade "pip>=26.2.2"
+          python3 -m pip install --user build
 
       - run: python3 -m build
 
