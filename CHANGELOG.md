@@ -1,5 +1,16 @@
 # Changelog
 
+## [1.1.7](https://github.com/RockefellerArchiveCenter/rac_es/compare/rac-es-v1.1.6...rac-es-v1.1.7) (2026-10-22)
+
+
+### Bug Fixes
+
+* update pip ([672a371](https://github.com/RockefellerArchiveCenter/rac_es/commit/672a371389dbb228175bbb6786db7547a2804e56))
+* update pip ([672a371](https://github.com/RockefellerArchiveCenter/rac_es/commit/672a371389dbb228175bbb6786db7547a2804e56))
+* update pip ([9f05633](https://github.com/RockefellerArchiveCenter/rac_es/commit/9f05633c7e609af7f04aef345d1a86f83883d8ad))
+* update pip ([9f05633](https://github.com/RockefellerArchiveCenter/rac_es/commit/9f05633c7e609af7f04aef345d1a86f83883d8ad))
+* update pip ([d4d4763](https://github.com/RockefellerArchiveCenter/rac_es/commit/d4d476378c5f7b4df087eb8fc906dcd574973a08))
+
 ## [1.1.6](https://github.com/RockefellerArchiveCenter/rac_es/compare/rac-es-v1.1.5...rac-es-v1.1.6) (2026-10-05)
 
 
