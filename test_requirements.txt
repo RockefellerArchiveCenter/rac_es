@@ -1,6 +1,6 @@
-cachetools==7.2.4
+cachetools==7.2.8
     # via tox
-certifi==2026.10.19
+certifi==2026.10.23
     # via requests
 charset-normalizer==3.5.2
     # via requests
@@ -10,7 +10,7 @@ distlib==0.4.4
     # via virtualenv
 docker==7.2.0
     # via tox-docker
-filelock==4.1.0
+filelock==4.2.6
     # via
     #   python-discovery
     #   tox
@@ -22,39 +22,33 @@ packaging==26.3
     #   pyproject-api
     #   tox
     #   virtualenv
-platformdirs==4.12.4
+platformdirs==4.14.2
     # via
     #   tox
     #   virtualenv
 pluggy==1.7.0
     # via tox
-pyproject-api==1.11.4
+pyproject-api==1.12.2
     # via tox
-python-discovery==1.6.4
+python-discovery==1.9.0
     # via
     #   tox
     #   virtualenv
 requests==2.34.2
     # via docker
-tomli==2.5.0
-    # via
-    #   pyproject-api
-    #   tox
 tomli-w==1.2.0
     # via tox
-tox==4.65.0
+tox==4.67.5
     # via
     #   -r test_requirements.in
     #   tox-docker
 tox-docker==5.0.0
     # via -r test_requirements.in
 typing-extensions==4.16.0
-    # via
-    #   tox
-    #   virtualenv
+    # via tox
 urllib3==2.8.0
     # via
     #   docker
     #   requests
-virtualenv==21.14.12
+virtualenv==21.15.2
     # via tox
