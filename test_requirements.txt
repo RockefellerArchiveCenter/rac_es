@@ -38,7 +38,7 @@ requests==2.34.2
     # via docker
 tomli-w==1.2.0
     # via tox
-tox==4.67.5
+tox==4.65.0
     # via
     #   -r test_requirements.in
     #   tox-docker
