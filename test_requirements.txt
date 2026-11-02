@@ -1,6 +1,6 @@
-cachetools==7.2.4
+cachetools==7.2.8
     # via tox
-certifi==2026.10.19
+certifi==2026.10.23
     # via requests
 charset-normalizer==3.5.2
     # via requests
@@ -36,10 +36,6 @@ python-discovery==1.6.4
     #   virtualenv
 requests==2.34.2
     # via docker
-tomli==2.5.0
-    # via
-    #   pyproject-api
-    #   tox
 tomli-w==1.2.0
     # via tox
 tox==4.65.0
@@ -49,12 +45,10 @@ tox==4.65.0
 tox-docker==5.0.0
     # via -r test_requirements.in
 typing-extensions==4.16.0
-    # via
-    #   tox
-    #   virtualenv
+    # via tox
 urllib3==2.8.0
     # via
     #   docker
     #   requests
-virtualenv==21.14.12
+virtualenv==21.15.2
     # via tox
