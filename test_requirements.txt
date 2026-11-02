@@ -28,9 +28,9 @@ platformdirs==4.12.4
     #   virtualenv
 pluggy==1.7.0
     # via tox
-pyproject-api==1.12.2
+pyproject-api==1.11.4
     # via tox
-python-discovery==1.9.0
+python-discovery==1.6.4
     # via
     #   tox
     #   virtualenv
